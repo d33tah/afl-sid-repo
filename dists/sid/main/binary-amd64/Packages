@@ -1348,6 +1348,85 @@ Description: utilities for finding files--find, xargs
  This package contains 'find' and 'xargs'; however, 'locate' has
  been split off into a separate package.
 
+Package: gimp
+Version: 2.8.14-1
+Architecture: amd64
+Maintainer: Ari Pollak <ari@debian.org>
+Installed-Size: 50365
+Depends: libgimp2.0 (>= 2.8.14), libgimp2.0 (<= 2.8.14-z), gimp-data (>= 2.8.14), gimp-data (<= 2.8.14-z), python-gtk2 (>= 2.8.0), libgdk-pixbuf2.0-0 (>= 2.24.1), libaa1 (>= 1.4p5), libasan2 (>= 5), libatk1.0-0 (>= 2.2.0), libbabl-0.1-0 (>= 0.1.10), libbz2-1.0, libc6 (>= 2.15), libcairo2 (>= 1.10.2), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.88), libexif12 (>= 0.6.21-1~), libexpat1 (>= 2.0.1), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgegl-0.2-0 (>= 0.2.0), libglib2.0-0 (>= 2.41.1), libgs9 (>= 8.61.dfsg.1), libgtk2.0-0 (>= 2.24.10), libgudev-1.0-0 (>= 146), libice6 (>= 1:1.0.0), libjasper1, libjpeg62-turbo (>= 1.3.1), liblcms2-2 (>= 2.2+git20110628), libmng1 (>= 1.0.10), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.29.4), libpangoft2-1.0-0 (>= 1.29.4), libpng12-0 (>= 1.2.13-4), libpoppler-glib8 (>= 0.18.0), librsvg2-2 (>= 2.14.4), libsm6, libtiff5 (>= 4.0.3), libwmf0.2-7 (>= 0.2.8.4), libx11-6, libxcursor1 (>> 1.1.2), libxext6, libxfixes3, libxmu6, libxpm4, libxt6, zlib1g (>= 1:1.1.4), python:any (>= 2.6.6-7~), python2.7
+Recommends: ghostscript
+Suggests: gimp-help-en | gimp-help, gimp-data-extras, gvfs-backends, libasound2
+Breaks: gimp-plugin-registry (<< 4.20120506)
+Replaces: gimp-plugin-registry (<< 4.20120506)
+Provides: gimp-python
+Homepage: http://www.gimp.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/g/gimp/gimp_2.8.14-1_amd64.deb
+Size: 11258390
+SHA256: 8e9d75954f7ec31d231036fd7c76404776723e3f5903964af5419502dabf4375
+SHA1: 876f74acdb7634f70dfbfef64b3e4cf7af384cab
+MD5sum: b716a008676aedc3018176e34f74fff7
+Description: The GNU Image Manipulation Program
+ GIMP is an advanced picture editor. You can use it to edit, enhance, and
+ retouch photos and scans, create drawings, and make your own images.
+ It has a large collection of professional-level editing tools and
+ filters, similar to the ones you might find in Photoshop. Numerous
+ fine-control settings and features like layers, paths, masks, and
+ scripting give you total control over your images.
+ .
+ Many image file formats are supported, including JPEG, Photoshop (.psd),
+ and Paint Shop Pro (.psp) files. It can also be used to scan and print
+ photos.
+ .
+ To open files remotely (like over HTTP), install the gvfs-backends
+ package.
+ .
+ To use a MIDI device (like a musical keyboard) as an input controller in GIMP,
+ install libasound2 and read the how-to at /usr/share/doc/gimp/README.MIDI
+
+Package: gimp-data
+Source: gimp
+Version: 2.8.14-1
+Architecture: all
+Maintainer: Ari Pollak <ari@debian.org>
+Installed-Size: 43208
+Recommends: gimp
+Conflicts: gimp (<< 2.4.0~rc2-2), gimp-python (<< 2.6.0)
+Replaces: gimp (<< 2.4.0~rc2-2), gimp-python (<< 2.6.0)
+Homepage: http://www.gimp.org/
+Priority: optional
+Section: graphics
+Filename: pool/main/g/gimp/gimp-data_2.8.14-1_all.deb
+Size: 8401242
+SHA256: ff4434f06e90632302c6a9877c1676c9cfdbdeccb4376b6bc811b6d43cefc3ac
+SHA1: c29147815c92077600927765d0a2460353c8647e
+MD5sum: 37aa6039956646930a76dc009e14c282
+Description: Data files for GIMP
+ This package contains architecture-independent supporting data files
+ for use with GIMP.
+
+Package: gimp-dbg
+Source: gimp
+Version: 2.8.14-1
+Architecture: amd64
+Maintainer: Ari Pollak <ari@debian.org>
+Installed-Size: 78816
+Depends: gimp (= 2.8.14-1) | libgimp2.0 (= 2.8.14-1)
+Homepage: http://www.gimp.org/
+Priority: extra
+Section: debug
+Filename: pool/main/g/gimp/gimp-dbg_2.8.14-1_amd64.deb
+Size: 17824260
+SHA256: e42cf4e2b6b3e231494c9fd335ba7b673d12a707e43041715d718457b0f11759
+SHA1: e11de648cdd1367c65d70b95e140e25281acccb3
+MD5sum: 97ab9bdf76e26efdb2ef87c15ff9729e
+Description: Debugging symbols for GIMP
+ This package includes the debugging symbols useful for debugging
+ GIMP and its libraries, contained in the gimp and libgimp2.0 packages.
+ The debugging symbols are used for execution tracing and core dump
+ analysis.
+
 Package: glibc-doc
 Source: glibc
 Version: 2.19-19
@@ -3236,6 +3315,69 @@ Description: LGPL Crypto library - documentation
  Tiger, Whirlpool, DSA, DSA2, ElGamal, RSA, ECC.
  .
  This package contains developer documentation.
+
+Package: libgimp2.0
+Source: gimp
+Version: 2.8.14-1
+Architecture: amd64
+Maintainer: Ari Pollak <ari@debian.org>
+Installed-Size: 8221
+Depends: libasan2 (>= 5), libatk1.0-0 (>= 2.2.0), libc6 (>= 2.15), libcairo2 (>= 1.10.2), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk2.0-0 (>= 2.24.10), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.29.4), libpangoft2-1.0-0 (>= 1.29.4)
+Recommends: gimp-data (>= 2.8.14), gimp-data (<= 2.8.14-z)
+Homepage: http://www.gimp.org/
+Priority: optional
+Section: libs
+Filename: pool/main/g/gimp/libgimp2.0_2.8.14-1_amd64.deb
+Size: 2211804
+SHA256: acf82adc5486c1fb5fa35edbf68a95100be3edfa8a357d5e221db531a59318d1
+SHA1: edaff207ea01db3a0c2c87decdc53e8f7d01d4a0
+MD5sum: 94213ee710a5aaea2ebd6cd7ccac6925
+Description: Libraries for the GNU Image Manipulation Program
+ This package includes the libgimp libraries, which are
+ necessary to run GIMP and third-party GIMP plugins.
+
+Package: libgimp2.0-dev
+Source: gimp
+Version: 2.8.14-1
+Architecture: amd64
+Maintainer: Ari Pollak <ari@debian.org>
+Installed-Size: 1845
+Depends: libasan2 (>= 5), libatk1.0-0 (>= 2.2.0), libc6 (>= 2.4), libcairo2 (>= 1.10.2), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgimp2.0 (= 2.8.14-1), libglib2.0-0 (>= 2.30.2), libgtk2.0-0 (>= 2.24.10), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.29.4), libpangoft2-1.0-0 (>= 1.29.4), libgtk2.0-dev (>= 2.12.5), pkg-config
+Suggests: libgimp2.0-doc
+Homepage: http://www.gimp.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/g/gimp/libgimp2.0-dev_2.8.14-1_amd64.deb
+Size: 1005318
+SHA256: 5ddb0247ac915f74045b87aca779b495c35c0fb86b647611852106a57668806e
+SHA1: 219b6bedfafc57eda293f8b43a4c55ca90e78842
+MD5sum: afd31f35ee3ed53ade3010d8de78137a
+Description: Headers and other files for compiling plugins for GIMP
+ This package contains the header files for the GNU Image Manipulation
+ Program, along with the static versions of libgimp.
+ It also includes the gimptool-2.0 utility.
+ .
+ Install this package if you wish to compile your own plugins,
+ or if you wish to develop packages that use libgimp.
+
+Package: libgimp2.0-doc
+Source: gimp
+Version: 2.8.14-1
+Architecture: all
+Maintainer: Ari Pollak <ari@debian.org>
+Installed-Size: 7267
+Depends: lynx | www-browser
+Homepage: http://www.gimp.org/
+Priority: optional
+Section: doc
+Filename: pool/main/g/gimp/libgimp2.0-doc_2.8.14-1_all.deb
+Size: 1275410
+SHA256: de36d394bb31064142d680127c1ff76d6b2e12f8b49f153bd57a0a1b5164ca6b
+SHA1: 1565abce20c7bd9d4c1dc784d60200b48d4049cb
+MD5sum: 229748aa5a405689307a8b6d3a5bf570
+Description: Developers' Documentation for the GIMP library
+ This package contains the HTML documentation for the GIMP library in
+ /usr/share/gtk-doc/html/ .
 
 Package: libkmod-dev
 Source: kmod
