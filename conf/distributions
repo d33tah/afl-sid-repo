@@ -1,0 +1,7 @@
+Origin: d33tah.github.io/afl-sid-repo
+Label: afl-sid repository
+Codename: sid
+Architectures: amd64 source
+Components: main
+Description: afl-sid repository
+Pull: sid
