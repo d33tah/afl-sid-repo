@@ -1444,6 +1444,76 @@ Description: utility to set/show the host name or domain name
  This package provides commands which can be used to display the system's
  DNS name, and to display or set its hostname or NIS domain name.
 
+Package: idle
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 23
+Depends: python (>= 2.7.9-1), python-tk, idle-python2.7
+Enhances: python
+Breaks: python (<< 2.7.3-1~)
+Replaces: python (<< 2.7.3-1~)
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-defaults/idle_2.7.9-1_all.deb
+Size: 3090
+SHA256: 3ea6bef03237f616753027cf209c5e5af5eea5e576e35c03fce1b2ce3d489609
+SHA1: bdf7721c9403a9745293ff34570ce56469bcaccb
+MD5sum: 8804214156d9cc68077efb9c6f10b2dc
+Description: IDE for Python using Tkinter (default version)
+ IDLE is an Integrated Development Environment for Python.
+ IDLE is written using Tkinter and therefore quite platform-independent.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python version (currently v2.7) of IDLE.
+
+Package: idle-python2.7
+Source: python2.7
+Version: 2.7.10-3
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 1200
+Depends: python2.7, python-tk (>= 2.6~a3), python2.7-tk
+Enhances: python2.7
+Replaces: python2.7 (<< 2.6.1-2)
+Priority: optional
+Section: python
+Filename: pool/main/p/python2.7/idle-python2.7_2.7.10-3_all.deb
+Size: 308428
+SHA256: ce2d612c1ccfdec6b4de184f830230dd087cb387d1bdfa33e840e833a5b9e837
+SHA1: 285b914a522097fa0e0f59807e2f0a61d33f9a39
+MD5sum: dacf49a8fe446a9771c00e3544f4e2de
+Description: IDE for Python (v2.7) using Tkinter
+ IDLE is an Integrated Development Environment for Python (v2.7).
+ IDLE is written using Tkinter and therefore quite platform-independent.
+
+Package: idle3
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 23
+Depends: python3 (>= 3.4.3-4), python3-tk, idle-python3.4
+Enhances: python3
+Breaks: python3 (<< 3.2.3-1~)
+Replaces: python3 (<< 3.2.3-1~)
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-defaults/idle3_3.4.3-4_all.deb
+Size: 3052
+SHA256: 5f45ee02862fe15123a41dba512a0ad1bb2d82ecf399ca4468df09458895bc73
+SHA1: 01eb376cdd628eb6a7155489fc051f8af571df67
+MD5sum: 6d02bb731535bccdc546836933b14ce4
+Description: IDE for Python using Tkinter (default version)
+ IDLE is an Integrated Development Environment for Python.
+ IDLE is written using Tkinter and therefore quite platform-independent.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.4).
+
 Package: inetutils-ftp
 Source: inetutils
 Version: 2:1.9.4-1
@@ -3618,6 +3688,389 @@ Description: shared Perl library
  This package contains the shared Perl library, used by applications
  which embed a Perl interpreter.
 
+Package: libpython-all-dbg
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 7
+Depends: libpython-dbg (= 2.7.9-1), libpython2.7-dbg
+Multi-Arch: same
+Homepage: http://www.python.org/
+Priority: extra
+Section: debug
+Filename: pool/main/p/python-defaults/libpython-all-dbg_2.7.9-1_amd64.deb
+Size: 1074
+SHA256: 72c6e9ee5ad4aaede9b0b351dcfeadcec64eba03541aa2cea0b4b8b7bc15b9e4
+SHA1: 75e2e9870480c2b59cc18dbfe8f1b765181637da
+MD5sum: b8292f4f1ec11a3203eb4766ac7b5ec2
+Description: package depending on all supported Python debugging packages
+ The package currently depends on libpython2.7-dbg, in the
+ future, dependencies on jython (Python for a JVM) and ironpython (Python
+ for Mono) may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python debug packages.
+
+Package: libpython-all-dev
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: libpython-dev (= 2.7.9-1), libpython2.7-dev
+Multi-Arch: same
+Homepage: http://www.python.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/python-defaults/libpython-all-dev_2.7.9-1_amd64.deb
+Size: 950
+SHA256: ada3e2a1971c2e6b6e0406a3b9a73b0febc5351fd306ac648c5e9077bf5412a8
+SHA1: 279141470f157889012b3062d225148a400f9e62
+MD5sum: 9147775ae3676482703f45246324a381
+Description: package depending on all supported Python development packages
+ The package currently depends on libpython2.7-dev, in the
+ future, dependencies on jython (Python for a JVM) and ironpython (Python
+ for Mono) may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python development
+ packages.
+
+Package: libpython-dbg
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 42
+Depends: libpython2.7-dbg (>= 2.7.9-1~)
+Multi-Arch: same
+Homepage: http://www.python.org/
+Priority: extra
+Section: debug
+Filename: pool/main/p/python-defaults/libpython-dbg_2.7.9-1_amd64.deb
+Size: 19508
+SHA256: d01626a237d6426843a10637b9c2c2522652471de2ae7e28b357297e8c81f7d5
+SHA1: e2e772462915d217582843fce163e9b2c9d50190
+MD5sum: 3fff9a397a8fa79487b976bc791e569d
+Description: debug build of the Python Interpreter (version 2.7)
+ Python interpreter configured with --pydebug. Dynamically loaded modules
+ are searched in /usr/lib/python2.7/lib-dynload/debug first.
+
+Package: libpython-dev
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 42
+Depends: libpython2.7-dev (>= 2.7.9-1~)
+Multi-Arch: same
+Homepage: http://www.python.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/python-defaults/libpython-dev_2.7.9-1_amd64.deb
+Size: 19574
+SHA256: 72fd3de4613f34f024a6cd8f097492a5b957b2c736e4cb6ed13fbd3549cd22c7
+SHA1: 373092a5fa8ef8ae9970b1bbffcdbd21d7ab01c2
+MD5sum: 6b30fdd3c156e89540100845cd4efab1
+Description: header files and a static library for Python (default)
+ Header files, a static library and development tools for building
+ Python modules, extending the Python interpreter or embedding Python
+ in applications.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python version (currently v2.7).
+
+Package: libpython-stdlib
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 37
+Depends: libpython2.7-stdlib (>= 2.7.9-1~)
+Multi-Arch: same
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-defaults/libpython-stdlib_2.7.9-1_amd64.deb
+Size: 19500
+SHA256: 151f5af9426f09e2b4ad09fa6ae20a0b0cfae5385028c18b62c94700642333a9
+SHA1: 309b6450ee762e318d1a0957eaf6274d4802d3de
+MD5sum: abcf30b1420bf0c300685d1f2a2c644b
+Description: interactive high-level object-oriented language (default python version)
+ Python, the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python version (currently v2.7).
+
+Package: libpython2.7
+Source: python2.7
+Version: 2.7.10-3
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 10763
+Pre-Depends: multiarch-support
+Depends: libpython2.7-stdlib (= 2.7.10-3), libc6 (>= 2.15), zlib1g (>= 1:1.2.0)
+Replaces: python2.7 (<< 2.6)
+Multi-Arch: same
+Priority: standard
+Section: libs
+Filename: pool/main/p/python2.7/libpython2.7_2.7.10-3_amd64.deb
+Size: 2039688
+SHA256: b896eb535bb70b52839fdcc6a353380f4e9bec4aa52ec1ad2c0ffcb7995156ef
+SHA1: 39657c0f53089909bad7c8b4406ffbf37e9d6aa5
+MD5sum: 61393ab5f4cda172ef95e1110f1a86f4
+Description: Shared Python runtime library (version 2.7)
+ Python is a high-level, interactive, object-oriented language. Its 2.7 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains the shared runtime library, normally not needed
+ for programs using the statically linked interpreter.
+
+Package: libpython2.7-dbg
+Source: python2.7
+Version: 2.7.10-3
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 68588
+Pre-Depends: multiarch-support
+Depends: libpython2.7-stdlib (= 2.7.10-3), libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.2~beta3), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
+Suggests: python2.7-gdbm-dbg, python2.7-tk-dbg
+Replaces: python2.7-dbg (<< 2.7.3-10)
+Multi-Arch: same
+Priority: extra
+Section: debug
+Filename: pool/main/p/python2.7/libpython2.7-dbg_2.7.10-3_amd64.deb
+Size: 12219560
+SHA256: 749d3cbf0b468456b4ec54fe0feb063afab292a1d2745668798770cd8a0fb17b
+SHA1: 6314e70b558ead407f91e751a91abc9a6c02fc98
+MD5sum: ae5b9c61ec7891bd51124b9a42a46100
+Description: Debug Build of the Python Interpreter (version 2.7)
+ The package holds two things:
+ .
+ - Extensions for a Python interpreter configured with --pydebug.
+ - Debug information for standard python extensions.
+ .
+ See the README.debug for more information.
+
+Package: libpython2.7-dev
+Source: python2.7
+Version: 2.7.10-3
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 27778
+Pre-Depends: multiarch-support
+Depends: libpython2.7-stdlib (= 2.7.10-3), libpython2.7 (= 2.7.10-3), libexpat1-dev
+Recommends: libc6-dev | libc-dev
+Replaces: python2.7 (<< 2.7-3), python2.7-dev (<< 2.7.3-10), python2.7-minimal (<< 2.7.3-10)
+Multi-Arch: same
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/python2.7/libpython2.7-dev_2.7.10-3_amd64.deb
+Size: 25052620
+SHA256: 573ca601393f0df473bbc52c84e6974f1442058007b2fedcfe61926f5a854c6c
+SHA1: bfc2b19761118f93a85183a817c75a25266d2b50
+MD5sum: 4345d1ae634005494d9725a72917f867
+Description: Header files and a static library for Python (v2.7)
+ Header files, a static library and development tools for building
+ Python (v2.7) modules, extending the Python interpreter or embedding
+ Python (v2.7) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+ .
+ This package contains development files. It is normally not
+ used on it's own, but as a dependency of python2.7-dev.
+
+Package: libpython2.7-minimal
+Source: python2.7
+Version: 2.7.10-3
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 2754
+Recommends: libpython2.7-stdlib
+Conflicts: binfmt-support (<< 1.1.2)
+Breaks: python2.7-minimal (<< 2.7.4~rc1-1~)
+Replaces: libpython2.7-stdlib (<< 2.7.8-7), python2.7 (<< 2.7.4-2), python2.7-minimal (<< 2.7.3-10)
+Multi-Arch: same
+Priority: standard
+Section: python
+Filename: pool/main/p/python2.7/libpython2.7-minimal_2.7.10-3_amd64.deb
+Size: 381718
+SHA256: e0fd199380e7239038a92bb349427ced36a533cd58b57cde6db4742e3db50487
+SHA1: a7c89cf92b11f184e435abd65dc4fbe84c3fd37e
+MD5sum: b9f63b41e34e666ebb2977655837216c
+Description: Minimal subset of the Python language (version 2.7)
+ This package contains some essential modules. It is normally not
+ used on it's own, but as a dependency of python2.7-minimal.
+
+Package: libpython2.7-stdlib
+Source: python2.7
+Version: 2.7.10-3
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 10474
+Depends: libpython2.7-minimal (= 2.7.10-3), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.2~beta3), libtinfo5 (>= 6)
+Breaks: python-urllib3 (<< 1.9.1-3)
+Replaces: python2.7 (<< 2.7.5-0~)
+Provides: python-argparse, python2.7-argparse, python2.7-celementtree, python2.7-cjkcodecs, python2.7-ctypes, python2.7-elementtree, python2.7-profiler, python2.7-wsgiref
+Multi-Arch: same
+Priority: standard
+Section: python
+Filename: pool/main/p/python2.7/libpython2.7-stdlib_2.7.10-3_amd64.deb
+Size: 2071614
+SHA256: a6713ace555ed260881b2cdc02033b73b78eecd32fbdb7589fa68227d373864d
+SHA1: cd2ee8d9c7b02a5cfecb340365c77ea07af80ebb
+MD5sum: 4b630faedf0c85a6445bbc5d77bba8fd
+Description: Interactive high-level object-oriented language (standard library, version 2.7)
+ Python is a high-level, interactive, object-oriented language. Its 2.7 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package contains Python 2.7's standard library. It is normally not
+ used on its own, but as a dependency of python2.7.
+
+Package: libpython2.7-testsuite
+Source: python2.7
+Version: 2.7.10-3
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 21693
+Depends: libpython2.7-stdlib (>= 2.7.10-3)
+Suggests: python-gdbm, python-tk
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/python2.7/libpython2.7-testsuite_2.7.10-3_all.deb
+Size: 2710082
+SHA256: 9e9714513aecaae9407734a6702bfb896c5587c04c9838a164c7551fdb4dcea0
+SHA1: fb9ac1df9e2a6f6a5493f9c876408ec50eac93e4
+MD5sum: e2f2d7c7c9ec183cb47156d3df4f27df
+Description: Testsuite for the Python standard library (v2.7)
+ The complete testsuite for the Python standard library.  Note that
+ a subset is found in the libpython2.7-stdlib package, which should
+ be enough for other packages to use (please do not build-depend
+ on this package, but file a bug report to include additional
+ testsuite files in the libpython2.7-stdlib package).
+
+Package: libpython3-all-dbg
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: libpython3-dbg (= 3.4.3-4), libpython3.4-dbg
+Multi-Arch: same
+Homepage: http://www.python.org/
+Priority: extra
+Section: debug
+Filename: pool/main/p/python3-defaults/libpython3-all-dbg_3.4.3-4_amd64.deb
+Size: 952
+SHA256: dff58e4f83daeb0f1686aa307b706b7230a44212125d040f2ee0fd3369dd1936
+SHA1: 6e5969bad5126837aa153b7e96bfb0fc0b653c90
+MD5sum: d86ffead375d68cb35438addc563d714
+Description: package depending on all supported Python 3 debugging packages
+ The package currently depends on libpython3.4-dbg, in the
+ future, dependencies on jython (Python for a JVM) and ironpython (Python
+ for Mono) may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python 3 debug packages.
+
+Package: libpython3-all-dev
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: libpython3-dev (= 3.4.3-4), libpython3.4-dev
+Multi-Arch: same
+Homepage: http://www.python.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/python3-defaults/libpython3-all-dev_3.4.3-4_amd64.deb
+Size: 954
+SHA256: 4303c69f6633c2803a368b680859d57174ab23e12e5f5b53be33363bfa4002f7
+SHA1: fd34acdc70d74d8e7b61489f3c2e547cb88a81d8
+MD5sum: 57b3be48601783dcbcd3e9777d1ba351
+Description: package depending on all supported Python 3 development packages
+ The package currently depends on libpython3.4-dev, in the
+ future, dependencies on jython (Python for a JVM) and ironpython (Python
+ for Mono) may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python 3 development
+ packages.
+
+Package: libpython3-dbg
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 42
+Depends: libpython3.4-dbg (>= 3.4.3-1)
+Multi-Arch: same
+Homepage: http://www.python.org/
+Priority: extra
+Section: debug
+Filename: pool/main/p/python3-defaults/libpython3-dbg_3.4.3-4_amd64.deb
+Size: 18208
+SHA256: 8f98ea383688dca5012a4e9ad8c565ee18c2c2bbcc3594a06ae0353530874f26
+SHA1: 4dd1808bc69c9bd4e18b6400592ce58cca410b9f
+MD5sum: 545064954a8e502099b14af2de16fa0a
+Description: debug build of the Python 3 Interpreter (version 3.4)
+ Python 3 interpreter configured with --pydebug. Dynamically loaded modules
+ are searched in /usr/lib/python3.4/lib-dynload/debug first.
+
+Package: libpython3-dev
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 42
+Depends: libpython3.4-dev (>= 3.4.3-1)
+Multi-Arch: same
+Homepage: http://www.python.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/p/python3-defaults/libpython3-dev_3.4.3-4_amd64.deb
+Size: 18266
+SHA256: 6c33c36cfe6303c9899197314ad5549b750b21bec3f60792ee77a4ad4932c439
+SHA1: 54a8ce762045b3e793acf84bdbf3655d0730c946
+MD5sum: 1dfbecf570706f9bcf17a2931633c41a
+Description: header files and a static library for Python (default)
+ Header files, a static library and development tools for building
+ Python modules, extending the Python interpreter or embedding Python
+ in applications.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.4).
+
+Package: libpython3-stdlib
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 35
+Depends: libpython3.4-stdlib (>= 3.4.3-1)
+Multi-Arch: same
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-defaults/libpython3-stdlib_3.4.3-4_amd64.deb
+Size: 18160
+SHA256: e8d80a70991d172101ab56608b8f3b3e9a246050ccb62994e03b9743e9586df2
+SHA1: e1acc960b78f8c875df58fbb1b373399733063f2
+MD5sum: 0cf8f48c41857def77ceeda6052a782b
+Description: interactive high-level object-oriented language (default python3 version)
+ Python, the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.4).
+
 Package: libreadline-dev
 Source: readline6
 Version: 6.3-8
@@ -4070,6 +4523,37 @@ Description: debugging information for libss2
  ss library, contained in the libss2 package.  The debug information
  is used for execution tracing and core dump analysis.
 
+Package: libtcc-dev
+Source: tcc
+Version: 0.9.27~git20140923.9d7fb33-3
+Architecture: amd64
+Maintainer: Thomas Preud'homme <robotux@debian.org>
+Installed-Size: 1339
+Multi-Arch: same
+Homepage: http://www.tinycc.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/t/tcc/libtcc-dev_0.9.27~git20140923.9d7fb33-3_amd64.deb
+Size: 253902
+SHA256: eec7e9d1f0d9cf517667f549513703f9d6ea1b277ef51d5d6d85de739885f08b
+SHA1: 0896945a7130fd2c8ec553994bd1d0faf3a54a88
+MD5sum: 7f50182d52040bd68645404df6eca8bf
+Description: fast library for dynamic code generation
+ Libtcc is a library that uses tcc, a compiler several times faster than
+ 'gcc -O0' to perform dynamic code generation. It exposes in its API all
+ operations tcc performs to generate a binary from sources: setting
+ header and library paths, compiling program from a source file,
+ manipulating its symbols and handling relocation of its code among
+ other things. Libtcc is also able to compile from a buffer.
+ .
+ This package contains the static library and header file for TCC (Tiny
+ C Compiler).
+ .
+ NOTE: libtcc is still somewhat experimental and is not recommended for
+ production use.  The code it generates is much less optimized than what
+ GCC produces, and compiler bugs can have serious security consequences
+ for your program.
+
 Package: libtext-charwidth-perl
 Version: 0.04-7
 Architecture: amd64
@@ -4347,6 +4831,168 @@ Description: Universally Unique ID library
  across a network.
  .
  See RFC 4122 for more information.
+
+Package: libxml2
+Version: 2.9.2+really2.9.1+dfsg1-0.1
+Architecture: amd64
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Installed-Size: 2119
+Depends: libc6 (>= 2.15), libicu55 (>= 55.1-1~), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.3.3)
+Recommends: xml-core
+Multi-Arch: same
+Homepage: http://xmlsoft.org/
+Priority: standard
+Section: libs
+Filename: pool/main/libx/libxml2/libxml2_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Size: 905378
+SHA256: e7c4891d582fef4a60b6778ffe7e0519fd767af1d4ca02c17e042fd27dfd06e3
+SHA1: 284bea1e1d04d0d064bce417604127079828b518
+MD5sum: 4a571dcc44301c73eee76142466e0163
+Description: GNOME XML library
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package provides a library providing an extensive API to handle
+ such XML data files.
+
+Package: libxml2-dbg
+Source: libxml2
+Version: 2.9.2+really2.9.1+dfsg1-0.1
+Architecture: amd64
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Installed-Size: 1911
+Depends: libxml2 (= 2.9.2+really2.9.1+dfsg1-0.1), libicu52-dbg
+Multi-Arch: same
+Homepage: http://xmlsoft.org/
+Priority: extra
+Section: debug
+Filename: pool/main/libx/libxml2/libxml2-dbg_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Size: 1724524
+SHA256: 21d1cb25d87216946221cb0d5d0f17c2e0893e8debc4607614327b5554fc693a
+SHA1: 6d509a99b2028f86df1c59f4b78c015bed979f23
+MD5sum: 3f00655e7718dfc91feb98a4efbaa8e7
+Description: Debugging symbols for the GNOME XML library
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package provides the debugging symbols for the library.
+
+Package: libxml2-dev
+Source: libxml2
+Version: 2.9.2+really2.9.1+dfsg1-0.1
+Architecture: amd64
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Installed-Size: 3418
+Depends: libxml2 (= 2.9.2+really2.9.1+dfsg1-0.1), libicu-dev
+Suggests: pkg-config
+Multi-Arch: same
+Homepage: http://xmlsoft.org/
+Priority: optional
+Section: libdevel
+Filename: pool/main/libx/libxml2/libxml2-dev_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Size: 798574
+SHA256: 513b7984cbc60c83b05278bf25a94d1c018046837c13fd75467c3194bb18bebd
+SHA1: cfe3f187c5d03083a48b0456125498a7d4d06577
+MD5sum: 9958466137541302e9dad5a7353ae6c0
+Description: Development files for the GNOME XML library
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ Install this package if you wish to develop your own programs using
+ the GNOME XML library.
+
+Package: libxml2-doc
+Source: libxml2
+Version: 2.9.2+really2.9.1+dfsg1-0.1
+Architecture: all
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Installed-Size: 8616
+Suggests: devhelp
+Multi-Arch: foreign
+Homepage: http://xmlsoft.org/
+Priority: optional
+Section: doc
+Filename: pool/main/libx/libxml2/libxml2-doc_2.9.2+really2.9.1+dfsg1-0.1_all.deb
+Size: 814332
+SHA256: b6ffb7193103c8629148bb4ef92a8272a6bb2328b781a2ca0a19430a0afbd0e5
+SHA1: 0a1d1cc0df1cc060a7d3757d8144f5d8e2be5519
+MD5sum: 1543299f929876f98e731e10108be888
+Description: Documentation for the GNOME XML library
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package contains general information about the GNOME XML library
+ and more specific API references.
+
+Package: libxml2-utils
+Source: libxml2
+Version: 2.9.2+really2.9.1+dfsg1-0.1
+Architecture: amd64
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Installed-Size: 166
+Depends: libc6 (>= 2.7), libreadline5 (>= 5.2), libxml2 (>= 2.9.0)
+Multi-Arch: foreign
+Homepage: http://xmlsoft.org/
+Priority: optional
+Section: text
+Filename: pool/main/libx/libxml2/libxml2-utils_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Size: 91382
+SHA256: 0b0045fb0497780df1270561e3b60643b69f21aba009d637f81122ddc5e645d9
+SHA1: 76fa6fc4698734a8a22854ff16f47f5e6b4646dd
+MD5sum: d0d393c3b710aff7f9647c411b85e80f
+Description: XML utilities
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package provides xmllint, a tool for validating and reformatting
+ XML documents, and xmlcatalog, a tool to parse and manipulate XML or
+ SGML catalog files.
+
+Package: libxml2-utils-dbg
+Source: libxml2
+Version: 2.9.2+really2.9.1+dfsg1-0.1
+Architecture: amd64
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Installed-Size: 164
+Depends: libxml2-utils (= 2.9.2+really2.9.1+dfsg1-0.1)
+Homepage: http://xmlsoft.org/
+Priority: extra
+Section: debug
+Filename: pool/main/libx/libxml2/libxml2-utils-dbg_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Size: 126744
+SHA256: 8416f0f2bd87474413406ecff57814b913001b48453f2d7c532710d9f68f694d
+SHA1: ffefe88feb299ee1a7b71fe492dfe9cd6e46642b
+MD5sum: b9388522ebbc34d30c8f58f8aa533f7e
+Description: XML utilities (debug extension)
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package provides the debugging symbols for the utilities provided
+ by the libxml2-utils package.
 
 Package: locales
 Source: glibc
@@ -4858,6 +5504,156 @@ Description: Parallel Implementation of GZip
  replacement for gzip that takes advantage of multiple processors and multiple
  cores when compressing data.
 
+Package: pxz
+Version: 4.999.99~beta4+gitae80846-2
+Architecture: amd64
+Maintainer: Holger Levsen <holger@debian.org>
+Installed-Size: 57
+Depends: libasan2 (>= 5), libc6 (>= 2.4), libgomp1 (>= 4.9), liblzma5 (>= 5.1.1alpha+20120614)
+Homepage: https://jnovy.fedorapeople.org/pxz/
+Priority: optional
+Section: misc
+Filename: pool/main/p/pxz/pxz_4.999.99~beta4+gitae80846-2_amd64.deb
+Size: 15290
+SHA256: 5106553b184e7e33fcc564091b6cbdcfff187101ec426fd9f3967d779a1b9a55
+SHA1: e97250e3ca5bab879471209906968c0a95e9e89e
+MD5sum: 3bd66c4b911325dd4766688b5630af1b
+Description: parallel LZMA compressor using liblzma
+ Parallel XZ is a compression utility that takes advantage of running LZMA
+ compression of different parts of an input file on multiple cores and
+ processors simultaneously. Its primary goal is to utilize all resources to
+ speed up compression time with minimal possible influence on compression
+ ratio.
+
+Package: pypy-simplejson
+Source: simplejson
+Version: 3.7.3-1
+Architecture: all
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 186
+Depends: pypy
+Homepage: http://undefined.org/python/#simplejson
+Priority: optional
+Section: python
+Filename: pool/main/s/simplejson/pypy-simplejson_3.7.3-1_all.deb
+Size: 41884
+SHA256: 3db3cd84ea69b4985462d122f83245127e121b64395c8fc664973311ac1af09f
+SHA1: 5fdd8f6e50245bc55a879760a76b2e1806493eb0
+MD5sum: 53d1f82dffc60a3aa7c35c636659e25c
+Description: JSON encoder and decoder for PyPy
+ simplejson is the externally maintained development version of the
+ json library included with Python 2.6 and Python 3.0.
+ .
+ The encoder may be subclassed to provide serialization in any kind of
+ situation, without any special support by the objects to be serialized
+ (somewhat like pickle).
+ .
+ The decoder can handle incoming JSON strings of any specified encoding
+ (UTF-8 by default).
+
+Package: python
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 635
+Pre-Depends: python-minimal (= 2.7.9-1)
+Depends: python2.7 (>= 2.7.9-1~), libpython-stdlib (= 2.7.9-1)
+Suggests: python-doc (= 2.7.9-1), python-tk (>= 2.7.9-1~)
+Conflicts: python-central (<< 0.5.5)
+Breaks: update-manager-core (<< 0.200.5-2)
+Replaces: python-dev (<< 2.6.5-2)
+Provides: python-ctypes, python-email, python-importlib, python-profiler, python-wsgiref
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: standard
+Section: python
+Filename: pool/main/p/python-defaults/python_2.7.9-1_amd64.deb
+Size: 150448
+SHA256: 7464d087f0b4796688c975d6fe8edefee08512888ff12252da2979fc62fdf6ec
+SHA1: aee99c54c71a44f62c9bb01f173e9419dd4ab6f2
+MD5sum: 289b3c35676685afd3e071126700e1cc
+Description: interactive high-level object-oriented language (default version)
+ Python, the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python version (currently v2.7).
+
+Package: python-all
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: python (= 2.7.9-1), python2.7 (>= 2.7.2-3)
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-defaults/python-all_2.7.9-1_amd64.deb
+Size: 940
+SHA256: dfcb1010edce5fd6591bf6567853151810941caf6ce912bb36210fdc835b0839
+SHA1: 9ecac486e5c895e28d502798a37a677fd3040325
+MD5sum: 033dace96927453a1faa0d434c1c34d9
+Description: package depending on all supported Python runtime versions
+ The package currently depends on python2.7, in the future,
+ dependencies on jython (Python for a JVM) and ironpython (Python for Mono)
+ may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python runtimes.
+
+Package: python-all-dbg
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: python (= 2.7.9-1), python-all (= 2.7.9-1), libpython-all-dbg (= 2.7.9-1), python-dbg (= 2.7.9-1), python2.7-dbg (>= 2.7-7)
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: extra
+Section: debug
+Filename: pool/main/p/python-defaults/python-all-dbg_2.7.9-1_amd64.deb
+Size: 960
+SHA256: d8a34f7f7373570cae3f8e439c9f77b57da26d0f9cf013d9d2487928ed8dce89
+SHA1: 6981a0a2c312829c49a5f4a3ada18887eb8fc738
+MD5sum: 0701f0700e8b931d18fe13425d61dbfe
+Description: package depending on all supported Python debugging packages
+ The package currently depends on python2.7-dbg, in the
+ future, dependencies on jython (Python for a JVM) and ironpython (Python
+ for Mono) may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python debug packages.
+
+Package: python-all-dev
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: python (= 2.7.9-1), python-all (= 2.7.9-1), libpython-all-dev (= 2.7.9-1), python-dev (= 2.7.9-1), python2.7-dev (>= 2.7-7)
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-defaults/python-all-dev_2.7.9-1_amd64.deb
+Size: 962
+SHA256: 4165ef3263f430f81a2df2eb518676fae47091cb4c592b12120527e61d933e38
+SHA1: 500a768a3fe19aeeb2b3f6869dc75292dc31f16a
+MD5sum: 69a03a064bc362403ef259331e72d035
+Description: package depending on all supported Python development packages
+ The package currently depends on python2.7-dev, in the
+ future, dependencies on jython (Python for a JVM) and ironpython (Python
+ for Mono) may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python development
+ packages.
+
 Package: python-apparmor
 Source: apparmor
 Version: 2.9.2-3
@@ -4900,6 +5696,108 @@ Description: Python bindings for security auditing
  are used to monitor systems for security related events. Python can be used to
  parse and process the security event messages.
 
+Package: python-dbg
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 25
+Depends: python (= 2.7.9-1), libpython-dbg (= 2.7.9-1), python2.7-dbg (>= 2.7.9-1~)
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: extra
+Section: debug
+Filename: pool/main/p/python-defaults/python-dbg_2.7.9-1_amd64.deb
+Size: 1208
+SHA256: 48d684ee90ea941741ffa304dbcad659a553da20291369355e156095e19e9280
+SHA1: 04d0fe34189d3b586100ab82aedc24405dd31dc4
+MD5sum: f2d809b72830f93fbc3aee9edceaf821
+Description: debug build of the Python Interpreter (version 2.7)
+ Python interpreter configured with --pydebug. Dynamically loaded modules are
+ searched in /usr/lib/python2.7/lib-dynload/debug first.
+
+Package: python-dev
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 18
+Depends: python (= 2.7.9-1), libpython-dev (= 2.7.9-1), python2.7-dev (>= 2.7.9-1~)
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-defaults/python-dev_2.7.9-1_amd64.deb
+Size: 1128
+SHA256: 35ca4342eaff572ce900afdeca6b780e86756658c506af8cd89871352b97ab8c
+SHA1: 4007b6b4e84b35684e258eef57e4b4745224f77e
+MD5sum: d57adc042d1723f822908c3c62d7c93a
+Description: header files and a static library for Python (default)
+ Header files, a static library and development tools for building
+ Python modules, extending the Python interpreter or embedding Python
+ in applications.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python version (currently v2.7).
+
+Package: python-doc
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 53
+Depends: python2.7-doc (>= 2.7.9-1~)
+Suggests: python-examples, python (= 2.7.9-1)
+Breaks: python (<< 2.3.5)
+Replaces: python (<< 2.3.5)
+Homepage: http://www.python.org/
+Priority: optional
+Section: doc
+Filename: pool/main/p/python-defaults/python-doc_2.7.9-1_all.deb
+Size: 23016
+SHA256: d197730017ff67ee2a933bf665220fdc1d6ba1c17bd6f7755a000eef6ed44f0d
+SHA1: edc9e42283610de685c89ba02c4fdbdc7b8fbd3d
+MD5sum: 5c058429f9f9d63e77c28f9d137ddcf2
+Description: documentation for the high-level object-oriented language Python
+ This is the official set of documentation for the interactive high-level
+ object-oriented language Python (v2.7). All documents are provided
+ in HTML format, some in info format. The package consists of nine documents:
+ .
+   * Tutorial
+   * Python Library Reference
+   * Macintosh Module Reference
+   * Python Language Reference
+   * Extending and Embedding Python
+   * Python/C API Reference
+   * Installing Python Modules
+   * Documenting Python
+   * Distributing Python Modules
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python version (currently v2.7).
+
+Package: python-examples
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: python (>= 2.7.9-1), python2.7-examples (>= 2.7.9-1~)
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python-defaults/python-examples_2.7.9-1_all.deb
+Size: 900
+SHA256: 62df1ee7319ec5099e49780fee85c7b2240d63c3d16c296e944077c9357f86e4
+SHA1: 93e5801cf5fdbf8c9a1431cd5e4b89061bfe0208
+MD5sum: 509d99835191c73e75d17d7ca59d6cb5
+Description: examples for the Python language (default version)
+ Examples, Demos and Tools for Python. These are files included in
+ the upstream Python distribution.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python version (currently v2.7).
+
 Package: python-libapparmor
 Source: apparmor
 Version: 2.9.2-3
@@ -4919,6 +5817,86 @@ Description: AppArmor library Python bindings
  This provides the Python module that contains the language bindings
  for the AppArmor library, libapparmor, which were autogenerated via
  SWIG.
+
+Package: python-libxml2
+Source: libxml2
+Version: 2.9.2+really2.9.1+dfsg1-0.1
+Architecture: amd64
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Installed-Size: 963
+Depends: libc6 (>= 2.14), libpython2.7 (>= 2.7), libxml2 (>= 2.9.1), python (<< 2.8), python (>= 2.7~), python:any (>= 2.7.5-5~)
+Provides: python2.7-libxml2
+Homepage: http://xmlsoft.org/
+Priority: optional
+Section: python
+Filename: pool/main/libx/libxml2/python-libxml2_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Size: 193880
+SHA256: ce583cd5fa3fbe44ec733577f96b1da39e7d8425b151bc08e813f5a1e04bdf58
+SHA1: f69d654118cf1c339fa894eba52e4740ee591ee4
+MD5sum: 922c75910e3959003bde65fd1ed9ed9e
+Description: Python bindings for the GNOME XML library
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package contains the files needed to use the GNOME XML library
+ in Python programs.
+
+Package: python-libxml2-dbg
+Source: libxml2
+Version: 2.9.2+really2.9.1+dfsg1-0.1
+Architecture: amd64
+Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
+Installed-Size: 834
+Depends: python-dbg, python-libxml2 (= 2.9.2+really2.9.1+dfsg1-0.1), libc6 (>= 2.14), libpython2.7-dbg (>= 2.7), libxml2 (>= 2.9.1)
+Provides: python2.7-libxml2-dbg
+Homepage: http://xmlsoft.org/
+Priority: extra
+Section: debug
+Filename: pool/main/libx/libxml2/python-libxml2-dbg_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Size: 317676
+SHA256: 4f094478f17b6d7269fc62894a349539d5071f388a691dc4ff6d235eac364e08
+SHA1: 51ded5bbd3d7c748775868c9867c7eb0ba4e9e33
+MD5sum: 06b49696ca917be6006e56dbe27fe7fc
+Description: Python bindings for the GNOME XML library (debug extension)
+ XML is a metalanguage to let you design your own markup language.
+ A regular markup language defines a way to describe information in
+ a certain class of documents (eg HTML). XML lets you define your
+ own customized markup languages for many classes of document. It
+ can do this because it's written in SGML, the international standard
+ metalanguage for markup languages.
+ .
+ This package contains the files needed to use the GNOME XML library
+ in Python programs for use with the Python debug interpreter.
+
+Package: python-minimal
+Source: python-defaults
+Version: 2.7.9-1
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 145
+Depends: python2.7-minimal (>= 2.7.9-1~), dpkg (>= 1.13.20)
+Recommends: python
+Conflicts: python-central (<< 0.5.5)
+Breaks: idle (<< 2.6), python (<= 2.7.3-1~), python-all (<< 2.6), python-all-dbg (<< 2.6), python-all-dev (<< 2.6), python-dbg (<< 2.6), python-dev (<< 2.6), python-examples (<< 2.6), python-support (<< 1.0.10ubuntu2), python2.5-minimal (<< 2.5.5-7), python2.6-minimal (<< 2.6.5~rc2-2), python3.1-minimal (<< 3.1.2~rc1-2)
+Replaces: python (<= 2.7.3-1~)
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: standard
+Section: python
+Filename: pool/main/p/python-defaults/python-minimal_2.7.9-1_amd64.deb
+Size: 39994
+SHA256: ae6ba7605406f1ca98dc0d365e4e149c458751f4a34b0faa4f63d8361fd73c38
+SHA1: 48b05ae93d7b5f24cfc8c80ad5c3419395d0f065
+MD5sum: 0e317ad1153f283b1e23b755fd21ba70
+Description: minimal subset of the Python language (default version)
+ This package contains the interpreter and some essential modules.  It's used
+ in the boot process for some basic tasks.
+ See /usr/share/doc/python2.7-minimal/README.Debian for a list of the modules
+ contained in this package.
 
 Package: python-selinux
 Source: libselinux
@@ -4979,6 +5957,325 @@ Description: Python bindings for SELinux policy management
  based on the concepts of Type Enforcement, Role-based Access
  Control, and Multi-level Security.
 
+Package: python-simplejson
+Source: simplejson
+Version: 3.7.3-1
+Architecture: amd64
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 417
+Depends: python (<< 2.8), python (>= 2.7~), python:any (>= 2.7.5-5~), libc6 (>= 2.4)
+Recommends: libjs-jquery
+Provides: python2.7-simplejson
+Homepage: http://undefined.org/python/#simplejson
+Priority: optional
+Section: python
+Filename: pool/main/s/simplejson/python-simplejson_3.7.3-1_amd64.deb
+Size: 105772
+SHA256: 46b957ef34ab34c04e6a56502481abbdd31510458573fafee7ac455a0bec5c84
+SHA1: ac4ec2125f78ca892f2a99382f4566489c8f4cc6
+MD5sum: 8c1fecff3bc5421e6ce829c745aaaa23
+Description: simple, fast, extensible JSON encoder/decoder for Python
+ simplejson is a simple, fast, complete, correct and extensible JSON
+ <http://json.org> encoder and decoder.
+ .
+ The encoder may be subclassed to provide serialization in any kind of
+ situation, without any special support by the objects to be serialized
+ (somewhat like pickle).
+ .
+ The decoder can handle incoming JSON strings of any specified encoding
+ (UTF-8 by default).
+ .
+ simplejson is the externally maintained development version of the json
+ library included with Python 2.6 and Python 3.0, but maintains backwards
+ compatibility with Python 2.5.
+
+Package: python-simplejson-dbg
+Source: simplejson
+Version: 3.7.3-1
+Architecture: amd64
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 245
+Depends: python-simplejson (= 3.7.3-1), libc6 (>= 2.4), python-dbg (<< 2.8), python-dbg (>= 2.7~)
+Homepage: http://undefined.org/python/#simplejson
+Priority: extra
+Section: debug
+Filename: pool/main/s/simplejson/python-simplejson-dbg_3.7.3-1_amd64.deb
+Size: 68594
+SHA256: f3d87d3e666f7bbe3aae1db43a9086a7be52b4d9a7921607f5d8f412a14a1a5b
+SHA1: 96540daf46b1cce52ab073a7911dced84effa83b
+MD5sum: be13a5ced1c0fc28fea490f498ff8e1f
+Description: JSON encoder and decoder for python-dbg
+ This package contains the extension built for the Python debug interpreter.
+
+Package: python-simplejson-doc
+Source: simplejson
+Version: 3.7.3-1
+Architecture: all
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 222
+Depends: libjs-sphinxdoc (>= 1.0)
+Recommends: python-simplejson
+Conflicts: python-simplejson (<= 3)
+Homepage: http://undefined.org/python/#simplejson
+Priority: extra
+Section: doc
+Filename: pool/main/s/simplejson/python-simplejson-doc_3.7.3-1_all.deb
+Size: 44878
+SHA256: d083e1045f0b3f7c473244df929a3056baa743602fc26a031e186457f14294f6
+SHA1: dbce4a5b7d6b1d0147c5551da8b827a18384d27f
+MD5sum: 7d70bcfb8dff2f33002004742660c49d
+Description: documentation for the simplejson Python library
+ This package contains documentation for simplejson Python library.
+
+Package: python2.7
+Version: 2.7.10-3
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 330
+Depends: python2.7-minimal (= 2.7.10-3), libpython2.7-stdlib (= 2.7.10-3), mime-support
+Suggests: python2.7-doc, binutils
+Conflicts: python-profiler (<= 2.7.1-2)
+Breaks: python-virtualenv (<< 1.7.1.2-2~), vim-athena (<< 2:7.3.547-4), vim-gnome (<< 2:7.3.547-4), vim-gtk (<< 2:7.3.547-4), vim-nox (<< 2:7.3.547-4)
+Replaces: python-profiler (<= 2.7.1-2), python2.7-minimal (<< 2.7.3-7~)
+Multi-Arch: allowed
+Priority: standard
+Section: python
+Filename: pool/main/p/python2.7/python2.7_2.7.10-3_amd64.deb
+Size: 259258
+SHA256: b49980003c6c8e35183741645c961ebc18e172f963639ecb34421a34d4d88ada
+SHA1: 506991d33640fdc608baca2484c9cdbd0c580554
+MD5sum: a7cc34f69f026032630bf3d69a57be1a
+Description: Interactive high-level object-oriented language (version 2.7)
+ Python is a high-level, interactive, object-oriented language. Its 2.7 version
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+
+Package: python2.7-dbg
+Source: python2.7
+Version: 2.7.10-3
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 44203
+Depends: python2.7 (= 2.7.10-3), libpython2.7-dbg (= 2.7.10-3), libc6 (>= 2.15), zlib1g (>= 1:1.2.0)
+Suggests: python-gdbm-dbg, python-tk-dbg
+Multi-Arch: allowed
+Priority: extra
+Section: debug
+Filename: pool/main/p/python2.7/python2.7-dbg_2.7.10-3_amd64.deb
+Size: 9785006
+SHA256: b728675150d3e0f542af55c414055e1fac555b6d6268e53dc31cacb84e4db92b
+SHA1: 1f390a479371592468c6255f0ab27b6a57055272
+MD5sum: 1fa283c24543732ba8e5d4bccb4e7f66
+Description: Debug Build of the Python Interpreter (version 2.7)
+ The package holds two things:
+ .
+ - A Python interpreter configured with --pydebug. Dynamically loaded modules
+   are searched as <foo>_d.so first. Third party extensions need a separate
+   build to be used by this interpreter.
+ - Debug information for standard python interpreter and extensions.
+ .
+ See the README.debug for more information.
+
+Package: python2.7-dev
+Source: python2.7
+Version: 2.7.10-3
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 286
+Depends: python2.7 (= 2.7.10-3), libpython2.7-dev (= 2.7.10-3), libpython2.7 (= 2.7.10-3), libexpat1-dev
+Recommends: libc6-dev | libc-dev
+Replaces: python2.7 (<< 2.7-3)
+Multi-Arch: allowed
+Priority: optional
+Section: python
+Filename: pool/main/p/python2.7/python2.7-dev_2.7.10-3_amd64.deb
+Size: 277446
+SHA256: c1f21fd4bfabd56e531cafacfbb1f2d3dfc2f08fa261887127eac8186e5e2ea2
+SHA1: ae541f48f549a3bb0840bd957aec587dee7861c3
+MD5sum: f0996be349674471034d45424e6f7e53
+Description: Header files and a static library for Python (v2.7)
+ Header files, a static library and development tools for building
+ Python (v2.7) modules, extending the Python interpreter or embedding
+ Python (v2.7) in applications.
+ .
+ Maintainers of Python packages should read README.maintainers.
+
+Package: python2.7-doc
+Source: python2.7
+Version: 2.7.10-3
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 32433
+Depends: libjs-jquery, libjs-underscore
+Suggests: python2.7
+Priority: optional
+Section: doc
+Filename: pool/main/p/python2.7/python2.7-doc_2.7.10-3_all.deb
+Size: 4281800
+SHA256: a377d2e75d16614e6f4ae98b0ee56f18ec1cd81366bf3a0ce2fc256a57313fcc
+SHA1: 9f14a05f0f061b4747ee56dd33dbceeeb1d90a3e
+MD5sum: d4ad16f96effb44ad6ce601b893eac09
+Description: Documentation for the high-level object-oriented language Python (v2.7)
+ These is the official set of documentation for the interactive high-level
+ object-oriented language Python (v2.7). All documents are provided
+ in HTML format. The package consists of ten documents:
+ .
+   * What's New in Python2.7
+   * Tutorial
+   * Python Library Reference
+   * Macintosh Module Reference
+   * Python Language Reference
+   * Extending and Embedding Python
+   * Python/C API Reference
+   * Installing Python Modules
+   * Documenting Python
+   * Distributing Python Modules
+
+Package: python2.7-examples
+Source: python2.7
+Version: 2.7.10-3
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 2769
+Depends: python2.7 (>= 2.7.10-3)
+Priority: optional
+Section: python
+Filename: pool/main/p/python2.7/python2.7-examples_2.7.10-3_all.deb
+Size: 594490
+SHA256: ebf9de784e7c234b445bc19da65af0db1700ccd8ccc57271c41c36aef624861b
+SHA1: 6a2b46d3bd9fb9132312d7473738fdccc46f7cf5
+MD5sum: d9c488a7a378ad9845bd17074a76be30
+Description: Examples for the Python language (v2.7)
+ Examples, Demos and Tools for Python (v2.7). These are files included in
+ the upstream Python distribution (v2.7).
+
+Package: python2.7-minimal
+Source: python2.7
+Version: 2.7.10-3
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 10372
+Pre-Depends: libc6 (>= 2.15)
+Depends: libpython2.7-minimal (= 2.7.10-3), zlib1g (>= 1:1.2.0)
+Recommends: python2.7
+Suggests: binfmt-support
+Conflicts: binfmt-support (<< 1.1.2)
+Replaces: python2.7 (<< 2.7.8-7~)
+Multi-Arch: allowed
+Priority: standard
+Section: python
+Filename: pool/main/p/python2.7/python2.7-minimal_2.7.10-3_amd64.deb
+Size: 2099820
+SHA256: 2319d4db50af3619ce56e4e36b4195c0750f2996e255e3bc36e1e4c2db365372
+SHA1: 5f72c872d37c7536b32deb336ef156b6786e9b2f
+MD5sum: 7035e5d045b75bc25e2ba8ebc0a33734
+Description: Minimal subset of the Python language (version 2.7)
+ This package contains the interpreter and some essential modules.  It can
+ be used in the boot process for some basic tasks.
+ See /usr/share/doc/python2.7-minimal/README.Debian for a list of the modules
+ contained in this package.
+
+Package: python3
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 66
+Pre-Depends: python3-minimal (= 3.4.3-4)
+Depends: python3.4 (>= 3.4.3-1), libpython3-stdlib (= 3.4.3-4), dh-python
+Suggests: python3-doc (>= 3.4.3-4), python3-tk (>= 3.4.3-1), python3-venv (>= 3.4.3-4)
+Replaces: python3-minimal (<< 3.1.2-2)
+Provides: python3-profiler
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-defaults/python3_3.4.3-4_amd64.deb
+Size: 21178
+SHA256: f014d8d1afebf5d458fad4f7cf994d49f4c5838b550be0b6fe4e5c198154e1e4
+SHA1: 18ad23db3952716181e3359b250207aa1ee3f751
+MD5sum: 56f9d75ae21697bf014f40e54e0281d5
+Description: interactive high-level object-oriented language (default python3 version)
+ Python, the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.4).
+
+Package: python3-all
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: python3 (= 3.4.3-4), python3.4
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-defaults/python3-all_3.4.3-4_amd64.deb
+Size: 928
+SHA256: 28aeeb60d8f59769cd82207107c35f3fb12e53f15a24a4d4aadd1c00a8b57813
+SHA1: 936b0366c51fcb489e2bf337742ea189618a0f40
+MD5sum: 0ae996b40b1994b7ada6b076537705c6
+Description: package depending on all supported Python 3 runtime versions
+ The package currently depends on python3.4, in the future,
+ dependencies on jython (Python for a JVM) and ironpython (Python for Mono)
+ may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python 3 runtimes.
+
+Package: python3-all-dbg
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: python3 (= 3.4.3-4), libpython3-all-dbg (= 3.4.3-4), python3-all (= 3.4.3-4), python3-dbg (= 3.4.3-4), python3.4-dbg
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: extra
+Section: debug
+Filename: pool/main/p/python3-defaults/python3-all-dbg_3.4.3-4_amd64.deb
+Size: 952
+SHA256: cff68b83942a5c8628424c2599e59c4774663995802580f40404437a8cc731db
+SHA1: d54794595d74614662a79cadac61d01404a9b73e
+MD5sum: d125ecb50aa150791a5ece448891c53e
+Description: package depending on all supported Python 3 debugging packages
+ The package currently depends on python3.4-dbg, in the
+ future, dependencies on jython (Python for a JVM) and ironpython (Python
+ for Mono) may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python 3 debug packages.
+
+Package: python3-all-dev
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: python3 (= 3.4.3-4), libpython3-all-dev (= 3.4.3-4), python3-all (= 3.4.3-4), python3-dev (= 3.4.3-4), python3.4-dev
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-defaults/python3-all-dev_3.4.3-4_amd64.deb
+Size: 952
+SHA256: 593f22d7f4b2d829287f2c52140dc98962594281e474ae89405212c543cb5fe3
+SHA1: b061d19a6e82377794044c4bc359fb5712bb44c3
+MD5sum: f70bfa3757517b0e6032e424a7aae339
+Description: package depending on all supported Python 3 development packages
+ The package currently depends on python3.4-dev, in the
+ future, dependencies on jython (Python for a JVM) and ironpython (Python
+ for Mono) may be added.
+ .
+ This package is a dependency package used as a build dependency for other
+ packages to avoid hardcoded dependencies on specific Python 3 development
+ packages.
+
 Package: python3-apparmor
 Source: apparmor
 Version: 2.9.2-3
@@ -5000,6 +6297,107 @@ Description: AppArmor Python3 utility library
  This provides the Python3 modules that implement the higher-level AppArmor
  applications.
 
+Package: python3-dbg
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 24
+Depends: python3 (= 3.4.3-4), libpython3-dbg (= 3.4.3-4), python3.4-dbg (>= 3.4.3-1)
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: extra
+Section: debug
+Filename: pool/main/p/python3-defaults/python3-dbg_3.4.3-4_amd64.deb
+Size: 1200
+SHA256: 3bf530152c7468be7cc60666ce3d04535d4924246e34af60a4209eaf281d34f8
+SHA1: f8acb96ac9c74d8519bcd2b2b45b6228841f21ff
+MD5sum: 3d0eb9c44e428d3b3ac19144772e7b06
+Description: debug build of the Python 3 Interpreter (version 3.4)
+ Python 3 interpreter configured with --pydebug. Dynamically loaded modules
+ are searched in /usr/lib/python3.4/lib-dynload/debug first.
+
+Package: python3-dev
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 17
+Depends: python3 (= 3.4.3-4), libpython3-dev (= 3.4.3-4), python3.4-dev (>= 3.4.3-1)
+Replaces: python3.1 (<< 3.1.2+20100706-3)
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-defaults/python3-dev_3.4.3-4_amd64.deb
+Size: 1144
+SHA256: 57b2636422e20ec32bc50d6d6f8cc2e47b63cfbbbd8133135831d64c84e3c9c9
+SHA1: e19a60749f1000ceda38178e80d222d628a42a54
+MD5sum: 5ba2890dcfac2f2e68fd78487a604ded
+Description: header files and a static library for Python (default)
+ Header files, a static library and development tools for building
+ Python modules, extending the Python interpreter or embedding Python
+ in applications.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.4).
+
+Package: python3-doc
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 38
+Depends: python3.4-doc (>= 3.4.3-1)
+Suggests: python3 (>= 3.4.3-4), python3-examples
+Homepage: http://www.python.org/
+Priority: optional
+Section: doc
+Filename: pool/main/p/python3-defaults/python3-doc_3.4.3-4_all.deb
+Size: 18292
+SHA256: 096ae0fa8d5dd9878fc002cb19630d795885a40f5bea47d0efcac2cf0cf17ed4
+SHA1: d25255519019497f26ee47c38e6d8409f2dd0796
+MD5sum: 466f6411cb697bf80c29c1284c4f0ccb
+Description: documentation for the high-level object-oriented language Python 3
+ This is the official set of documentation for the interactive high-level
+ object-oriented language Python 3 (v3.4). All documents are provided
+ in HTML format, some in info format. The package consists of nine documents:
+ .
+   * Tutorial
+   * Python Library Reference
+   * Macintosh Module Reference
+   * Python Language Reference
+   * Extending and Embedding Python
+   * Python/C API Reference
+   * Installing Python Modules
+   * Documenting Python
+   * Distributing Python Modules
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.4).
+
+Package: python3-examples
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: all
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 6
+Depends: python3 (>= 3.4.3-4), python3.4-examples (>= 3.4.3-1)
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-defaults/python3-examples_3.4.3-4_all.deb
+Size: 902
+SHA256: c92477f8c7b155b9e9d53eaaaba5923fbbf8b7eba5cc3dba79ace6c99c2d04d6
+SHA1: 068d7cd97bed8ea6673d0bdea91ba6fefbaba47c
+MD5sum: 2bd2f2294b286eeaa583f4d99fc56958
+Description: examples for the Python language (default version)
+ Examples, Demos and Tools for Python. These are files included in
+ the upstream Python distribution.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.4).
+
 Package: python3-libapparmor
 Source: apparmor
 Version: 2.9.2-3
@@ -5019,6 +6417,98 @@ Description: AppArmor library Python3 bindings
  This provides the Python3 module that contains the language bindings
  for the AppArmor library, libapparmor, which were autogenerated via
  SWIG.
+
+Package: python3-minimal
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 119
+Depends: python3.4-minimal (>= 3.4.3-1), dpkg (>= 1.13.20)
+Breaks: idle3 (<< 3.1), python3 (<< 3.3.2-13~), python3-all (<< 3.1), python3-all-dbg (<< 3.1), python3-all-dev (<< 3.1), python3-dbg (<< 3.1), python3-dev (<< 3.1), python3-examples (<< 3.1)
+Replaces: python3 (<< 3.3.2-13~), python3.1 (<< 3.1-2)
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-defaults/python3-minimal_3.4.3-4_amd64.deb
+Size: 34596
+SHA256: c55e605c3f359495791d2c6c1aac3270e1252f11f94764cf7dc85573bb519a79
+SHA1: ab936e15b89e46253558db71932744e3f83b6416
+MD5sum: 11156cf54d04d50c0939d74a52b887ce
+Description: minimal subset of the Python language (default python3 version)
+ This package contains the interpreter and some essential modules.  It's used
+ in the boot process for some basic tasks.
+ See /usr/share/doc/python3.4-minimal/README.Debian for a list of the modules
+ contained in this package.
+
+Package: python3-simplejson
+Source: simplejson
+Version: 3.7.3-1
+Architecture: amd64
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 439
+Depends: python3 (<< 3.5), python3 (>= 3.4~), libc6 (>= 2.4)
+Homepage: http://undefined.org/python/#simplejson
+Priority: optional
+Section: python
+Filename: pool/main/s/simplejson/python3-simplejson_3.7.3-1_amd64.deb
+Size: 101012
+SHA256: 32e37bf147d752448f0f470a1b162815f704e0a77f2bf9c92ef630f69fff54be
+SHA1: 06dc11fd46d7b496372be29e1fcb3a3377ce3f27
+MD5sum: f1bcae994276b5e59b4375b957535556
+Description: JSON encoder and decoder for Python 3
+ simplejson is the externally maintained development version of the
+ json library included with Python 2.6 and Python 3.0.
+ .
+ The encoder may be subclassed to provide serialization in any kind of
+ situation, without any special support by the objects to be serialized
+ (somewhat like pickle).
+ .
+ The decoder can handle incoming JSON strings of any specified encoding
+ (UTF-8 by default).
+
+Package: python3-simplejson-dbg
+Source: simplejson
+Version: 3.7.3-1
+Architecture: amd64
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Installed-Size: 282
+Depends: python3-simplejson (= 3.7.3-1), libc6 (>= 2.4), python3-dbg (<< 3.5), python3-dbg (>= 3.4~)
+Homepage: http://undefined.org/python/#simplejson
+Priority: extra
+Section: debug
+Filename: pool/main/s/simplejson/python3-simplejson-dbg_3.7.3-1_amd64.deb
+Size: 74308
+SHA256: 018077a5298bdb2d1432b518d11a063557c2204e2b3002d29bbd0a0abdd056ff
+SHA1: 990c401c4892d09b3bf6fd244e89b8c179f5cf1a
+MD5sum: 13368fe9b6b8a6d7732f3c918b9a6516
+Description: JSON encoder and decoder for python3-dbg
+ This package contains the extension built for the Python 3 debug interpreter.
+
+Package: python3-venv
+Source: python3-defaults
+Version: 3.4.3-4
+Architecture: amd64
+Maintainer: Matthias Klose <doko@debian.org>
+Installed-Size: 11
+Depends: python3.4-venv (>= 3.4.3-1), python3 (= 3.4.3-4)
+Multi-Arch: allowed
+Homepage: http://www.python.org/
+Priority: optional
+Section: python
+Filename: pool/main/p/python3-defaults/python3-venv_3.4.3-4_amd64.deb
+Size: 1056
+SHA256: 00c8d5ab3c8aabb728e243279927c13108bc32b6ee59ae64735df79d7d46654f
+SHA1: 4edcb544b85e5558f633b09021c9ced5619844eb
+MD5sum: c0397d6597ee6e3fcced4ed2fcaf8bdf
+Description: pyvenv-3 binary for python3 (default python3 version)
+ Python, the high-level, interactive object oriented language,
+ includes an extensive class library with lots of goodies for
+ network programming, system administration, sounds and graphics.
+ .
+ This package is a dependency package, which depends on Debian's default
+ Python 3 version (currently v3.4).
 
 Package: readline-common
 Source: readline6
@@ -5473,6 +6963,35 @@ Description: optional scripts for GNU version of the tar archiving utility
  This package provides the backup, restore, backup.sh, and dump-remind
  scripts that are mentioned in the tar documentation.
 
+Package: tcc
+Version: 0.9.27~git20140923.9d7fb33-3
+Architecture: amd64
+Maintainer: Thomas Preud'homme <robotux@debian.org>
+Installed-Size: 1179
+Depends: libc6 (>= 2.14)
+Recommends: libc6-dev | libc-dev
+Provides: c-compiler
+Homepage: http://www.tinycc.org/
+Priority: optional
+Section: devel
+Filename: pool/main/t/tcc/tcc_0.9.27~git20140923.9d7fb33-3_amd64.deb
+Size: 287240
+SHA256: 97b8958e51fa24fe71e563337b688c74952ad24d7e8f2f8eb31081ee393a262b
+SHA1: 0cbab098191a3d8784ba13878f60312155754493
+MD5sum: c91997ef94d0f5843cfcad10826e7341
+Description: small ANSI C compiler
+ TCC (for Tiny C Compiler) is a small and fast ANSI C compiler.  It
+ generates optimized x86 code, and can compile, assemble, and link
+ several times faster than 'gcc -O0'.  Any C dynamic library can be used
+ directly.  It includes an optional memory and bounds checker, and
+ bounds-checked code can be mixed freely with standard code.  C script
+ is also supported via the usual hash-bang mechanism.
+ .
+ NOTE: TCC is still somewhat experimental and is not recommended for
+ production use.  The code it generates is much less optimized than what
+ GCC produces, and compiler bugs can have serious security consequences
+ for your program.
+
 Package: tzdata
 Version: 2015f-1
 Architecture: all
@@ -5644,6 +7163,52 @@ Description: runtime components for the Universally Unique ID library
  of large numbers of threads trying to grab UUID’s running on
  different CPU’s. It is used by libuuid as well as the uuidgen
  program.
+
+Package: vorbis-tools
+Version: 1.4.0-6
+Architecture: amd64
+Maintainer: Debian Xiph.org Maintainers <pkg-xiph-maint@lists.alioth.debian.org>
+Installed-Size: 1514
+Depends: libao4 (>= 1.1.0), libasan2 (>= 5), libc6 (>= 2.15), libcurl3-gnutls (>= 7.16.2), libflac8 (>= 1.3.0), libogg0 (>= 1.1.0), libspeex1 (>= 1.2~beta3-1), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.2.3)
+Homepage: http://www.xiph.org/
+Priority: optional
+Section: sound
+Filename: pool/main/v/vorbis-tools/vorbis-tools_1.4.0-6_amd64.deb
+Size: 320080
+SHA256: e50e770751a5eb5db078d2def6467cbd97dd91109f015bbfb2e4cd8e30ee457b
+SHA1: 7935a0c07c6f97edfa7f55c4cae5ec828701c19f
+MD5sum: c461446e4e5ce42d97e83d590c218255
+Description: several Ogg Vorbis tools
+ vorbis-tools contains oggenc (an encoder), ogg123 (a playback tool),
+ ogginfo (displays ogg information), oggdec (decodes ogg files), vcut
+ (ogg file splitter), and vorbiscomment (ogg comment editor).
+ .
+ ogg123 can play both Ogg Vorbis and FLAC audio streams.
+
+Package: vorbis-tools-dbg
+Source: vorbis-tools
+Version: 1.4.0-6
+Architecture: amd64
+Maintainer: Debian Xiph.org Maintainers <pkg-xiph-maint@lists.alioth.debian.org>
+Installed-Size: 477
+Depends: vorbis-tools (= 1.4.0-6)
+Homepage: http://www.xiph.org/
+Priority: extra
+Section: debug
+Filename: pool/main/v/vorbis-tools/vorbis-tools-dbg_1.4.0-6_amd64.deb
+Size: 383772
+SHA256: 487dc5a1e517ae29f97e4ee1cd7ea784a7515254e8e287377030e0caef3225ca
+SHA1: 47a709a224302e741f116473200e5931ea70df89
+MD5sum: 9bb951efba98ba286a7d8f141a5b33d6
+Description: several Ogg Vorbis tools (debug files)
+ vorbis-tools contains oggenc (an encoder), ogg123 (a playback tool),
+ ogginfo (displays ogg information), oggdec (decodes ogg files), vcut
+ (ogg file splitter), and vorbiscomment (ogg comment editor).
+ .
+ ogg123 can play both Ogg Vorbis and FLAC audio streams.
+ .
+ This package contains debugging symbols useful for tracking bugs in
+ applications with vorbis-tools.
 
 Package: xz-utils
 Version: 5.1.1alpha+20120614-2.1
