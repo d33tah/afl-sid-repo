@@ -6956,6 +6956,30 @@ Description: run processes in parallel and multiplex their output
  Used by the sysv-rc boot system executor to run init.d scripts in parallel
  while making sure the script output is not completely messed up.
 
+Package: strace
+Version: 4.10-3
+Architecture: amd64
+Maintainer: Steve McIntyre <93sam@debian.org>
+Installed-Size: 3150
+Depends: libasan2 (>= 5), libc6 (>= 2.15)
+Filename: pool/main/s/strace_4.10-3_amd64.deb
+Size: 596842
+MD5sum: 5098eecafe2d46f9ef2b29add56bec65
+SHA1: dfb8a1630812dc20d0907b5f4404c59e98ab9adc
+SHA256: f26cd20a8149730fed49cf4c1076a77115b8859a0ebd47dc35b26cac4422221e
+Section: utils
+Priority: optional
+Homepage: http://sourceforge.net/projects/strace/
+Description: System call tracer
+ strace is a system call tracer, i.e. a debugging tool which prints out
+ a trace of all the system calls made by a another process/program.
+ The program to be traced need not be recompiled for this, so you can
+ use it on binaries for which you don't have source.
+ .
+ System calls and signals are events that happen at the user/kernel
+ interface. A close examination of this boundary is very useful for bug
+ isolation, sanity checking and attempting to capture race conditions.
+
 Package: sysv-rc
 Source: sysvinit
 Version: 2.88dsf-59.2
