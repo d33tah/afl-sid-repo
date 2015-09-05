@@ -3,6 +3,11 @@
 """
 Script that can be used to add a package to a Debian repository.
 
+Usage:
+    ./addpkg.py /tmp/some-package-pulled-from-docker.deb
+    git add pool
+    git commit -a -m 'Add some-package-pulled-from-docker'
+
 AUTHOR: Jacek Wielemborek, licensed under WTFPL.
 """
 
@@ -23,6 +28,7 @@ def get_file_hash(mode, full_filename):
 
 
 def update_release():
+    """Find all Release files in the dists/*/ and update their checksums."""
     releases = list(os.walk('./dists'))[0][1]
     for release in releases:
         mode = None
