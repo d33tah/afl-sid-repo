@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 
 """
-A work-in-progress script that can be used to add a package to a Debian
-repository. Not suitable for any use yet.
+Script that can be used to add a package to a Debian repository.
 
 AUTHOR: Jacek Wielemborek, licensed under WTFPL.
 """
@@ -54,17 +53,26 @@ def update_release():
         with open(release_filename, "w") as f:
             f.write(s.getvalue())
 
-if __name__ == '__main__':
-    update_release()
-    pkg_controls = {}
+def main():
+    sys.stderr.write('Copying the pacakges...\n')
     for pkg in sys.argv[1:]:
-        shutil.rmtree('./DEBIAN')
-        subprocess.call(['dpkg', '-e', pkg])
-        with open('./DEBIAN/control') as f:
-            pkg_controls[pkg] = StringIO()
-            for line in f:
-                pkg_controls[pkg].write(line)
-                if line.startswith('Section: '):
-                    pkg_path = ''
-                    pkg_controls[pkg].write('Filename: %s\n' % pkg_path)
-        print(pkg_controls[pkg].getvalue())
+        bname = os.path.basename(pkg)
+        if bname.startswith('lib'):
+            dname = bname[:4]
+        else:
+            dname = bname[0]
+        pooldir = 'pool/main/%s/' % dname
+        try:
+            os.mkdir(pooldir)
+        except OSError:
+            pass
+        shutil.copy(pkg, '%s%s' % (pooldir, bname))
+    sys.stderr.write('Rebuilding the package list...\n')
+    subprocess.call('dpkg-scanpackages pool >'
+                    ' dists/sid/main/binary-amd64/Packages', shell=True)
+    subprocess.call('gzip < dists/sid/main/binary-amd64/Packages'
+                    ' > dists/sid/main/binary-amd64/Packages.gz', shell=True)
+    update_release()
+
+if __name__ == '__main__':
+    main()
