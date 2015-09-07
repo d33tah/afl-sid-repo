@@ -4314,6 +4314,699 @@ Description: GNU readline and history libraries, development files
  .
  This package contains development files.
 
+Package: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 134
+Depends: fonts-sil-gentium-basic, libreoffice-base, libreoffice-calc, libreoffice-core (= 1:5.0.1-1), libreoffice-draw, libreoffice-impress, libreoffice-math, libreoffice-report-builder-bin, libreoffice-writer, libreoffice-avmedia-backend-gstreamer | libreoffice-avmedia-backend-vlc, fonts-dejavu, libreoffice-java-common (>= 1:5.0.1~), python3-uno (>= 4.4.0~beta2)
+Recommends: fonts-liberation | ttf-mscorefonts-installer, libpaper-utils
+Suggests: cups-bsd, hunspell-dictionary, hyphen-hyphenation-patterns, iceweasel | firefox | icedove | thunderbird | iceape-browser | mozilla-browser, imagemagick | graphicsmagick-imagemagick-compat, libgl1, libreoffice-gnome | libreoffice-kde, libreoffice-grammarcheck, libreoffice-help-5.0, libreoffice-l10n-5.0, libsane, libxrender1, myspell-dictionary, mythes-thesaurus, openclipart2-libreoffice | openclipart-libreoffice, pstoedit, unixodbc, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-plugins-ugly, gstreamer1.0-plugins-bad, gstreamer1.0-libav, default-jre | gcj-jre | openjdk-7-jre | openjdk-6-jre | sun-java5-jre | sun-java6-jre | java5-runtime | jre, libreoffice-officebean
+Filename: pool/main/libr/libreoffice_5.0.1-1_amd64.deb
+Size: 72008
+MD5sum: 190e73f49dc07bbaa51af583e463caac
+SHA1: 4f9ad1ed3ccc620a2a74d21f3e9c82cb309054cd
+SHA256: 3cc5d199f7d90b9f237e4c4fad6c77cac2187f6915cec4f34124fc0f3c7c4ab3
+Section: metapackages
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite (metapackage)
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This metapackage installs all components of libreoffice:
+  * libreoffice-writer: Word processor
+  * libreoffice-calc: Spreadsheet
+  * libreoffice-impress: Presentation
+  * libreoffice-draw: Drawing
+  * libreoffice-base: Database
+  * libreoffice-math: Equation editor
+ .
+ You can extend the functionality of LibreOffice by installing these
+ packages:
+  * hunspell-*/myspell-*: Hunspell/Myspell dictionaries
+    for use with LibreOffice
+  * libreoffice-l10n-*: UI interface translation
+  * libreoffice-help-*: User help
+  * mythes-*: Thesauri for the use with LibreOffice
+  * hyphen-*: Hyphenation patterns for LibreOffice
+  * libreoffice-gtk: Gtk UI Plugin, GNOME File Picker support,
+    QuickStarter for GNOMEs notification are
+  * libreoffice-gnome: GIO, GConf backend
+  * libreoffice-kde: KDE UI Plugin and KDE File Picker support
+  * unixodbc: ODBC database support
+  * cups-bsd: Allows LibreOffice to detect your CUPS printer queues
+    automatically
+  * libsane: Use your sane-supported scanner with LibreOffice
+  * libxrender1: Speed up display by using Xrender library
+  * libgl1: OpenGL support
+  * openclipart-libreoffice: Open Clip Art Gallery with LibreOffice index
+    files
+  * iceweasel | firefox | icedove | thunderbird | iceape-browser | mozilla-browser:
+    Mozilla profile with Certificates needed for XML Security...
+  * openjdk-6-jre | gcj-jre | java5-runtime:
+    Java Runtime Environment for use with LibreOffice
+  * pstoedit / imagemagick: helper tools for EPS thumbnails
+  * gstreamer0.10-plugins-*: GStreamer plugins for use with LibreOffices
+    media backend
+  * libpaper-utils: papersize detection support via paperconf
+  * bluez: Bluetooth support for Impress (slideshow remote control
+
+Package: libreoffice-avmedia-backend-gstreamer
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 319
+Depends: libreoffice-core, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.15.0), libgstreamer-plugins-base1.0-0 (>= 1.0.0), libgstreamer1.0-0 (>= 1.0.0), libstdc++6 (>= 4.1.1), uno-libs3 (>= 4.4.0~alpha), ure
+Replaces: libreoffice-core (<< 1:4.2~)
+Provides: libreoffice-avmedia-backend
+Filename: pool/main/libr/libreoffice-avmedia-backend-gstreamer_5.0.1-1_amd64.deb
+Size: 104086
+MD5sum: 09a7ba1ee696578f1f93e393280d7d9b
+SHA1: 4eaa77f658e204b34ab92b4402c67b69808f4a87
+SHA256: 30283f6bed1faf6fedaf5965887c65b3a75499bed3d461327819c44353794919
+Section: misc
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: GStreamer backend for LibreOffice
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains a GStreamer backend for LibreOffices avmedia component
+ to play audio/video.
+
+Package: libreoffice-avmedia-backend-vlc
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 555
+Depends: libreoffice-core, libvlc5 (>= 2.0.8), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 5.2), uno-libs3 (>= 4.4.0~alpha), ure
+Provides: libreoffice-avmedia-backend
+Filename: pool/main/libr/libreoffice-avmedia-backend-vlc_5.0.1-1_amd64.deb
+Size: 138072
+MD5sum: 0d8e669855fed5b1b22e6edb0d15969f
+SHA1: 76547771fefc0ed00651b91ca4f5ef29ca476639
+SHA256: ca47d731de0f5f479445be5d284f9450de0b989e7bcd1bbda0c6c27ece158838
+Section: misc
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: VLC backend for LibreOffice
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains a VLC backend for LibreOffices avmedia component
+ to play audio/video.
+
+Package: libreoffice-base
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 16646
+Depends: libreoffice-base-core (= 1:5.0.1-1), libreoffice-base-drivers (= 1:5.0.1-1), libreoffice-core (= 1:5.0.1-1), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.9), uno-libs3 (>= 4.4.0~alpha), ure
+Recommends: libreoffice-writer, libreoffice-java-common (>= 1:5.0.1~), default-jre | gcj-jre | openjdk-7-jre | openjdk-6-jre | sun-java5-jre | sun-java6-jre | java5-runtime | jre
+Suggests: libreoffice-gcj, libreoffice-report-builder, unixodbc
+Replaces: libreoffice-common (<< 1:4.3.0~beta1)
+Filename: pool/main/libr/libreoffice-base_5.0.1-1_amd64.deb
+Size: 2980556
+MD5sum: 17deaacd63d79c8e60500e9fb44415aa
+SHA1: 235d667825cd06d3be7123ab2542bf3e229aaeb0
+SHA256: f0e7a34245ec13669eb1469c2459ae6ecd7626211e4c63edc0cef69147ed5a4b
+Section: database
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- database
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the database component for LibreOffice.
+
+Package: libreoffice-base-core
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 7819
+Depends: libreoffice-core (= 1:5.0.1-1), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 5), uno-libs3 (>= 4.4.0~alpha), ure
+Suggests: libreoffice-base
+Replaces: libreoffice-base (<< 1:3.5.3~rc2-1)
+Filename: pool/main/libr/libreoffice-base-core_5.0.1-1_amd64.deb
+Size: 1470964
+MD5sum: 373600efce1a2d4534d8d333716ad5ad
+SHA1: 64c341816a27e5e19e283c9011e54d3137de34d9
+SHA256: 30d91275b0f44ffa903dc7df20d79eca90fed7acfb8b1784ffaa325b6f163ad4
+Section: editors
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- shared library
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains libdba, a common library of the LibreOffice
+ suite used by Base, Writer and Calc.
+ .
+ If you need full Base functionality (or actual database drivers), please
+ install libreoffice-base.
+
+Package: libreoffice-base-drivers
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 6216
+Depends: libreoffice-core, libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.6), uno-libs3 (>= 4.4.0~alpha), ure
+Recommends: libreoffice-sdbc-firebird, libreoffice-sdbc-hsqldb
+Suggests: libjtds-java, libreoffice-mysql-connector | libmyodbc | libmysql-java, libreoffice-sdbc-postgresql | odbc-postgresql | libpg-java, libsqliteodbc | tdsodbc | mdbtools
+Breaks: libreoffice-base (<< 1:4.3.0-3)
+Replaces: libreoffice-base (<< 1:4.3.0-3), libreoffice-core (<< 1:4.2~)
+Filename: pool/main/libr/libreoffice-base-drivers_5.0.1-1_amd64.deb
+Size: 1040966
+MD5sum: a210d18494030e70224b3476b5858f94
+SHA1: 532e48b33cfae42a69304643ca8d053f532be103
+SHA256: 865f05b43257cf728a5bc72466c262cf4b98c0ad98cbef3402836bf3a4255760
+Section: database
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: Database connectivity drivers for LibreOffice
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the database connectivity drivers used by LibreOffices
+ database functionality:
+  - ODBC
+  - JDBC
+  - dBase
+  - Calc
+  - Flat files
+  - MySQL
+ .
+ You can extend this by installing:
+ .
+  * unixodbc: ODBC database support
+  * libmyodbc | odbc-postgresql | libsqliteodbc | tdsodbc | mdbtools: ODBC
+    drivers for:
+    - MySQL
+    - PostgreSQL
+    - SQLite
+    - MS SQL / Sybase SQL
+    - *.mdb (JET / MS Access)
+  * libmysql-java | libpg-java | libjtds-java: JDBC Drivers
+    for:
+    - MySQL
+    - PostgreSQL
+    - MS SQL Server and Sybase
+  * libreoffice-sdbc-hsqldb: embedded HSQLDB SDBC Driver
+  * libreoffice-sdbc-firebird: Firebird SDBC Driver
+  * libreoffice-sdbc-postgresql: PostgreSQL SDBC Driver
+  * libreoffice-mysql-connector: "native" MySQL Connector
+
+Package: libreoffice-calc
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 83391
+Depends: libreoffice-base-core (= 1:5.0.1-1), libreoffice-core (= 1:5.0.1-1), lp-solve (>= 5.5.0.13-5+b1), libboost-iostreams1.58.0, libc6 (>= 2.14), libetonyek-0.1-1, libgcc1 (>= 1:4.1.1), libicu55 (>= 55.1-1~), liblcms2-2 (>= 2.2+git20110628), libmwaw-0.3-3, libodfgen-0.1-1, liborcus-0.10-0v5, librevenge-0.0-0, libstdc++6 (>= 5.2), libwps-0.4-4, libxml2 (>= 2.7.4), uno-libs3 (>= 4.4.0~alpha), ure, zlib1g (>= 1:1.1.4)
+Suggests: ocl-icd-libopencl1
+Filename: pool/main/libr/libreoffice-calc_5.0.1-1_amd64.deb
+Size: 14647810
+MD5sum: f8769944b9afdce474531bc16cdd9008
+SHA1: 0fb23f52072840d42d2c5e96d37c212a5237f100
+SHA256: 0146efd619f733241641e7da991c5d5a7ee5e2377b08b2454658f9df2696c0fc
+Section: editors
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- spreadsheet
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the spreadsheet component for LibreOffice.
+
+Package: libreoffice-core
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 320658
+Depends: fontconfig, fonts-opensymbol, libreoffice-common (>> 1:5.0.1), ure (>= 4.2~), libatk1.0-0 (>= 1.12.4), libboost-date-time1.58.0, libc6 (>= 2.16), libcairo2 (>= 1.10.0), libclucene-contribs1v5 (>= 2.3.3.4), libclucene-core1v5 (>= 2.3.3.4), libcmis-0.5-5v5, libcups2 (>= 1.4.0), libcurl3-gnutls (>= 7.16.2), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libeot0, libexpat1 (>= 2.0.1), libexttextcat-2.0-0 (>= 2.2-8), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.3.5), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglew1.10 (>= 1.10.0), libglib2.0-0 (>= 2.16.0), libgltf-0.0-0v5, libglu1-mesa | libglu1, libgraphite2-3 (>= 1.2.2), libgtk2.0-0 (>= 2.24.0), libharfbuzz-icu0 (>= 0.9.18), libharfbuzz0b (>= 0.9.18), libhunspell-1.3-0 (>= 1.3.3), libhyphen0 (>= 2.7.1), libice6 (>= 1:1.0.0), libicu55 (>= 55.1-1~), libjpeg62-turbo (>= 1.3.1), liblangtag1 (>= 0.4.0), liblcms2-2 (>= 2.2+git20110628), libldap-2.4-2 (>= 2.4.7), libmythes-1.2-0, libneon27-gnutls, libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~beta2), libodfgen-0.1-1, libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libpcre3 (>= 1:8.35), libpng12-0 (>= 1.2.13-4), librevenge-0.0-0, libsm6, libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 5.2), libx11-6, libxext6, libxinerama1, libxml2 (>= 2.7.4), libxrandr2, libxrender1, libxslt1.1 (>= 1.1.25), libxt6, uno-libs3 (>= 5.0.0~alpha), zlib1g (>= 1:1.1.4), librdf0 (>= 1.0.17)
+Conflicts: cacao-oj6-jre, libreoffice-filter-binfilter, libreoffice-unbundled
+Breaks: cli-uno-bridge (<< 1:3.0.0~dev300m22), hunspell-ar (<< 0.0.0+20080110-1.1), hunspell-da (<< 1:3.1.0-3), hunspell-de-at (<< 20071211-2), hunspell-de-ch (<< 20071211-2), hunspell-de-de (<< 20071211-2), hunspell-de-med (<< 20090825-1), hunspell-en-ca (<< 1:3.1.0-3), hunspell-en-us (<< 20070829-3), hunspell-fr (<< 1:3.1.0-3), hunspell-gl-es (<< 2.2a-6), hunspell-hu (<< 1:3.1.0-3), hunspell-ko (<< 0.3.3-1), hunspell-ne (<< 1:3.1.0-3), hunspell-se (<< 1.0~beta6.20081222-1.1), hunspell-sh (<< 1:3.1.0-3), hunspell-sr (<< 1:3.1.0-3), hunspell-uz (<< 0.6-3.1), hunspell-vi (<< 1:3.1.0-3), libcairo2 (= 1.4.8-1), libicu38 (= 3.8~d01-1), libreoffice-base (<< 1:5.0.1-1), libreoffice-calc (<< 1:5.0.1-1), libreoffice-common (<< 1:3.6.1~rc1), libreoffice-dev (<< 1:5.0.1-1), libreoffice-draw (<< 1:5.0.1-1), libreoffice-evolution (<< 1:5.0.1-1), libreoffice-gnome (<< 1:5.0.1-1), libreoffice-gtk (<< 1:5.0.1-1), libreoffice-impress (<< 1:5.0.1-1), libreoffice-kab (<< 1:3.4.1~), libreoffice-kde (<< 1:5.0.1-1), libreoffice-officebean (<< 1:5.0.1-1), libreoffice-presentation-minimizer (<< 1:4.2~), libreoffice-sdbc-postgresql (<< 0.8.1~), libreoffice-style-andromeda (<< 1:3.3.0-1), libreoffice-style-crystal (<< 1:3.3.0-1), libreoffice-style-galaxy (<< 1:3.3.0-1), libreoffice-style-hicontrast (<< 1:3.3.0-1), libreoffice-style-oxygen (<< 1:3.3.0-1), libreoffice-style-tango (<< 1:3.3.0-1), libreoffice-writer (<< 1:5.0.1-1), mozilla-libreoffice (<< 1:3.5.0~beta~), mozilla-plugin-vlc (<< 1.0), myspell-af (<< 1:3.1.0-3), myspell-ca (<< 0.6-8), myspell-cs-cz (<< 20040229-4.1), myspell-da (<< 1.6.18-1.1), myspell-de-at (<< 20071211-2), myspell-de-ch (<< 20071211-2), myspell-de-de (<< 20071211-2), myspell-de-de-oldspell (<< 1:2-25.1), myspell-el-gr (<< 0.3-1.1), myspell-en-au (<< 2.1-5), myspell-en-gb (<< 1:3.1.0-3), myspell-en-us (<< 1:3.1.0-3), myspell-en-za (<< 1:3.1.0-3), myspell-eo (<< 2.1.2000.02.25-41), myspell-es (<< 1.10-7), myspell-et (<< 1:20030606-12.1), myspell-fa (<< 0.20070816-2), myspell-fi (<< 0.7-17.2), myspell-fo (<< 0.2.36-3), myspell-fr (<< 1.4-25), myspell-fr-gut (<< 1:1.0-26.1), myspell-ga (<< 2.0-19), myspell-gd (<< 0.50-7), myspell-gv (<< 0.50-8), myspell-hr (<< 20060617-2), myspell-hu (<< 0.99.4-1.2), myspell-hy (<< 0.10.1-1.1), myspell-it (<< 1:3.1.0-3), myspell-ku (<< 0.20.0-1.1), myspell-lv (<< 0.7.3-3.1), myspell-nb (<< 2.0.10-3.1), myspell-ne (<< 1.0-4.1), myspell-nl (<< 1:1.10-3), myspell-nn (<< 2.0.10-3.1), myspell-pl (<< 20090830-1), myspell-pt-br (<< 2009.03.30-1.1), myspell-pt-pt (<< 20090309-1.1), myspell-ru (<< 0.99g5-8.1), myspell-sk (<< 0.5.5a-2.1), myspell-sv-se (<< 1.3.8-6-2.2), myspell-sw (<< 1:3.1.0-3), myspell-th (<< 1:3.1.0-3), myspell-tl (<< 0.4-0-5)
+Replaces: libreoffice-calc (<< 1:3.3.2-5), libreoffice-common (<< 1:4.4.0~rc3-1), uno-libs3 (<< 1:3.6.1-2), ure (<< 1:3.6.1-2)
+Provides: libreoffice-bundled
+Filename: pool/main/libr/libreoffice-core_5.0.1-1_amd64.deb
+Size: 57362952
+MD5sum: a0a69403a3beb5b40f0effdbfb63f447
+SHA1: ae88c23e5b1f1b39233266e471c443bf314907c3
+SHA256: 621ea9bb1211b5fdf55078c61a9615ec5249ccf2b5006784c6e43cc300b659d0
+Section: editors
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- arch-dependent files
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the architecture-dependent core files of
+ LibreOffice.  See the libreoffice package for more information.
+
+Package: libreoffice-dev
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 19607
+Depends: libreoffice-core (= 1:5.0.1-1), ucpp, libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libstdc++6 (>= 5.2), libx11-6, uno-libs3 (>= 4.4.0~alpha), ure
+Recommends: g++, libreoffice-java-common (>= 1:5.0.1~), default-jre | gcj-jre | openjdk-7-jre | openjdk-6-jre | sun-java5-jre | sun-java6-jre | java5-runtime | jre
+Suggests: libmythes-dev, libreoffice-dev-doc, libreofficekit-dev
+Replaces: libreoffice-common (<< 1:4.1.0~beta1), libreoffice-core (<< 1:4.1.0~beta1)
+Filename: pool/main/libr/libreoffice-dev_5.0.1-1_amd64.deb
+Size: 2246858
+MD5sum: 65dd8ade0c6955489707b8f260ed3bf4
+SHA1: c24a61b77f24b682f1d181c37c1656695cc5db65
+SHA256: 46ec589a1c55d6fbda8a6da33ed5d20488845aa954de68426cd26f6e5aa1ca84
+Section: devel
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- SDK
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the files needed to build plugins/add-ons for
+ LibreOffice (includes, IDL files, build tools, ...). It also contains
+ the zipped source of the UNO Java libraries for use in IDEs like eclipse.
+
+Package: libreoffice-draw
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 25917
+Depends: libreoffice-core (= 1:5.0.1-1), libc6 (>= 2.14), libcdr-0.1-1, libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfreehand-0.1-1, libgcc1 (>= 1:4.1.1), libglib2.0-0 (>= 2.15.0), libicu55 (>= 55.1-1~), liblcms2-2 (>= 2.2+git20110628), libmspub-0.1-1, libmwaw-0.3-3, libodfgen-0.1-1, libpagemaker-0.0-0, librevenge-0.0-0, libstdc++6 (>= 5.2), libvisio-0.1-1, libwpd-0.10-10, libwpg-0.3-3, libxml2 (>= 2.7.4), uno-libs3 (>= 4.4.0~alpha), ure, zlib1g (>= 1:1.1.4)
+Filename: pool/main/libr/libreoffice-draw_5.0.1-1_amd64.deb
+Size: 4803348
+MD5sum: 23dafdd620858456317c0932bc918f56
+SHA1: 68f90b3380cea5a799dd45126dab2142e9b28b9f
+SHA256: 76e2a2668ef33de2d64e482015cc1eb1517680ad1fd331f74c655d86b2101ea9
+Section: editors
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- drawing
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the drawing component for LibreOffice.
+
+Package: libreoffice-evolution
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 1048
+Depends: libreoffice-base, libreoffice-common (>= 1:3.4.0~), libreoffice-core (= 1:5.0.1-1), libebook-1.2-16, libatk1.0-0 (>= 1.12.4), libc6 (>= 2.4), libcairo2 (>= 1.2.4), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.24.0), libgtk2.0-0 (>= 2.10), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libstdc++6 (>= 4.1.1), uno-libs3 (>= 4.4.0~alpha), ure
+Recommends: evolution
+Breaks: ure (<< 1.5.1+OOo3.1.1-15)
+Replaces: libreoffice-common (<< 1:3.3.3-2~)
+Filename: pool/main/libr/libreoffice-evolution_5.0.1-1_amd64.deb
+Size: 224822
+MD5sum: 35822b3d057ae3c411a8905e5d3c7bdb
+SHA1: 313cd4086e05d3384edc1ceeba4260a7e0a63b97
+SHA256: 222d97eb026c71dae74ef08f8dfc05e9aed253c420355339caf9dba0641fa408
+Section: gnome
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- Evolution addressbook support
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package allows LibreOffice to access Evolution address books.
+ You need to install evolution separately.
+
+Package: libreoffice-gnome
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 574
+Depends: gconf2, libreoffice-core (= 1:5.0.1-1), libreoffice-gtk3, gconf-service, libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgconf-2-4 (>= 3.2.5), libglib2.0-0 (>= 2.37.3), libstdc++6 (>= 4.6), uno-libs3 (>= 4.4.0~alpha), ure
+Suggests: libreoffice-evolution
+Enhances: libreoffice
+Replaces: libreoffice-gtk (<< 1:5.0.0~rc2-1)
+Provides: libreoffice-gtk-gnome
+Filename: pool/main/libr/libreoffice-gnome_5.0.1-1_amd64.deb
+Size: 159726
+MD5sum: 91a2e0ca70959426019b13e582c22e45
+SHA1: f95eef19ca5a9422ecfbf3b6dd4a439b7edea93b
+SHA256: 5789085aada0d750ae83b79d4efead8d9bf8b7e59ad4d01d72a5e370da808127
+Section: gnome
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- GNOME integration
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the GIO support and a GConf backend.
+ .
+ You can extend the functionality of this by installing these packages:
+ .
+  * libreoffice-evolution: Evolution addressbook support
+  * evolution
+
+Package: libreoffice-gtk
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 2074
+Depends: libreoffice-core (= 1:5.0.1-1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo2 (>= 1.2.4), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglew1.10 (>= 1.10.0), libglib2.0-0 (>= 2.37.3), libglu1-mesa | libglu1, libgtk2.0-0 (>= 2.24.0), libice6 (>= 1:1.0.0), libicu55 (>= 55.1-1~), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libpangoft2-1.0-0 (>= 1.14.0), libsm6, libstdc++6 (>= 4.9), libx11-6, libxext6, libxml2 (>= 2.6.27), uno-libs3 (>= 4.4.0~alpha), ure
+Recommends: libreoffice-style-tango
+Enhances: libreoffice
+Conflicts: libgtk2.0-0 (= 2.12.10-1)
+Filename: pool/main/libr/libreoffice-gtk_5.0.1-1_amd64.deb
+Size: 464150
+MD5sum: 9679595f6e9115d24cfa1a27054032ca
+SHA1: 92f9c9342b77f1e022325c86971a6c62a2cc560e
+SHA256: 37a8896fc4d5e01e4a8fc6fe4c50804ed7129f531bfa142f905beb39984aa4bf
+Section: gnome
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- GTK+ integration
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the Gtk plugin for drawing LibreOffices widgets
+ with Gtk+ and a Gtk/GNOMEish File Picker and print dialog when running
+ under GNOME. It also contains a QuickStarter for the "notification area".
+
+Package: libreoffice-gtk3
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 1681
+Depends: libreoffice-core (= 1:5.0.1-1), libatk1.0-0 (>= 1.12.4), libc6 (>= 2.14), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.10.0), libdbus-1-3 (>= 1.0.2), libdbus-glib-1-2 (>= 0.78), libgcc1 (>= 1:4.1.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgl1-mesa-glx | libgl1, libglew1.10 (>= 1.10.0), libglib2.0-0 (>= 2.37.3), libglu1-mesa | libglu1, libgtk-3-0 (>= 3.13.7), libice6 (>= 1:1.0.0), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libsm6, libstdc++6 (>= 4.9), libx11-6, libxext6, uno-libs3 (>= 4.4.0~alpha), ure
+Recommends: libreoffice-style-tango
+Enhances: libreoffice
+Filename: pool/main/libr/libreoffice-gtk3_5.0.1-1_amd64.deb
+Size: 378230
+MD5sum: ef569e26250483a45288fe1288c513b5
+SHA1: 910acdc9edfe188332b4ec2485ef0b444ca233e3
+SHA256: 49c418138882dc5b5c8e600da3d79b4b81fa081c979dccf62fc87425e28eaaf3
+Section: gnome
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- GTK+ 3.0 integration
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the Gtk plugin for drawing LibreOffices widgets
+ with Gtk+ 3.0 and Gtk/GNOMEish print dialog when running under GNOME.
+
+Package: libreoffice-impress
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 15026
+Depends: libreoffice-core (= 1:5.0.1-1), libreoffice-draw (= 1:5.0.1-1), libc6 (>= 2.14), libetonyek-0.1-1, libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libglew1.10 (>= 1.10.0), libglu1-mesa | libglu1, libmwaw-0.3-3, libodfgen-0.1-1, librevenge-0.0-0, libstdc++6 (>= 5), libxml2 (>= 2.6.27), uno-libs3 (>= 4.4.0~alpha), ure, zlib1g (>= 1:1.1.4)
+Recommends: libreoffice-avmedia-backend-gstreamer | libreoffice-avmedia-backend-vlc
+Suggests: bluez
+Filename: pool/main/libr/libreoffice-impress_5.0.1-1_amd64.deb
+Size: 2484580
+MD5sum: a881a7901076f7e3965533bcafed1ecf
+SHA1: cac7e88f236dab75bcf9af12d6d47df46b737671
+SHA256: ef85ba8f259512e7782bbd525190c943ca7f8b3adc897e03849cbf1aa1978d3b
+Section: editors
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- presentation
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the presentation component for LibreOffice.
+
+Package: libreoffice-kde
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 712
+Depends: libreoffice-core (= 1:5.0.1-1), kde-runtime (>> 4:4.10), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libglew1.10 (>= 1.10.0), libglib2.0-0 (>= 2.15.0), libglu1-mesa | libglu1, libice6 (>= 1:1.0.0), libicu55 (>= 55.1-1~), libkdecore5 (>= 4:4.3.4), libkdeui5 (>= 4:4.3.4), libkfile4 (>= 4:4.3.4), libkio5 (>= 4:4.3.4), libqt4-network (>= 4:4.8), libqtcore4 (>= 4:4.8), libqtgui4 (>= 4:4.8.0), libsm6, libstdc++6 (>= 4.9), libx11-6, libxext6, uno-libs3 (>= 4.4.0~alpha), ure
+Recommends: libreoffice-style-breeze
+Suggests: kmail, konqueror, libreoffice-kab
+Enhances: libreoffice
+Replaces: libreoffice-core (= 1:3.5.0~beta2-1), libreoffice-core (= 1:4.3.0~beta1-1), openoffice.org-kde (<< 1:3.3.0~)
+Filename: pool/main/libr/libreoffice-kde_5.0.1-1_amd64.deb
+Size: 199212
+MD5sum: 7d7a1061eee5f392c5ab077430d82cd2
+SHA1: 9027e84e8276352a15ef2e6564e988c31caafa2e
+SHA256: 9a93d54a3f9990de4bf6e1b36b0eaa6a798b36f0459ee7410f711d42b5fc424a
+Section: kde
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- KDE integration
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the KDE plugin for drawing OOo's widgets with
+ KDE/Qt and a KDEish File Picker when running under KDE.
+ You can extend the functionality of this by installing these packages:
+ .
+  * konqueror / kmail
+  * libreoffice-kab: KDE Addressbook support
+
+Package: libreoffice-math
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 3894
+Depends: fonts-opensymbol, libreoffice-core (= 1:5.0.1-1), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 5), uno-libs3 (>= 4.4.0~alpha), ure
+Filename: pool/main/libr/libreoffice-math_5.0.1-1_amd64.deb
+Size: 783318
+MD5sum: 60543784d85a37cbbd76b495d835e30b
+SHA1: 7a85616ceadd40021c618593b2010a95847e1faf
+SHA256: 511153aa6ece882cd8b7de3736a5d7928aa265affe48eb6f9397e64cd2f5a4d0
+Section: editors
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- equation editor
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the equation editor component for LibreOffice.
+
+Package: libreoffice-mysql-connector
+Source: libreoffice (1:5.0.1-1)
+Version: 1.0.2+LibO5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 1313
+Depends: libreoffice-core, libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libmysqlcppconn7v5, libstdc++6 (>= 5.2), uno-libs3 (>= 4.4.0~alpha), ure
+Suggests: mariadb-server | mysql-server (>= 5.1)
+Conflicts: libreoffice-common (<< 1:3.5~), libreoffice-core (<< 1:3.5~), ure (<< 1.5.1+OOo3.1.1-15)
+Filename: pool/main/libr/libreoffice-mysql-connector_1.0.2+LibO5.0.1-1_amd64.deb
+Size: 263686
+MD5sum: a1adb037ef1f792ddf6fe99f0fb6d7a9
+SHA1: 2b161eefb17b74989c5e4b684d8533d2485f04eb
+SHA256: 39bfe89abd7a718333b8c026533922d3efde43a6a11fc5b55423fe4d7d86a423
+Section: misc
+Priority: optional
+Homepage: http://extensions.services.openoffice.org/en/project/mysql_connector
+Description: MariaDB/MySQL Connector extension for LibreOffice
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ The MariaDB/MySQL Connector extension allows one to use the MariaDB or MySQL
+ database from LibreOffice without any wrapper layer such as ODBC or JDBC.
+
+Package: libreoffice-officebean
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 188
+Depends: libreoffice-core (= 1:5.0.1-1), libreoffice-java-common (>= 1:5.0.1~), default-jre | gcj-jre | openjdk-7-jre | openjdk-6-jre | sun-java5-jre | sun-java6-jre | java5-runtime | jre, ure, libc6 (>= 2.4)
+Filename: pool/main/libr/libreoffice-officebean_5.0.1-1_amd64.deb
+Size: 102526
+MD5sum: 1673456eacecdd75696f28cf206ef3a8
+SHA1: 87daf6369ed225854c58f5af80fec10b12213fb1
+SHA256: 0a21153be88db61039a258890c0ad5b22f1adcb207c44e5e881a7b1878d49446
+Section: java
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- Java bean
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the LibreOffice Office Bean for embedding
+ LibreOffice in custom Java applications.
+
+Package: libreoffice-ogltrans
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 970
+Depends: libreoffice-common, libreoffice-core, libreoffice-impress, libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libgl1-mesa-glx | libgl1, libglew1.10 (>= 1.10.0), libglu1-mesa | libglu1, libstdc++6 (>= 4.1.1), libx11-6, uno-libs3 (>= 4.4.0~alpha), ure
+Enhances: libreoffice-impress
+Breaks: ure (<< 1.5.1+OOo3.1.1-15)
+Filename: pool/main/libr/libreoffice-ogltrans_5.0.1-1_amd64.deb
+Size: 204108
+MD5sum: 965a677630f4fb6ee9d7c2d312df684d
+SHA1: 965758461724116064a3f4336ec894fe3ebd3211
+SHA256: ddc9918155973daf3da2a2da9f0a0a1975e34801c48837159fbe74c9640ee15b
+Section: graphics
+Priority: extra
+Homepage: http://www.libreoffice.org
+Description: LibreOffice Impress extension for slide transitions using OpenGL
+ LibreOffice is a full-featured office productivity suite that provide
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the extension making LibreOffice able to use
+ OpenGL for slide transitions in Impress.
+
+Package: libreoffice-pdfimport
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 1915
+Depends: libreoffice-core, libc6 (>= 2.14), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgcc1 (>= 1:4.1.1), libpoppler46 (>= 0.26.5), libstdc++6 (>= 5.2), uno-libs3 (>= 4.4.0~alpha), ure, zlib1g (>= 1:1.1.4)
+Breaks: libreoffice-common (<< 1:3.5~), libreoffice-core (<< 1:3.5~)
+Filename: pool/main/libr/libreoffice-pdfimport_5.0.1-1_amd64.deb
+Size: 431776
+MD5sum: 51ecdadf6f300ab878c4a0899f7a72f1
+SHA1: 5a5913bb5744e1033ee4886155a982fc6e9df532
+SHA256: 2a035280b614363b9d6d68770347e33316a882ddfa8f61b679dfd691280b4d00
+Section: misc
+Priority: extra
+Homepage: http://www.libreoffice.org
+Description: PDF Import component for LibreOffice
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains a component enabling LibreOffice to import PDF
+ Documents.
+
+Package: libreoffice-report-builder-bin
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 7913
+Depends: libreoffice-base, libreoffice-core, libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.8), uno-libs3 (>= 4.4.0~alpha), ure
+Filename: pool/main/libr/libreoffice-report-builder-bin_5.0.1-1_amd64.deb
+Size: 1460652
+MD5sum: fff19c6ba9b46cf7eec1c18cf70d6b84
+SHA1: 63f790d59685078462fe8e39a6d8b049b5509201
+SHA256: dfcb63c44ac92f8629af96921446d956c01f5c4b515403ef7a1207f7b3c1ff90
+Section: misc
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: LibreOffice component for building database reports -- libraries
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains some architecture-dependent support libraries
+ (librpt*.so) for the report builder component.
+
+Package: libreoffice-sdbc-firebird
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 1214
+Depends: libreoffice-core, libc6 (>= 2.14), libfbembed2.5 (>= 2.5.0.25784~ReleaseCandidate1.ds2), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 5), uno-libs3 (>= 4.4.0~alpha), ure
+Enhances: libreoffice-base-drivers
+Filename: pool/main/libr/libreoffice-sdbc-firebird_5.0.1-1_amd64.deb
+Size: 266012
+MD5sum: e88223be9f85c568b44351707d6db0c3
+SHA1: c85ef97521c6329845110af1ade87db5c7528533
+SHA256: 5745db00c47c8515b2abc4cb37c13317f803386ba4c2b4366d2e70c7712bd016
+Section: database
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: Firebird SDBC driver for LibreOffice
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ The Firebird SDBC Driver allows one to use the Firebird database from
+ LibreOffice without any wrapper layer such as ODBC or JDBC.
+
+Package: libreoffice-sdbc-hsqldb
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 996
+Depends: libreoffice-core, libreoffice-java-common (>= 1:5.0.1~), libhsqldb1.8.0-java, libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.1.1), uno-libs3 (>= 4.4.0~alpha), ure
+Enhances: libreoffice-base-drivers
+Replaces: libreoffice-base (<< 1:4.2~)
+Filename: pool/main/libr/libreoffice-sdbc-hsqldb_5.0.1-1_amd64.deb
+Size: 242298
+MD5sum: 0aa02ecd61df6bcdfda868227eb894c0
+SHA1: 2cf8bbdc3c94f40effb868c7b210b500d9ea6b65
+SHA256: 2cfb83f87f59c80a6590b20b5b9d99fc7f53851a61eed1a4142e19b7af981aed
+Section: database
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: HSQLDB SDBC driver for LibreOffice
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ The HSQLDB SDBC Driver allows one to use the HSQLDB embedded database from
+ LibreOffice without any wrapper layer such as ODBC or JDBC.
+
+Package: libreoffice-sdbc-postgresql
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 2244
+Depends: libreoffice-core (>= 1:3.5.0~beta), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libldap-2.4-2 (>= 2.4.7), libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10), libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~beta2), libpq5 (>= 9.0~), libssl1.0.0 (>= 1.0.0), libstdc++6 (>= 4.8), uno-libs3 (>= 4.4.0~alpha), ure
+Suggests: postgresql (>= 8.4)
+Enhances: libreoffice-base-drivers
+Breaks: ure (<< 1.5.1+OOo3.1.1-15)
+Filename: pool/main/libr/libreoffice-sdbc-postgresql_5.0.1-1_amd64.deb
+Size: 463018
+MD5sum: 1490fcfb006e713d28f4d4bd1844de2b
+SHA1: 2eb69f0b55ad4d2d9ed02112dbc1159c3caba6f3
+SHA256: f392e3cea13793e436e0efbf0178b64ce28b00367e5c4771bdd7511d30ccc173
+Section: misc
+Priority: optional
+Homepage: http://wiki.documentfoundation.org/PostgreSQL-SDBC
+Description: PostgreSQL SDBC driver for LibreOffice
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ The PostgreSQL SDBC Driver allows one to use the PostgreSQL database from
+ LibreOffice without any wrapper layer such as ODBC or JDBC.
+
+Package: libreoffice-writer
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 83502
+Depends: libreoffice-base-core (= 1:5.0.1-1), libreoffice-core (= 1:5.0.1-1), libabw-0.1-1, libc6 (>= 2.14), libe-book-0.1-1, libetonyek-0.1-1, libgcc1 (>= 1:4.1.1), libicu55 (>= 55.1-1~), libmwaw-0.3-3, libodfgen-0.1-1, librevenge-0.0-0, libstdc++6 (>= 5.2), libwpd-0.10-10, libwpg-0.3-3, libwps-0.4-4, libxml2 (>= 2.7.4), uno-libs3 (>= 4.4.0~alpha), ure, zlib1g (>= 1:1.1.4)
+Recommends: libreoffice-math
+Suggests: fonts-crosextra-caladea, fonts-crosextra-carlito, libreoffice-base, libreoffice-gcj, libreoffice-java-common (>= 1:5.0.1~), default-jre | gcj-jre | openjdk-7-jre | openjdk-6-jre | sun-java5-jre | sun-java6-jre | java5-runtime | jre
+Replaces: libreoffice-core (<< 1:3.3.2-5)
+Filename: pool/main/libr/libreoffice-writer_5.0.1-1_amd64.deb
+Size: 15700926
+MD5sum: 0945ceb162dc5056e75e3abc69c2016d
+SHA1: cf84aa43790001a157becc6de1ab3fb3f1d7f520
+SHA256: 1bfedff437ff0dee460762cc9728471cdf0cfd84dcde7490166c6302316002e5
+Section: editors
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: office productivity suite -- word processor
+ LibreOffice is a full-featured office productivity suite that provides
+ a near drop-in replacement for Microsoft(R) Office.
+ .
+ This package contains the wordprocessor component for LibreOffice.
+
 Package: libseccomp-dev
 Source: libseccomp
 Version: 2.2.3-1
@@ -6628,6 +7321,31 @@ Homepage: http://undefined.org/python/#simplejson
 Description: JSON encoder and decoder for python3-dbg
  This package contains the extension built for the Python 3 debug interpreter.
 
+Package: python3-uno
+Source: libreoffice
+Version: 1:5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 789
+Depends: libreoffice-core (= 1:5.0.1-1), python3 (>= 3.4~), python3 (<< 3.5), python3.4, libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libpython3.4 (>= 3.4.2), libstdc++6 (>= 4.8), uno-libs3 (>= 4.4.0~alpha), ure
+Enhances: libreoffice
+Conflicts: python-uno, python3-uno (<< 1:4.0.2~rc2), python3.3-uno
+Replaces: libreoffice-common (<< 1:4.4.0~beta2), libreoffice-core (= 1:4.3.0~beta1-1), python3-uno (<< 1:4.0.2~rc2), python3.3-uno
+Filename: pool/main/p/python3-uno_5.0.1-1_amd64.deb
+Size: 210304
+MD5sum: 916985e8d2cf01e3d4557a167c3162b3
+SHA1: 7caf3b38cfb3c203ff7e96a46929fc716242298e
+SHA256: 2c935d093fd75200a6645e1129a4b89d98a1e5d52640d5bd105d35acd223b021
+Section: python
+Priority: optional
+Homepage: http://udk.openoffice.org/python/python-bridge.html
+Description: Python-UNO bridge
+ The Python-UNO bridge allows use of the standard LibreOffice API
+ with the Python scripting language. It additionally allows
+ others to develop UNO components in Python, thus Python UNO components
+ may be run within the LibreOffice process and can be called from C++
+ or the built in StarBasic scripting language.
+
 Package: python3-venv
 Source: python3-defaults
 Version: 3.4.3-4
@@ -7225,6 +7943,130 @@ Homepage: http://pkg-shadow.alioth.debian.org/
 Description: programs to help use subuids
  These programs help unprivileged users to create uid and gid mappings in
  user namespaces.
+
+Package: uno-libs3
+Source: libreoffice (1:5.0.1-1)
+Version: 5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 9243
+Depends: libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 5.2)
+Breaks: libreoffice-core (<< 1:4.3.0~), ure (<< 4.1.2~)
+Replaces: ure (<< 1:5.0.0~rc2-1)
+Filename: pool/main/u/uno-libs3_5.0.1-1_amd64.deb
+Size: 1856886
+MD5sum: c4148f5607b4d9ed87e7b108dde68b95
+SHA1: 2f86e9bfe677b7f2f7506b9d30e8af083e2172b0
+SHA256: b53591ba1279916e3337863e6aeb10cb9035c3a18cd76d59a74dbda076719f37
+Section: libs
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: LibreOffice UNO runtime environment -- public shared libraries
+ The Uno Runtime Environment (URE) is the well-known UNO component model
+ of LibreOffice, packaged up as an individual product.
+ .
+ It offers you a flexible, low-overhead component model that is most ideal
+ for (but not limited to) combining in one application components written in
+ different computer languages, and developed by different parties. You can use
+ it to create any kind of application, in whatever application domain you can
+ imagine.
+ .
+ This package contains the public libraries:
+  - libuno_sal: System Abstraction Layer (C Interface)
+  - libuno_salhelpergcc3: additional C++ functionality for sal
+  - libuno_cppu: C++ UNO bridge (C Interface)
+  - libuno_cppuhelpergcc3: additional C++ functionality for cppu
+  - libuno_purpenvhelpergcc3: "purpose environments" helper
+
+Package: uno-libs3-dbg
+Source: libreoffice (1:5.0.1-1)
+Version: 5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 27013
+Depends: uno-libs3 (= 5.0.1-1)
+Suggests: python-six
+Replaces: ure-dbg (<< 4.0.3-2)
+Filename: pool/main/u/uno-libs3-dbg_5.0.1-1_amd64.deb
+Size: 5469280
+MD5sum: 7c7353464136ddef67af7661392825b5
+SHA1: 108d894e426e70286e339cccb3efc7e77dd7869b
+SHA256: 48c09a3f32f6590ce91f1cff47c45d9c0af572c9028415137c992146b39a34f1
+Section: debug
+Priority: extra
+Homepage: http://www.libreoffice.org
+Description: LibreOffice UNO runtime environment -- public shared library debug symbols
+ The Uno Runtime Environment (URE) is the well-known UNO component model
+ of LibreOffice, packaged up as an individual product.
+ .
+ It offers you a flexible, low-overhead component model that is most ideal
+ for (but not limited to) combining in one application components written in
+ different computer languages, and developed by different parties. You can use
+ it to create any kind of application, in whatever application domain you can
+ imagine.
+ .
+ This package contains the (detached) debug symbols for the public libraries:
+  - libuno_sal: System Abstraction Layer (C Interface)
+  - libuno_salhelpergcc3: additional C++ functionality for sal
+  - libuno_cppu: C++ UNO bridge (C Interface)
+  - libuno_cppuhelpergcc3: additionl C++ functionality for cppu
+  - libuno_purpenvhelpergcc3: "purpose environments" helper
+
+Package: ure
+Source: libreoffice (1:5.0.1-1)
+Version: 5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 8929
+Depends: uno-libs3 (= 5.0.1-1), libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 5.2), libxml2 (>= 2.7.4)
+Suggests: java5-runtime
+Conflicts: cli-uno-bridge (<< 1:3.0.0~dev300m22)
+Breaks: libreoffice-core (<< 1:4.1.2~), openoffice.org-core (<< 1:3.3~)
+Replaces: libreoffice-common (<< 1:4.4.0), libreoffice-java-common (<< 1:3.0.0~dev300m12)
+Filename: pool/main/u/ure_5.0.1-1_amd64.deb
+Size: 2294012
+MD5sum: 2f7b4605536d1870293985514d19e0fc
+SHA1: 7fea825ca97a1ab8a03f4a171bfe1b9adc3d2fe7
+SHA256: fbbcee61bf5e30c2aaa14958d21de8e2e5d889002ffc7e182edf6162449a1421
+Section: libs
+Priority: optional
+Homepage: http://www.libreoffice.org
+Description: LibreOffice UNO runtime environment
+ The Uno Runtime Environment (URE) is the well-known UNO component model
+ of LibreOffice, packaged up as an individual product.
+ .
+ It offers you a flexible, low-overhead component model that is most ideal
+ for (but not limited to) combining in one application components written in
+ different computer languages, and developed by different parties. You can use
+ it to create any kind of application, in whatever application domain you can
+ imagine.
+
+Package: ure-dbg
+Source: libreoffice (1:5.0.1-1)
+Version: 5.0.1-1
+Architecture: amd64
+Maintainer: Debian LibreOffice Maintainers <debian-openoffice@lists.debian.org>
+Installed-Size: 27039
+Depends: uno-libs3-dbg (= 5.0.1-1), ure (= 5.0.1-1)
+Filename: pool/main/u/ure-dbg_5.0.1-1_amd64.deb
+Size: 5577638
+MD5sum: 7e15e588aa536fc7a6290cf054006f6d
+SHA1: 4edae72c18321acf519f2ecdb9f37e213b5f8e95
+SHA256: 0bb7c715cdfcb6ad7179566b74e2e8195946bf6bfb66bfc0d088343ce6f0c884
+Section: debug
+Priority: extra
+Homepage: http://www.libreoffice.org
+Description: LibreOffice UNO runtime environment -- debug symbols
+ The Uno Runtime Environment (URE) is the well-known UNO component model
+ of LibreOffice, packaged up as an individual product.
+ .
+ It offers you a flexible, low-overhead component model that is most ideal
+ for (but not limited to) combining in one application components written in
+ different computer languages, and developed by different parties. You can use
+ it to create any kind of application, in whatever application domain you can
+ imagine.
+ .
+ This package contains the (detached) debug symbols for the URE.
 
 Package: util-linux
 Version: 2.26.2-9
