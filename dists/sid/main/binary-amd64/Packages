@@ -4,7 +4,7 @@ Architecture: amd64
 Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Installed-Size: 346
 Depends: libacl1 (= 2.2.52-2), libasan2 (>= 5), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.4)
-Filename: pool/main/a/acl/acl_2.2.52-2_amd64.deb
+Filename: pool/main/a/acl_2.2.52-2_amd64.deb
 Size: 87760
 MD5sum: f1b4c88ed58aaa8d67a078a3ab099efe
 SHA1: 7048fc64810214a8cdb5d65829b8029588018735
@@ -25,7 +25,7 @@ Installed-Size: 850
 Depends: perl-base (>= 5.6.0), passwd (>= 1:4.0.12), debconf | debconf-2.0
 Suggests: liblocale-gettext-perl, perl-modules
 Replaces: manpages-it (<< 0.3.4-2), manpages-pl (<= 20051117-1)
-Filename: pool/main/a/adduser/adduser_3.113+nmu3_all.deb
+Filename: pool/main/a/adduser_3.113+nmu3_all.deb
 Size: 236466
 MD5sum: d8c68c2ecdf77efc4f470be84079b561
 SHA1: 3320992fb2ce697e36f897d1875562511207ec31
@@ -65,7 +65,7 @@ Depends: libasan2 (>= 5), libc6 (>= 2.8), debconf (>= 0.5) | debconf-2.0, python
 Suggests: apparmor-profiles, apparmor-profiles-extra, apparmor-docs, apparmor-utils
 Breaks: apparmor-easyprof-ubuntu (<< 1.2.22), apparmor-utils (<< 2.8.0-0ubuntu28), libapache2-mod-apparmor (<< 2.5.1-0ubuntu3), libvirt-bin (<< 1.2.6-0ubuntu6~), rsyslog (<< 7.4.4-1ubuntu9~)
 Replaces: apparmor-parser, apparmor-utils (<< 2.8.0-0ubuntu28), libapache2-mod-apparmor (<< 2.5.1-0ubuntu3)
-Filename: pool/main/a/apparmor/apparmor_2.9.2-3_amd64.deb
+Filename: pool/main/a/apparmor_2.9.2-3_amd64.deb
 Size: 810488
 MD5sum: 606ed8cb5748b6cc421128222c587e3a
 SHA1: 3336e7ca80d39b303c71932d11ec608713591cca
@@ -86,7 +86,7 @@ Version: 2.9.2-3
 Architecture: all
 Maintainer: Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>
 Installed-Size: 283
-Filename: pool/main/a/apparmor/apparmor-docs_2.9.2-3_all.deb
+Filename: pool/main/a/apparmor-docs_2.9.2-3_all.deb
 Size: 279014
 MD5sum: 23ad53c98869d55b95034877acf02fae
 SHA1: 8a3db197676a59a5eeadcfc4851b6546d350555f
@@ -108,7 +108,7 @@ Installed-Size: 80
 Depends: python3.4, python3-apparmor
 Breaks: apparmor-utils (<< 2.8.0-0ubuntu14)
 Replaces: apparmor-utils (<< 2.8.0-0ubuntu14)
-Filename: pool/main/a/apparmor/apparmor-easyprof_2.9.2-3_all.deb
+Filename: pool/main/a/apparmor-easyprof_2.9.2-3_all.deb
 Size: 51992
 MD5sum: cdcd45aafe07e3f9867f43b6612e5630
 SHA1: 149871cfe2b41dd9e447cd707285f5a107c695e0
@@ -129,7 +129,7 @@ Architecture: all
 Maintainer: Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>
 Installed-Size: 90
 Depends: libapparmor-perl, perl, libnotify-bin
-Filename: pool/main/a/apparmor/apparmor-notify_2.9.2-3_all.deb
+Filename: pool/main/a/apparmor-notify_2.9.2-3_all.deb
 Size: 53554
 MD5sum: 6408ecb96cf9fb301c491ba04e5ce14f
 SHA1: 7d631874381c24040c6cfaca1b709daf5b463219
@@ -149,7 +149,7 @@ Architecture: all
 Maintainer: Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>
 Installed-Size: 285
 Depends: apparmor (>= 2.8.96~2535-0ubuntu1~)
-Filename: pool/main/a/apparmor/apparmor-profiles_2.9.2-3_all.deb
+Filename: pool/main/a/apparmor-profiles_2.9.2-3_all.deb
 Size: 71394
 MD5sum: aa185044922428b9e437fe8f0e9daa5c
 SHA1: ceeca34a3bfce37d009158348fb795f7f796ae01
@@ -170,7 +170,7 @@ Maintainer: Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>
 Installed-Size: 220
 Depends: apparmor (>= 2.6.1-4ubuntu1), libapparmor-perl, python3-apparmor, python3
 Suggests: apparmor-docs, vim-addon-manager
-Filename: pool/main/a/apparmor/apparmor-utils_2.9.2-3_amd64.deb
+Filename: pool/main/a/apparmor-utils_2.9.2-3_amd64.deb
 Size: 95378
 MD5sum: a8d9efcb2aad7e83ab188c21b0cc9387
 SHA1: 58443c14ae789350b6bd125a6da986f49d165709
@@ -192,7 +192,7 @@ Suggests: aptitude | synaptic | wajig, dpkg-dev (>= 1.17.2), apt-doc, python-apt
 Conflicts: python-apt (<< 0.7.93.2~)
 Breaks: manpages-it (<< 2.80-4~), manpages-pl (<< 20060617-3~), openjdk-6-jdk (<< 6b24-1.11-0ubuntu1~), sun-java5-jdk (>> 0), sun-java6-jdk (>> 0)
 Replaces: manpages-it (<< 2.80-4~), manpages-pl (<< 20060617-3~), openjdk-6-jdk (<< 6b24-1.11-0ubuntu1~), sun-java5-jdk (>> 0), sun-java6-jdk (>> 0)
-Filename: pool/main/a/apt/apt_1.0.10.2_amd64.deb
+Filename: pool/main/a/apt_1.0.10.2_amd64.deb
 Size: 1603262
 MD5sum: d181cc9aa9351b080a3d31ecd137ba1d
 SHA1: 28b04a7d3c17af84175e598a5902e39be55fdb6c
@@ -220,7 +220,7 @@ Version: 1.0.10.2
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 777
-Filename: pool/main/a/apt/apt-doc_1.0.10.2_all.deb
+Filename: pool/main/a/apt-doc_1.0.10.2_all.deb
 Size: 302146
 MD5sum: 601436221662b3e4e88ac3aaa45cffe9
 SHA1: d5ea113a975494151a308d51a981821c6cd3a61b
@@ -238,7 +238,7 @@ Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 405
 Depends: libapt-pkg4.16 (>= 1.0.10.2), libasan2 (>= 5), libc6 (>= 2.4), libcurl3-gnutls (>= 7.16.2), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 5.2)
-Filename: pool/main/a/apt/apt-transport-https_1.0.10.2_amd64.deb
+Filename: pool/main/a/apt-transport-https_1.0.10.2_amd64.deb
 Size: 186174
 MD5sum: 0de0374a290ca255e9a02729ec00c1bc
 SHA1: 0a2ed65b233d2664dee14b571fd56e979e463666
@@ -261,7 +261,7 @@ Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 1926
 Depends: apt, libapt-inst1.7 (>= 0.9.15.4), libapt-pkg4.16 (>= 0.9.16), libasan2 (>= 5), libc6 (>= 2.4), libdb5.3, libgcc1 (>= 1:4.1.1), libstdc++6 (>= 5.2)
-Filename: pool/main/a/apt/apt-utils_1.0.10.2_amd64.deb
+Filename: pool/main/a/apt-utils_1.0.10.2_amd64.deb
 Size: 556938
 MD5sum: ab2a53d6985768b5688b9ca6ee0faa4e
 SHA1: a2a5bbb8e851af03d1941277f8dddc628f46460a
@@ -285,7 +285,7 @@ Architecture: all
 Maintainer: Gerrit Pape <pape@smarden.org>
 Installed-Size: 44
 Pre-Depends: dash
-Filename: pool/main/d/dash/ash_0.5.7-4_all.deb
+Filename: pool/main/a/ash_0.5.7-4_all.deb
 Size: 29134
 MD5sum: 781e865f390ba2f3f284fa979d754766
 SHA1: 44dc07e740ffd20c638bd3b9ea930a7a7a734a00
@@ -305,7 +305,7 @@ Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Installed-Size: 239
 Depends: libasan2 (>= 5), libattr1 (= 1:2.4.47-2), libc6 (>= 2.4)
 Conflicts: xfsdump (<< 2.0.0)
-Filename: pool/main/a/attr/attr_2.4.47-2_amd64.deb
+Filename: pool/main/a/attr_2.4.47-2_amd64.deb
 Size: 59370
 MD5sum: d6f6bb54e87809305fe99632b5821cbd
 SHA1: a6592d8623119c614b1b33b52bfa2a8fc9fcdd57
@@ -327,7 +327,7 @@ Architecture: amd64
 Maintainer: Laurent Bigonville <bigon@debian.org>
 Installed-Size: 470
 Depends: auditd, libasan2 (>= 5), libauparse0 (>= 1:2.2.2), libc6 (>= 2.15), libcap-ng0, libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libldap-2.4-2 (>= 2.4.7), libprelude2
-Filename: pool/main/a/audit/audispd-plugins_2.4.4-1_amd64.deb
+Filename: pool/main/a/audispd-plugins_2.4.4-1_amd64.deb
 Size: 117720
 MD5sum: 27e7e11cee647dde9ff04f5504f3871b
 SHA1: 302c64c1231a99613512495c5a2881e4d826de46
@@ -349,7 +349,7 @@ Maintainer: Laurent Bigonville <bigon@debian.org>
 Installed-Size: 2250
 Depends: lsb-base (>= 3.0-6), mawk | gawk, init-system-helpers (>= 1.18~), libasan2 (>= 5), libaudit1 (>= 1:2.4.2), libauparse0 (>= 1:2.3.1), libc6 (>= 2.16), libgssapi-krb5-2 (>= 1.10+dfsg~), libkrb5-3 (>= 1.6.dfsg.2), libwrap0 (>= 7.6-4~)
 Suggests: audispd-plugins
-Filename: pool/main/a/audit/auditd_2.4.4-1_amd64.deb
+Filename: pool/main/a/auditd_2.4.4-1_amd64.deb
 Size: 476492
 MD5sum: b7ca1122f760199d4656e04d08ce8c84
 SHA1: b45804bbe7eb55501f780f5a4b7a817a7a961f41
@@ -374,7 +374,7 @@ Pre-Depends: awk
 Breaks: initscripts (<< 2.88dsf-13.3), sendfile (<< 2.1b.20080616-5.2~)
 Replaces: base, dpkg (<= 1.15.0), miscutils
 Provides: base
-Filename: pool/main/b/base-files/base-files_9.4_amd64.deb
+Filename: pool/main/b/base-files_9.4_amd64.deb
 Size: 70560
 MD5sum: 4f7361c1aaeeb2144ad055c778cdc43d
 SHA1: 9a3af622027dccd10571a93d7fb2707c54125ab3
@@ -397,7 +397,7 @@ Installed-Size: 324
 Depends: libasan2 (>= 5), libc6 (>= 2.8), libdebconfclient0 (>= 0.145)
 Recommends: debconf (>= 0.5) | debconf-2.0
 Replaces: base
-Filename: pool/main/b/base-passwd/base-passwd_3.5.38_amd64.deb
+Filename: pool/main/b/base-passwd_3.5.38_amd64.deb
 Size: 88174
 MD5sum: dd49313e9d60f070607ce339be6d3a68
 SHA1: 3dbd39f9abb2ab7a84d88cde3856c484468f8f0a
@@ -423,7 +423,7 @@ Recommends: bash-completion (>= 20060301-0)
 Suggests: bash-doc
 Conflicts: bash-completion (<< 20060301-0)
 Replaces: bash-completion (<< 20060301-0), bash-doc (<= 2.05-1)
-Filename: pool/main/b/bash/bash_4.3-14_amd64.deb
+Filename: pool/main/b/bash_4.3-14_amd64.deb
 Size: 1728646
 MD5sum: 452c0f2942133fe09bccec8b0509a8d5
 SHA1: ab6101b1f611c97965db8d6e2148c2660aa06d67
@@ -450,7 +450,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 485
 Depends: bash (= 4.3-14)
-Filename: pool/main/b/bash/bash-builtins_4.3-14_amd64.deb
+Filename: pool/main/b/bash-builtins_4.3-14_amd64.deb
 Size: 86178
 MD5sum: 9135d72b05f2827496cab39abd62ff71
 SHA1: 182f9975844c78a0f3dbb07b683fb2058774628e
@@ -470,7 +470,7 @@ Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 2573
 Depends: dpkg (>= 1.15.4) | install-info
 Replaces: bash (<< 4.3-2)
-Filename: pool/main/b/bash/bash-doc_4.3-14_all.deb
+Filename: pool/main/b/bash-doc_4.3-14_all.deb
 Size: 1220142
 MD5sum: 44586c87e1239849fa892cfc8325c5b8
 SHA1: 7d252aa7dcfc618f31d1556dc77d025ee5c9505a
@@ -495,7 +495,7 @@ Installed-Size: 5798
 Depends: passwd (>= 1:4.0.3-10)
 Suggests: bash-doc
 Built-Using: glibc (= 2.19-19)
-Filename: pool/main/b/bash/bash-static_4.3-14_amd64.deb
+Filename: pool/main/b/bash-static_4.3-14_amd64.deb
 Size: 1404214
 MD5sum: 2fae9cc652985cd3db2debecf60fa8e7
 SHA1: 4345bb6d7f4a338b21fb51609551d357146765ef
@@ -520,7 +520,7 @@ Installed-Size: 114
 Depends: libasan2 (>= 5), libc6 (>= 2.15), lsb-base (>= 3.2-14)
 Breaks: initscripts (<< 2.88dsf-17), sysvinit-utils (<< 2.88dsf-17)
 Replaces: initscripts (<< 2.88dsf-17), sysvinit-utils (<< 2.88dsf-17)
-Filename: pool/main/s/sysvinit/bootlogd_2.88dsf-59.2_amd64.deb
+Filename: pool/main/b/bootlogd_2.88dsf-59.2_amd64.deb
 Size: 64248
 MD5sum: 4c54f029e8766c0097ab86ac8ce2bce3
 SHA1: ed90ac23f835cf63a2969ef72d07eacab631eb48
@@ -543,7 +543,7 @@ Pre-Depends: libasan2 (>= 5), libc6 (>= 2.15), libsystemd0
 Recommends: bsdmainutils
 Breaks: bash-completion (<< 1:2.1-4.1~)
 Replaces: bash-completion (<< 1:2.1-4.1~)
-Filename: pool/main/u/util-linux/bsdutils_2.26.2-9_amd64.deb
+Filename: pool/main/b/bsdutils_2.26.2-9_amd64.deb
 Size: 136524
 MD5sum: 3ddc01b896902186e0758a94ae52ee6b
 SHA1: e89ffb583832e264d1a5805364183220788c03a7
@@ -564,7 +564,7 @@ Installed-Size: 380
 Depends: libbz2-1.0 (= 1.0.6-8), libc6 (>= 2.14)
 Suggests: bzip2-doc
 Replaces: libbz2 (<< 0.9.5d-3)
-Filename: pool/main/b/bzip2/bzip2_1.0.6-8_amd64.deb
+Filename: pool/main/b/bzip2_1.0.6-8_amd64.deb
 Size: 60308
 MD5sum: 516b7e2a9156420f0f9ecc9b718bb5f2
 SHA1: 348f677569a569f014869a66856a9253b0f92da8
@@ -596,7 +596,7 @@ Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Installed-Size: 414
 Depends: dpkg (>= 1.15.4) | install-info
 Replaces: bzip2 (<< 1.0.4-0ubuntu2)
-Filename: pool/main/b/bzip2/bzip2-doc_1.0.6-8_all.deb
+Filename: pool/main/b/bzip2-doc_1.0.6-8_all.deb
 Size: 306180
 MD5sum: a5141a8ee24e9857172ac05e3ac519c6
 SHA1: 36f9251fe3dcc0812a60d9bb5cd64c24232b085d
@@ -620,7 +620,7 @@ Installed-Size: 1111
 Depends: libasan2 (>= 5), libc6 (>= 2.8), libdebian-installer4 (>= 0.101), libnewt0.52, libslang2 (>= 2.2.4), libtextwrap1, debconf, dpkg (>= 1.15.4)
 Suggests: cdebconf-gtk
 Provides: debconf-2.0
-Filename: pool/main/c/cdebconf/cdebconf_0.195_amd64.deb
+Filename: pool/main/c/cdebconf_0.195_amd64.deb
 Size: 288486
 MD5sum: 0ccd59f4b5556ed933c7ebe0191e4902
 SHA1: daf5216ef426f9eb144e823e9176511a3ee02ce5
@@ -641,7 +641,7 @@ Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 249
 Depends: cdebconf, libasan2 (>= 5), libc6 (>= 2.4), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.31.8), libgtk2.0-0 (>= 2.24), libpango-1.0-0 (>= 1.14.0), debconf (>= 0.5) | debconf-2.0
 Replaces: cdebconf (<< 0.144)
-Filename: pool/main/c/cdebconf/cdebconf-gtk_0.195_amd64.deb
+Filename: pool/main/c/cdebconf-gtk_0.195_amd64.deb
 Size: 91056
 MD5sum: 483f733b6c468deac747ca2b5b0c1345
 SHA1: 2119f8ee7f32dc3382390f2f67142569f29a1d45
@@ -663,7 +663,7 @@ Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Installed-Size: 3149
 Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.15), libcman3 (>= 3.1.8), libconfdb4 (>= 1.4.6), libcpg4 (>= 1.4.6), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.104), libdlm3 (>= 3.1.8), libquorum4 (>= 1.4.6), libsalck3 (>= 1.1.4), libudev1 (>= 183), lvm2 (= 2.02.127-1), lsb-base
 Recommends: corosync | openais | cman
-Filename: pool/main/l/lvm2/clvm_2.02.127-1_amd64.deb
+Filename: pool/main/c/clvm_2.02.127-1_amd64.deb
 Size: 778406
 MD5sum: a373de37556ed76c1d09f2ae95fc63f7
 SHA1: b8e60e41a3dea05aec6826ce4fc296809dbcb41a
@@ -687,7 +687,7 @@ Installed-Size: 155
 Depends: libc6-dev | libc-dev, libcomerr2 (= 1.42.13-1)
 Suggests: doc-base
 Replaces: e2fslibs-dev (<< 1.33-2), libkrb5-dev (<< 1.3)
-Filename: pool/main/e/e2fsprogs/comerr-dev_2.1-1.42.13-1_amd64.deb
+Filename: pool/main/c/comerr-dev_2.1-1.42.13-1_amd64.deb
 Size: 44732
 MD5sum: 3da1bfd6c001d16d1ac43eef268b0eac
 SHA1: c8f0079d24a3142c1184a5fdbb170c7546a68221
@@ -711,7 +711,7 @@ Installed-Size: 36418
 Pre-Depends: libacl1 (>= 2.2.51-8), libasan2 (>= 5), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.15), libcap2 (>= 1:2.10), libgmp10, libselinux1 (>= 2.1.13)
 Conflicts: timeout
 Replaces: mktemp, realpath, timeout
-Filename: pool/main/c/coreutils/coreutils_8.23-4_amd64.deb
+Filename: pool/main/c/coreutils_8.23-4_amd64.deb
 Size: 4501710
 MD5sum: 7bebb02092acd3869b400c581f8e596d
 SHA1: 6956594135cce70d409f23d4029f0df2403c9017
@@ -746,7 +746,7 @@ Conflicts: cryptsetup-luks
 Breaks: hashalot (<< 0.3-2)
 Replaces: cryptsetup-luks, hashalot (<< 0.3-2)
 Provides: cryptsetup-luks
-Filename: pool/main/c/cryptsetup/cryptsetup_1.6.6-5_amd64.deb
+Filename: pool/main/c/cryptsetup_1.6.6-5_amd64.deb
 Size: 161770
 MD5sum: a647da8b8de1f91524853861a2bc8fcf
 SHA1: be12272e61b6e7108d59725a92143a7c4cb607eb
@@ -775,7 +775,7 @@ Installed-Size: 971
 Depends: libasan2 (>= 5), libc6 (>= 2.15), libcryptsetup4 (>= 2:1.6), libpopt0 (>= 1.14)
 Breaks: cryptsetup (<< 2:1.4.3-1~)
 Replaces: cryptsetup (<< 2:1.4.3-1~)
-Filename: pool/main/c/cryptsetup/cryptsetup-bin_1.6.6-5_amd64.deb
+Filename: pool/main/c/cryptsetup-bin_1.6.6-5_amd64.deb
 Size: 215584
 MD5sum: 66687a1824d8726f0f61865d1071e0a3
 SHA1: b2f2ba8d624002c57addcd1f31c692475460f78c
@@ -799,7 +799,7 @@ Maintainer: Gerrit Pape <pape@smarden.org>
 Installed-Size: 730
 Pre-Depends: libc6 (>= 2.14)
 Depends: debianutils (>= 2.15), dpkg (>= 1.15.0)
-Filename: pool/main/d/dash/dash_0.5.7-4_amd64.deb
+Filename: pool/main/d/dash_0.5.7-4_amd64.deb
 Size: 188356
 MD5sum: fb5f25fbfa4e7cf22c27801c6cb5b112
 SHA1: 3b37d2f3db0a8a5029c7de3d3aa226d8038342a2
@@ -826,7 +826,7 @@ Suggests: debconf-doc, debconf-utils, whiptail | dialog, libterm-readline-gnu-pe
 Conflicts: apt (<< 0.3.12.1), cdebconf (<< 0.96), debconf-tiny, debconf-utils (<< 1.3.22), dialog (<< 0.9b-20020814-1), menu (<= 2.1.3-1), whiptail (<< 0.51.4-11), whiptail-utf8 (<= 0.50.17-13)
 Replaces: debconf-tiny
 Provides: debconf-2.0
-Filename: pool/main/d/debconf/debconf_1.5.57_all.deb
+Filename: pool/main/d/debconf_1.5.57_all.deb
 Size: 160014
 MD5sum: 1b9a01d580699fb3a9bc577bb943a789
 SHA1: 6e3be23461a901b8cc96d8a3028bec880a7aea91
@@ -846,7 +846,7 @@ Maintainer: Debconf Developers <debconf-devel@lists.alioth.debian.org>
 Installed-Size: 375
 Suggests: debian-policy (>= 3.5)
 Conflicts: debconf (<< 0.3.10)
-Filename: pool/main/d/debconf/debconf-doc_1.5.57_all.deb
+Filename: pool/main/d/debconf-doc_1.5.57_all.deb
 Size: 316816
 MD5sum: ffb42d5fa8c31367d348458182a552a0
 SHA1: aa8e8919d031dbfa6cda051d2ed7f9e176144892
@@ -868,7 +868,7 @@ Installed-Size: 780
 Depends: debconf (= 1.5.57), liblocale-gettext-perl, libtext-iconv-perl, libtext-wrapi18n-perl, libtext-charwidth-perl
 Conflicts: debconf-english, debconf-utils (<< 1.3.22)
 Replaces: debconf (<< 1.3.0), debconf-utils (<< 1.3.22)
-Filename: pool/main/d/debconf/debconf-i18n_1.5.57_all.deb
+Filename: pool/main/d/debconf-i18n_1.5.57_all.deb
 Size: 205772
 MD5sum: 3319938139836f8e8182c602a8c243f1
 SHA1: 2a1b9ead43c93901a4106435efaa00d4c677782b
@@ -890,7 +890,7 @@ Installed-Size: 105
 Depends: debconf (= 1.5.57)
 Conflicts: debconf (<< 0.1.0)
 Replaces: debconf (<< 0.1.0)
-Filename: pool/main/d/debconf/debconf-utils_1.5.57_all.deb
+Filename: pool/main/d/debconf-utils_1.5.57_all.deb
 Size: 57236
 MD5sum: 3000baa1960a182043cd9330e0ec8df2
 SHA1: e4c6d052d3ca3fa457606926d06fd2635723c41d
@@ -908,7 +908,7 @@ Installed-Size: 87
 Depends: gpgv
 Recommends: gnupg
 Breaks: apt (<< 0.7.25.1)
-Filename: pool/main/d/debian-archive-keyring/debian-archive-keyring_2014.3_all.deb
+Filename: pool/main/d/debian-archive-keyring_2014.3_all.deb
 Size: 39978
 MD5sum: 511003d4281752c1d202ce2b94dfadc5
 SHA1: e9b50416e876857db0ef66ae560e29bda2212de8
@@ -929,7 +929,7 @@ Installed-Size: 246
 Pre-Depends: libasan2 (>= 5), libc6 (>= 2.15)
 Depends: sensible-utils
 Replaces: manpages-pl (<< 1:0.5)
-Filename: pool/main/d/debianutils/debianutils_4.5.1_amd64.deb
+Filename: pool/main/d/debianutils_4.5.1_amd64.deb
 Size: 106178
 MD5sum: 7b8a4ed0a13c4c5ccacf0e10ea419887
 SHA1: 7227957062046211a6cf9de61f8671469811ff34
@@ -955,7 +955,7 @@ Installed-Size: 67
 Suggests: apparmor-easyprof
 Breaks: debhelper (<< 9.20120115ubuntu3)
 Replaces: debhelper (<< 9.20120115ubuntu3)
-Filename: pool/main/a/apparmor/dh-apparmor_2.9.2-3_all.deb
+Filename: pool/main/d/dh-apparmor_2.9.2-3_all.deb
 Size: 49342
 MD5sum: 53514621b05ab811d8222f30cf6e9dd9
 SHA1: 0e0bc3b12b8fd6fba14acb720d10847cd2c03d46
@@ -977,7 +977,7 @@ Maintainer: pkg-systemd-maintainers <pkg-systemd-maintainers@lists.alioth.debian
 Installed-Size: 63
 Depends: perl, debhelper
 Suggests: augeas-tools
-Filename: pool/main/i/init-system-helpers/dh-systemd_1.23_all.deb
+Filename: pool/main/d/dh-systemd_1.23_all.deb
 Size: 18704
 MD5sum: 360043bae24002ca1242f39feba64a4c
 SHA1: 7a40284e0c34ab8dd0cffa36d071bec9770b2fe4
@@ -1003,7 +1003,7 @@ Installed-Size: 2435
 Pre-Depends: libasan2 (>= 5), libc6 (>= 2.8)
 Suggests: diffutils-doc, wdiff
 Replaces: diff
-Filename: pool/main/d/diffutils/diffutils_3.3-1_amd64.deb
+Filename: pool/main/d/diffutils_3.3-1_amd64.deb
 Size: 548406
 MD5sum: 4a18bd711754b0ab1698eca1cc4c148b
 SHA1: 2a06844bfbf5cb400efcaf2f2fc9a11c70baf77e
@@ -1032,7 +1032,7 @@ Version: 1:3.3-1
 Architecture: all
 Maintainer: Santiago Vila <sanvila@debian.org>
 Installed-Size: 754
-Filename: pool/main/d/diffutils/diffutils-doc_3.3-1_all.deb
+Filename: pool/main/d/diffutils-doc_3.3-1_all.deb
 Size: 96122
 MD5sum: 46a60ddbdb0256cc174eebd0fefa9113
 SHA1: be3506b3bc92eca6d0a433cac271c12572910d2b
@@ -1050,7 +1050,7 @@ Architecture: amd64
 Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Installed-Size: 215
 Depends: libc6 (>= 2.15), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.103), liblvm2cmd2.02 (>= 2.02.127), init-system-helpers (>= 1.18~)
-Filename: pool/main/l/lvm2/dmeventd_1.02.104-1_amd64.deb
+Filename: pool/main/d/dmeventd_1.02.104-1_amd64.deb
 Size: 62284
 MD5sum: 49404da89e4763abdba29474eb40ae04
 SHA1: 9fe4fcaa7c8b828d707bc97f2120199085d659a1
@@ -1075,7 +1075,7 @@ Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Installed-Size: 393
 Depends: libc6 (>= 2.14), libdevmapper1.02.1 (>= 2:1.02.104), util-linux (>> 2.16)
 Conflicts: devicekit-disks (<< 009)
-Filename: pool/main/l/lvm2/dmsetup_1.02.104-1_amd64.deb
+Filename: pool/main/d/dmsetup_1.02.104-1_amd64.deb
 Size: 112802
 MD5sum: 2e7f4ac8d62578ef5136ae625ed75938
 SHA1: f55e16d5323a5207317c7d34b135ec6e22d3d691
@@ -1105,7 +1105,7 @@ Pre-Depends: libasan2 (>= 5), libbz2-1.0, libc6 (>= 2.11), liblzma5 (>= 5.1.1alp
 Suggests: apt
 Breaks: dpkg-dev (<< 1.15.8), libdpkg-perl (<< 1.15.8)
 Replaces: manpages-it (<< 2.80-4)
-Filename: pool/main/d/dpkg/dpkg_1.18.2_amd64.deb
+Filename: pool/main/d/dpkg_1.18.2_amd64.deb
 Size: 3800546
 MD5sum: d97fd224bf0dabd84b35a943cb955779
 SHA1: 33281813cb685e937dea257e1cb54e66e626fea8
@@ -1133,7 +1133,7 @@ Recommends: gcc | c-compiler, build-essential, fakeroot, gnupg | gnupg2, gpgv | 
 Suggests: debian-keyring
 Breaks: devscripts (<< 2.14.10), dpkg-cross (<< 2.0.0)
 Replaces: manpages-it (<< 2.80-4)
-Filename: pool/main/d/dpkg/dpkg-dev_1.18.2_all.deb
+Filename: pool/main/d/dpkg-dev_1.18.2_all.deb
 Size: 1423412
 MD5sum: 383d4596fcc93aede787ba8206944adb
 SHA1: 1613efe97e63e808be4666324a5c17cb8717beaf
@@ -1161,7 +1161,7 @@ Depends: libasan2 (>= 5), libc6 (>= 2.11), libgcc1 (>= 1:4.1.1), libncursesw5 (>
 Suggests: perl
 Conflicts: dpkg-ftp, dpkg-multicd
 Replaces: dpkg-ftp, dpkg-multicd, manpages-it (<< 2.80-4)
-Filename: pool/main/d/dpkg/dselect_1.18.2_amd64.deb
+Filename: pool/main/d/dselect_1.18.2_amd64.deb
 Size: 1357798
 MD5sum: 7e35ea1a795b3c9012d34df444c098ba
 SHA1: 7c617d0efa630b4741855d3a12e823db17ef7650
@@ -1184,7 +1184,7 @@ Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 2134
 Recommends: sash | bash-static | zsh-static | busybox-static | zsh30-static
-Filename: pool/main/e/e2fsprogs/e2fsck-static_1.42.13-1_amd64.deb
+Filename: pool/main/e/e2fsck-static_1.42.13-1_amd64.deb
 Size: 485066
 MD5sum: 49fe2b05f39af6574648c53eb729684d
 SHA1: 365dc4351fb83e50e92c7e1d013c5615e047498f
@@ -1211,7 +1211,7 @@ Installed-Size: 1672
 Depends: libasan2 (>= 5), libc6 (>= 2.17)
 Replaces: e2fsprogs (<< 1.34-1)
 Provides: libe2p2, libext2fs2
-Filename: pool/main/e/e2fsprogs/e2fslibs_1.42.13-1_amd64.deb
+Filename: pool/main/e/e2fslibs_1.42.13-1_amd64.deb
 Size: 446358
 MD5sum: 981b5ebca980907a49529591e0c4162d
 SHA1: ac0dec148d3953eab0eda407ae9e8c0e173444f0
@@ -1237,7 +1237,7 @@ Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 2300
 Depends: e2fslibs (= 1.42.13-1)
-Filename: pool/main/e/e2fsprogs/e2fslibs-dbg_1.42.13-1_amd64.deb
+Filename: pool/main/e/e2fslibs-dbg_1.42.13-1_amd64.deb
 Size: 540522
 MD5sum: 14da94c58b9c5cef3c0dca953fc52231
 SHA1: 0c51ae25dd2efe8c54b585f3b8fa38ec7a3823a1
@@ -1260,7 +1260,7 @@ Depends: libc6-dev | libc-dev, comerr-dev, e2fslibs (= 1.42.13-1)
 Suggests: doc-base
 Replaces: libkrb5-dev (<< 1.3)
 Provides: e2p-dev, ext2fs-dev
-Filename: pool/main/e/e2fsprogs/e2fslibs-dev_1.42.13-1_amd64.deb
+Filename: pool/main/e/e2fslibs-dev_1.42.13-1_amd64.deb
 Size: 530268
 MD5sum: 3256ab21e479109e0865adafd2ac13bf
 SHA1: f08e6636c7011d9bc27d2d4582bfbafb5800c05a
@@ -1286,7 +1286,7 @@ Pre-Depends: e2fslibs (= 1.42.13-1), libasan2 (>= 5), libblkid1 (>= 2.17.2), lib
 Suggests: gpart, parted, e2fsck-static
 Conflicts: dump (<< 0.4b4-4), initscripts (<< 2.85-4), quota (<< 1.55-8.1), sysvinit (<< 2.85-4)
 Replaces: hurd (<= 20040301-1), libblkid1 (<< 1.38+1.39-WIP-2005.12.10-2), libuuid1 (<< 1.38+1.39-WIP-2005.12.10-2)
-Filename: pool/main/e/e2fsprogs/e2fsprogs_1.42.13-1_amd64.deb
+Filename: pool/main/e/e2fsprogs_1.42.13-1_amd64.deb
 Size: 1193762
 MD5sum: 5462c2cefe9c0b25a529e87f49faeda2
 SHA1: 13734a8fbed48618f9b08af87d2b0a575c423964
@@ -1311,7 +1311,7 @@ Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 7189
 Depends: e2fsprogs (= 1.42.13-1)
-Filename: pool/main/e/e2fsprogs/e2fsprogs-dbg_1.42.13-1_amd64.deb
+Filename: pool/main/e/e2fsprogs-dbg_1.42.13-1_amd64.deb
 Size: 1627710
 MD5sum: 016da85d7b46fb5492b5698898ed9918
 SHA1: a45ddd7fd8578e23ebe5e1c4bbe80c1f7e9cb021
@@ -1333,7 +1333,7 @@ Maintainer: Andreas Metzler <ametzler@debian.org>
 Installed-Size: 4027
 Pre-Depends: libasan2 (>= 5), libc6 (>= 2.7)
 Suggests: mlocate | locate
-Filename: pool/main/f/findutils/findutils_4.4.2-9_amd64.deb
+Filename: pool/main/f/findutils_4.4.2-9_amd64.deb
 Size: 808042
 MD5sum: 17c94fdf652b6b3d0472e52b03791b16
 SHA1: 3f7efaa6ef275a633bdefe71ce301e6c2d25ebda
@@ -1359,7 +1359,7 @@ Suggests: gimp-help-en | gimp-help, gimp-data-extras, gvfs-backends, libasound2
 Breaks: gimp-plugin-registry (<< 4.20120506)
 Replaces: gimp-plugin-registry (<< 4.20120506)
 Provides: gimp-python
-Filename: pool/main/g/gimp/gimp_2.8.14-1_amd64.deb
+Filename: pool/main/g/gimp_2.8.14-1_amd64.deb
 Size: 11258390
 MD5sum: b716a008676aedc3018176e34f74fff7
 SHA1: 876f74acdb7634f70dfbfef64b3e4cf7af384cab
@@ -1394,7 +1394,7 @@ Installed-Size: 43208
 Recommends: gimp
 Conflicts: gimp (<< 2.4.0~rc2-2), gimp-python (<< 2.6.0)
 Replaces: gimp (<< 2.4.0~rc2-2), gimp-python (<< 2.6.0)
-Filename: pool/main/g/gimp/gimp-data_2.8.14-1_all.deb
+Filename: pool/main/g/gimp-data_2.8.14-1_all.deb
 Size: 8401242
 MD5sum: 37aa6039956646930a76dc009e14c282
 SHA1: c29147815c92077600927765d0a2460353c8647e
@@ -1413,7 +1413,7 @@ Architecture: amd64
 Maintainer: Ari Pollak <ari@debian.org>
 Installed-Size: 78816
 Depends: gimp (= 2.8.14-1) | libgimp2.0 (= 2.8.14-1)
-Filename: pool/main/g/gimp/gimp-dbg_2.8.14-1_amd64.deb
+Filename: pool/main/g/gimp-dbg_2.8.14-1_amd64.deb
 Size: 17824260
 MD5sum: 97ab9bdf76e26efdb2ef87c15ff9729e
 SHA1: e11de648cdd1367c65d70b95e140e25281acccb3
@@ -1434,7 +1434,7 @@ Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 2269
 Suggests: glibc-doc-reference
-Filename: pool/main/g/glibc/glibc-doc_2.19-19_all.deb
+Filename: pool/main/g/glibc-doc_2.19-19_all.deb
 Size: 2266468
 MD5sum: 251b143a44ab9cd0125275b8413b3f02
 SHA1: 475265f5cecafe9bd1b020608fbacfa1894af67e
@@ -1457,7 +1457,7 @@ Installed-Size: 23903
 Recommends: xz-utils
 Conflicts: eglibc-source
 Replaces: eglibc-source
-Filename: pool/main/g/glibc/glibc-source_2.19-19_all.deb
+Filename: pool/main/g/glibc-source_2.19-19_all.deb
 Size: 13945970
 MD5sum: d7624404cbfcd6e082e63067322fb407
 SHA1: 2a1e909a20a141c95339043a843347d41f2db060
@@ -1480,7 +1480,7 @@ Pre-Depends: libasan2 (>= 5), libc6 (>= 2.4), libpcre3 (>= 1:8.35)
 Depends: dpkg (>= 1.15.4) | install-info
 Conflicts: rgrep
 Provides: rgrep
-Filename: pool/main/g/grep/grep_2.21-2_amd64.deb
+Filename: pool/main/g/grep_2.21-2_amd64.deb
 Size: 523044
 MD5sum: 3b248d9d20b7d54805da0d6031ff0345
 SHA1: 3a4095e28df748ace36187b537b8c6c5d0ecf195
@@ -1512,7 +1512,7 @@ Installed-Size: 64
 Pre-Depends: libasan2 (>= 5), libc6 (>= 2.4)
 Breaks: nis (<< 3.17-30)
 Replaces: nis (<< 3.17-30)
-Filename: pool/main/h/hostname/hostname_3.16_amd64.deb
+Filename: pool/main/h/hostname_3.16_amd64.deb
 Size: 18624
 MD5sum: 632a584b3a15400dc3c8030036c0fcb5
 SHA1: 07c5e39aaa06256917b5d2941595fd36f26e3a2a
@@ -1533,7 +1533,7 @@ Depends: python (>= 2.7.9-1), python-tk, idle-python2.7
 Enhances: python
 Breaks: python (<< 2.7.3-1~)
 Replaces: python (<< 2.7.3-1~)
-Filename: pool/main/p/python-defaults/idle_2.7.9-1_all.deb
+Filename: pool/main/i/idle_2.7.9-1_all.deb
 Size: 3090
 MD5sum: 8804214156d9cc68077efb9c6f10b2dc
 SHA1: bdf7721c9403a9745293ff34570ce56469bcaccb
@@ -1550,18 +1550,18 @@ Description: IDE for Python using Tkinter (default version)
 
 Package: idle-python2.7
 Source: python2.7
-Version: 2.7.10-3
+Version: 2.7.10-4
 Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 1200
 Depends: python2.7, python-tk (>= 2.6~a3), python2.7-tk
 Enhances: python2.7
 Replaces: python2.7 (<< 2.6.1-2)
-Filename: pool/main/p/python2.7/idle-python2.7_2.7.10-3_all.deb
-Size: 308428
-MD5sum: dacf49a8fe446a9771c00e3544f4e2de
-SHA1: 285b914a522097fa0e0f59807e2f0a61d33f9a39
-SHA256: ce2d612c1ccfdec6b4de184f830230dd087cb387d1bdfa33e840e833a5b9e837
+Filename: pool/main/i/idle-python2.7_2.7.10-4_all.deb
+Size: 309030
+MD5sum: 269f2cc2c946e57f1d765c8a94c8bb7f
+SHA1: b4c594e53000d0faf45685ab6c6d42a70634b2df
+SHA256: 43903c84ec58243a8c69a2abcebe8a12030b11c5957fc6649a8cb3df7a8a9c7e
 Section: python
 Priority: optional
 Description: IDE for Python (v2.7) using Tkinter
@@ -1578,7 +1578,7 @@ Depends: python3 (>= 3.4.3-4), python3-tk, idle-python3.4
 Enhances: python3
 Breaks: python3 (<< 3.2.3-1~)
 Replaces: python3 (<< 3.2.3-1~)
-Filename: pool/main/p/python3-defaults/idle3_3.4.3-4_all.deb
+Filename: pool/main/i/idle3_3.4.3-4_all.deb
 Size: 3052
 MD5sum: 6d02bb731535bccdc546836933b14ce4
 SHA1: 01eb376cdd628eb6a7155489fc051f8af571df67
@@ -1600,7 +1600,7 @@ Architecture: amd64
 Maintainer: Guillem Jover <guillem@debian.org>
 Installed-Size: 991
 Depends: libasan2 (>= 5), libc6 (>= 2.15), libreadline6 (>= 6.0), netbase
-Filename: pool/main/i/inetutils/inetutils-ftp_1.9.4-1_amd64.deb
+Filename: pool/main/i/inetutils-ftp_1.9.4-1_amd64.deb
 Size: 388698
 MD5sum: 380a7cc578d1bcc664b0db0119608863
 SHA1: 6de822d407f34783735ddaea9c72826ee12b6d5a
@@ -1621,7 +1621,7 @@ Installed-Size: 951
 Depends: libasan2 (>= 5), libc6 (>= 2.11), libpam0g (>= 0.99.7.1), libwrap0 (>= 7.6-4~), netbase, inetutils-syslogd | system-log-daemon
 Conflicts: ftp-server
 Provides: ftp-server
-Filename: pool/main/i/inetutils/inetutils-ftpd_1.9.4-1_amd64.deb
+Filename: pool/main/i/inetutils-ftpd_1.9.4-1_amd64.deb
 Size: 374668
 MD5sum: cde1d484ae5c5c73bf724382688b140f
 SHA1: 934c1b899c6a7526fb778180ff24da032e712168
@@ -1642,7 +1642,7 @@ Installed-Size: 639
 Depends: libasan2 (>= 5), libc6 (>= 2.15), update-inetd, tcpd, lsb-base, inetutils-syslogd | system-log-daemon
 Conflicts: inet-superserver, netkit-inetd
 Provides: inet-superserver, netkit-inetd
-Filename: pool/main/i/inetutils/inetutils-inetd_1.9.4-1_amd64.deb
+Filename: pool/main/i/inetutils-inetd_1.9.4-1_amd64.deb
 Size: 299334
 MD5sum: 55a2e4179ad48c45ef290754a8c645a9
 SHA1: d2cdad397f50eee89ba5340529839632dee17cac
@@ -1666,7 +1666,7 @@ Installed-Size: 980
 Depends: libasan2 (>= 5), libc6 (>= 2.15), netbase
 Conflicts: ping
 Provides: ping
-Filename: pool/main/i/inetutils/inetutils-ping_1.9.4-1_amd64.deb
+Filename: pool/main/i/inetutils-ping_1.9.4-1_amd64.deb
 Size: 317336
 MD5sum: bf2a10059ad0d78c97fe762b7cd70847
 SHA1: 9faa710c8d5215850696dad1fc1b2a9bbb54ff2c
@@ -1690,7 +1690,7 @@ Depends: libasan2 (>= 5), libc6 (>= 2.8), netbase, lsb-base
 Conflicts: linux-kernel-log-daemon, system-log-daemon
 Replaces: syslogd
 Provides: linux-kernel-log-daemon, system-log-daemon
-Filename: pool/main/i/inetutils/inetutils-syslogd_1.9.4-1_amd64.deb
+Filename: pool/main/i/inetutils-syslogd_1.9.4-1_amd64.deb
 Size: 304294
 MD5sum: 7ac8ef39a5d30fecfedfe06318402961
 SHA1: b148be32dc21d2fc2b3e83fc87e3cd868fc3c325
@@ -1712,7 +1712,7 @@ Installed-Size: 573
 Depends: libasan2 (>= 5), libc6 (>= 2.15), libncurses5 (>= 6), libtinfo5 (>= 6), netbase
 Replaces: talk-hurd
 Provides: talk
-Filename: pool/main/i/inetutils/inetutils-talk_1.9.4-1_amd64.deb
+Filename: pool/main/i/inetutils-talk_1.9.4-1_amd64.deb
 Size: 280224
 MD5sum: 04160fdb57bea027deabb45c12be1250
 SHA1: 9122aaed3524f6cba3081e6f0f1a0678fbc88321
@@ -1734,7 +1734,7 @@ Depends: libasan2 (>= 5), libc6 (>= 2.4), netbase, inetutils-syslogd | system-lo
 Conflicts: talkd
 Replaces: talkd-hurd
 Provides: talkd
-Filename: pool/main/i/inetutils/inetutils-talkd_1.9.4-1_amd64.deb
+Filename: pool/main/i/inetutils-talkd_1.9.4-1_amd64.deb
 Size: 414540
 MD5sum: 4896c08171e3ad3b7f0e60cfb6370524
 SHA1: 23851e66d15ff37e18e9cac01c22ff932cb37018
@@ -1756,7 +1756,7 @@ Installed-Size: 1090
 Depends: libasan2 (>= 5), libc6 (>= 2.15), libshishi0 (>= 0.0.30), libtinfo5 (>= 6), netbase
 Replaces: telnet-hurd
 Provides: telnet-client
-Filename: pool/main/i/inetutils/inetutils-telnet_1.9.4-1_amd64.deb
+Filename: pool/main/i/inetutils-telnet_1.9.4-1_amd64.deb
 Size: 403598
 MD5sum: 11aee84fa562513ba895d144a386decd
 SHA1: 73cae83fe020502e0ca35df88b2c8d1f14cb0f2c
@@ -1778,7 +1778,7 @@ Depends: libasan2 (>= 5), libc6 (>= 2.15), libshishi0 (>= 0.0.30), libtinfo5 (>=
 Conflicts: telnet-server
 Replaces: telnetd-hurd
 Provides: telnet-server
-Filename: pool/main/i/inetutils/inetutils-telnetd_1.9.4-1_amd64.deb
+Filename: pool/main/i/inetutils-telnetd_1.9.4-1_amd64.deb
 Size: 376048
 MD5sum: b16798ffd02b03d96c182be270a375bb
 SHA1: 572896418b3db249de6c8d130c52a275d4ea74fe
@@ -1797,7 +1797,7 @@ Architecture: amd64
 Maintainer: Guillem Jover <guillem@debian.org>
 Installed-Size: 756
 Depends: libasan2 (>= 5), libc6 (>= 2.4)
-Filename: pool/main/i/inetutils/inetutils-tools_1.9.4-1_amd64.deb
+Filename: pool/main/i/inetutils-tools_1.9.4-1_amd64.deb
 Size: 316694
 MD5sum: 4ad27e13c65432e45b1fc45e3acba4f5
 SHA1: 1f62957142e7c19dbcc5df1c6c6af6e27bc4dc58
@@ -1819,7 +1819,7 @@ Maintainer: Guillem Jover <guillem@debian.org>
 Installed-Size: 541
 Depends: libasan2 (>= 5), libc6 (>= 2.15), netbase
 Provides: traceroute
-Filename: pool/main/i/inetutils/inetutils-traceroute_1.9.4-1_amd64.deb
+Filename: pool/main/i/inetutils-traceroute_1.9.4-1_amd64.deb
 Size: 270340
 MD5sum: bc3e0cb8e26ac5e33d429fdc2809eabf
 SHA1: bafb75acf42889ea422678b358d9bf62a385b9bb
@@ -1842,7 +1842,7 @@ Essential: yes
 Maintainer: pkg-systemd-maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
 Installed-Size: 13
 Pre-Depends: systemd-sysv | sysvinit-core | upstart
-Filename: pool/main/i/init-system-helpers/init_1.23_amd64.deb
+Filename: pool/main/i/init_1.23_amd64.deb
 Size: 5380
 MD5sum: ea8d3721327e7fb07e0e574e3a93fe2b
 SHA1: e17c80417b235d16b9022fe3189b038b739056d2
@@ -1862,7 +1862,7 @@ Maintainer: pkg-systemd-maintainers <pkg-systemd-maintainers@lists.alioth.debian
 Installed-Size: 53
 Depends: perl-base (>= 5.20.1-3)
 Breaks: systemd (<< 44-12)
-Filename: pool/main/i/init-system-helpers/init-system-helpers_1.23_all.deb
+Filename: pool/main/i/init-system-helpers_1.23_all.deb
 Size: 15184
 MD5sum: b9c067f6108fd49931072e69b77377f4
 SHA1: 816b43dacdd90e4dffe1904d747569282b061a58
@@ -1891,7 +1891,7 @@ Recommends: psmisc, e2fsprogs
 Conflicts: libdevmapper1.02.1 (<< 2:1.02.24-1)
 Breaks: aide (<< 0.15.1-5), atm-tools (<< 1:2.5.1-1.3), autofs (<< 5.0.0), bootchart (<< 0.10~svn407-4), console-common (<< 0.7.86), console-setup (<< 1.74), cruft (<< 0.9.16), eepc-acpi-scripts (<< 1.1.12), fcheck (<< 2.7.59-16), hostapd (<< 1:0.7.3-3), hurd (<< 0.5.git20131101~), ifupdown (<< 0.7.46), initramfs-tools (<< 0.104), libpam-mount (<< 2.13-1), live-build (<< 3.0~a26-1), ltsp-client-core (<< 5.2.16-1), mdadm (<< 3.2.2-1), nbd-client (<< 1:2.9.23-1), nfs-common (<< 1:1.2.5-3), portmap (<< 6.0.0-2), readahead-fedora (<< 2:1.5.6-3), resolvconf (<< 1.49), rpcbind (<< 0.2.0-7), rsyslog (<< 5.8.2-2), selinux-policy-default (<= 2:0.2.20100524-9), splashy (<< 0.3.13-5.1+b1), sysklogd (<< 1.5-6.2), util-linux (<< 2.26.2-4~), wpasupplicant (<< 0.7.3-4), xymon (<< 4.3.0~beta2.dfsg-9)
 Replaces: libc0.1, libc0.3, libc6, libc6.1
-Filename: pool/main/s/sysvinit/initscripts_2.88dsf-59.2_amd64.deb
+Filename: pool/main/i/initscripts_2.88dsf-59.2_amd64.deb
 Size: 83668
 MD5sum: d28a72e22e99dc398e7adac6141872ec
 SHA1: 035b1fe6ec03b5ca782469e7bde43dd0aec7d305
@@ -1911,7 +1911,7 @@ Architecture: all
 Maintainer: Debian iproute2 Maintainers <ah-iproute@debian.org>
 Installed-Size: 22
 Depends: iproute2
-Filename: pool/main/i/iproute2/iproute_4.1.1-1_all.deb
+Filename: pool/main/i/iproute_4.1.1-1_all.deb
 Size: 15618
 MD5sum: c584cfc042c6c24b9a2c42b3b3bbd80a
 SHA1: b03b0ee2f8d759f49c4bb8fb75e848fb1965e4ff
@@ -1931,7 +1931,7 @@ Architecture: all
 Maintainer: Debian iproute2 Maintainers <ah-iproute@debian.org>
 Installed-Size: 22
 Depends: iproute2-doc
-Filename: pool/main/i/iproute2/iproute-doc_4.1.1-1_all.deb
+Filename: pool/main/i/iproute-doc_4.1.1-1_all.deb
 Size: 15624
 MD5sum: 42614f893778579afcf58619bd8c1739
 SHA1: 2be76727ec624e01102a5100939656c67c1793c0
@@ -1955,7 +1955,7 @@ Suggests: iproute2-doc
 Conflicts: arpd, iproute (<< 20130000-1)
 Replaces: iproute
 Provides: arpd
-Filename: pool/main/i/iproute2/iproute2_4.1.1-1_amd64.deb
+Filename: pool/main/i/iproute2_4.1.1-1_amd64.deb
 Size: 1022794
 MD5sum: f229a62881914ea6e39d8f79558cff14
 SHA1: c27be587dc1bb957e56cd508743c1a9724856e1f
@@ -1980,7 +1980,7 @@ Maintainer: Debian iproute2 Maintainers <ah-iproute@debian.org>
 Installed-Size: 1309
 Conflicts: iproute-doc (<< 20130000-1)
 Replaces: iproute-doc
-Filename: pool/main/i/iproute2/iproute2-doc_4.1.1-1_all.deb
+Filename: pool/main/i/iproute2-doc_4.1.1-1_all.deb
 Size: 1233090
 MD5sum: 996a9aa0a5630b64bb13e11d1adea38d
 SHA1: ca9b194eb5d61a0e736ae15af68fc5ad864e8b56
@@ -2002,7 +2002,7 @@ Installed-Size: 800
 Depends: libasan2 (>= 5), libc6 (>= 2.17), libkmod2 (= 21-1), lsb-base (>= 3.0-6)
 Breaks: alsa-base (<= 1.0.25+3), module-init-tools (<< 4), oss-compat (= 4)
 Replaces: module-init-tools (<< 4)
-Filename: pool/main/k/kmod/kmod_21-1_amd64.deb
+Filename: pool/main/k/kmod_21-1_amd64.deb
 Size: 204070
 MD5sum: b7bf5c71cad08ca60afcee7450121eab
 SHA1: b64963ba1b954f8ed0c8b94fc3a620f7c0419cf3
@@ -2022,7 +2022,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 1140
 Depends: readline-common, lib32tinfo5 (>= 6), libc6-i386 (>= 2.15)
-Filename: pool/main/r/readline6/lib32readline6_6.3-8_amd64.deb
+Filename: pool/main/lib3/lib32readline6_6.3-8_amd64.deb
 Size: 254282
 MD5sum: 591aaeced223569d98390696cfd73bad
 SHA1: 30dc10e3b5c5d5c55d0cc02678b6ebdc176e4308
@@ -2046,7 +2046,7 @@ Installed-Size: 1504
 Depends: lib32readline6 (= 6.3-8), lib32tinfo-dev, libc6-dev-i386
 Conflicts: lib32readline-dev, lib32readline-gplv2-dev
 Provides: lib32readline-dev
-Filename: pool/main/r/readline6/lib32readline6-dev_6.3-8_amd64.deb
+Filename: pool/main/lib3/lib32readline6-dev_6.3-8_amd64.deb
 Size: 258758
 MD5sum: b05384c84d30ddf5b22d4e8b16335d26
 SHA1: e2e1c6fce1cb92674543de7ba65ba8e3bd157dac
@@ -2070,7 +2070,7 @@ Installed-Size: 158
 Depends: libc6-i386 (>= 2.4)
 Conflicts: libc6-i386 (<= 2.9-18)
 Replaces: ia32-libs (<< 1.5)
-Filename: pool/main/z/zlib/lib32z1_1.2.8.dfsg-2_amd64.deb
+Filename: pool/main/lib3/lib32z1_1.2.8.dfsg-2_amd64.deb
 Size: 88426
 MD5sum: e13ac5111557cfcced6b36f034645cb0
 SHA1: b70587e8cc5d24cfa9f2815942c9f0bf155c8678
@@ -2093,7 +2093,7 @@ Depends: lib32z1 (= 1:1.2.8.dfsg-2), zlib1g-dev (= 1:1.2.8.dfsg-2), lib32c-dev
 Conflicts: libc6-i386 (<= 2.9-18)
 Replaces: ia32-libs-dev (<< 1.5)
 Provides: lib32z-dev
-Filename: pool/main/z/zlib/lib32z1-dev_1.2.8.dfsg-2_amd64.deb
+Filename: pool/main/lib3/lib32z1-dev_1.2.8.dfsg-2_amd64.deb
 Size: 87888
 MD5sum: 0e56805445a2edcf9a97c488489bb4e4
 SHA1: e611098eacf986e9e2d3ad8a4955ada5002116e4
@@ -2114,7 +2114,7 @@ Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Installed-Size: 213
 Depends: libasan2 (>= 5), libattr1 (>= 1:2.4.46-8), libc6 (>= 2.4)
 Conflicts: acl (<< 2.0.0), libacl1-kerberos4kth
-Filename: pool/main/a/acl/libacl1_2.2.52-2_amd64.deb
+Filename: pool/main/liba/libacl1_2.2.52-2_amd64.deb
 Size: 53342
 MD5sum: 07995731b89a75f9c384cd109d9d6b61
 SHA1: 882533787a96baa5ea16175c1ea078a64f6a7604
@@ -2138,7 +2138,7 @@ Depends: libc6-dev | libc-dev, libacl1 (= 2.2.52-2), libattr1-dev (>= 1:2.4.46-8
 Conflicts: acl (<< 2.0.0), acl-dev, kerberos4kth-dev (<< 1.2.2-4)
 Replaces: acl-dev
 Provides: acl-dev
-Filename: pool/main/a/acl/libacl1-dev_2.2.52-2_amd64.deb
+Filename: pool/main/liba/libacl1-dev_2.2.52-2_amd64.deb
 Size: 116476
 MD5sum: e262f5f8723e779353ae192b38adf0b1
 SHA1: ff408feb2d263f515cfaa500786c1ed626200d7b
@@ -2158,7 +2158,7 @@ Architecture: amd64
 Maintainer: Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>
 Installed-Size: 98
 Depends: libapparmor1 (>= 2.7.0~beta1+bzr1772), libc6 (>= 2.4), apache2-api-20120211, apache2-bin (>= 2.4.16)
-Filename: pool/main/a/apparmor/libapache2-mod-apparmor_2.9.2-3_amd64.deb
+Filename: pool/main/liba/libapache2-mod-apparmor_2.9.2-3_amd64.deb
 Size: 56876
 MD5sum: 1bd13c56864d37f6ef9399dd1561a442
 SHA1: 7ad8ff868fb039676f6db7cdbf6f8bd93232a8d5
@@ -2180,7 +2180,7 @@ Installed-Size: 365
 Depends: libapparmor1 (= 2.9.2-3)
 Breaks: apparmor-docs (<< 2.8.95~2395-0ubuntu1), libapparmor1 (<< 2.8.95~2395-0ubuntu1)
 Replaces: apparmor-docs (<< 2.8.95~2395-0ubuntu1), libapparmor1 (<< 2.8.95~2395-0ubuntu1)
-Filename: pool/main/a/apparmor/libapparmor-dev_2.9.2-3_amd64.deb
+Filename: pool/main/liba/libapparmor-dev_2.9.2-3_amd64.deb
 Size: 117386
 MD5sum: bf7b82d38c3f0b6b9baabf858f244c8b
 SHA1: 8fdbd97c2573b0bb9a7c06dc46a5ed9c8e51c306
@@ -2201,7 +2201,7 @@ Architecture: amd64
 Maintainer: Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>
 Installed-Size: 307
 Depends: perl-base (>= 5.20.2-6), perlapi-5.20.2, libapparmor1 (>= 2.8.94-0ubuntu1), libc6 (>= 2.14)
-Filename: pool/main/a/apparmor/libapparmor-perl_2.9.2-3_amd64.deb
+Filename: pool/main/liba/libapparmor-perl_2.9.2-3_amd64.deb
 Size: 84578
 MD5sum: 7e6c1e1c57724f109f06e0ff26160755
 SHA1: 9b58ee1c3eae7f3e6da8d68b9c6266bf60a10d90
@@ -2221,7 +2221,7 @@ Architecture: amd64
 Maintainer: Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>
 Installed-Size: 258
 Depends: libasan2 (>= 5), libc6 (>= 2.8)
-Filename: pool/main/a/apparmor/libapparmor1_2.9.2-3_amd64.deb
+Filename: pool/main/liba/libapparmor1_2.9.2-3_amd64.deb
 Size: 95382
 MD5sum: 918b97bd3890d7711e7831e825c9809e
 SHA1: 3ef206fd3ff88004e7cc32cbed6aa7620c9c4cf0
@@ -2242,7 +2242,7 @@ Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 601
 Depends: libapt-pkg4.16 (>= 0.8.16~exp9), libasan2 (>= 5), libc6 (>= 2.4), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 5.2)
-Filename: pool/main/a/apt/libapt-inst1.7_1.0.10.2_amd64.deb
+Filename: pool/main/liba/libapt-inst1.7_1.0.10.2_amd64.deb
 Size: 202078
 MD5sum: 91bedcd84c63697e5c8b2a2c1763124f
 SHA1: f06419e3d86b03517c95f89cf13d3d837c9a4236
@@ -2262,7 +2262,7 @@ Architecture: amd64
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 539
 Depends: libapt-pkg4.16 (= 1.0.10.2), libapt-inst1.7 (= 1.0.10.2), zlib1g-dev
-Filename: pool/main/a/apt/libapt-pkg-dev_1.0.10.2_amd64.deb
+Filename: pool/main/liba/libapt-pkg-dev_1.0.10.2_amd64.deb
 Size: 194018
 MD5sum: ad000e90d5031426a985c111d020e971
 SHA1: c5770ea65b5739ef20cee454816ff3f6e25061e5
@@ -2281,7 +2281,7 @@ Version: 1.0.10.2
 Architecture: all
 Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 11778
-Filename: pool/main/a/apt/libapt-pkg-doc_1.0.10.2_all.deb
+Filename: pool/main/liba/libapt-pkg-doc_1.0.10.2_all.deb
 Size: 821054
 MD5sum: 018f3e318bf5e15a4514de8f457e698d
 SHA1: 39dd5ae2993d7db652f7ad9d3489b594158f3871
@@ -2303,7 +2303,7 @@ Maintainer: APT Development Team <deity@lists.debian.org>
 Installed-Size: 7293
 Depends: libasan2 (>= 5), libbz2-1.0, libc6 (>= 2.15), libgcc1 (>= 1:4.1.1), liblzma5 (>= 5.1.1alpha+20120614), libstdc++6 (>= 5.2), zlib1g (>= 1:1.2.2.3)
 Breaks: apt (<< 0.9.4~), libapt-inst1.5 (<< 0.9.9~)
-Filename: pool/main/a/apt/libapt-pkg4.16_1.0.10.2_amd64.deb
+Filename: pool/main/liba/libapt-pkg4.16_1.0.10.2_amd64.deb
 Size: 1747670
 MD5sum: 12b2665f9eb9a5fe2f7316b6da715906
 SHA1: 5d6adfabaa45a04d5372581c7d44c85c73aec390
@@ -2335,7 +2335,7 @@ Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Installed-Size: 87
 Depends: libasan2 (>= 5), libc6 (>= 2.4)
 Conflicts: attr (<< 2.0.0)
-Filename: pool/main/a/attr/libattr1_2.4.47-2_amd64.deb
+Filename: pool/main/liba/libattr1_2.4.47-2_amd64.deb
 Size: 26766
 MD5sum: 4f6416c49c2490b1a005c7f199afc4a6
 SHA1: f74bc4cb1972b6b7269840f16c4fb9f283855777
@@ -2358,7 +2358,7 @@ Depends: libc6-dev | libc-dev, libattr1 (= 1:2.4.47-2)
 Conflicts: attr (<< 2.0.0), attr-dev
 Replaces: attr-dev
 Provides: attr-dev
-Filename: pool/main/a/attr/libattr1-dev_2.4.47-2_amd64.deb
+Filename: pool/main/liba/libattr1-dev_2.4.47-2_amd64.deb
 Size: 49194
 MD5sum: be2b18f150d249cb484eed567bedc917
 SHA1: d367d876e0218d7338b859350e17d2e60dd68970
@@ -2385,7 +2385,7 @@ Maintainer: Laurent Bigonville <bigon@debian.org>
 Installed-Size: 25
 Breaks: libaudit0, libaudit1 (<< 1:2.2.1-2)
 Replaces: libaudit0, libaudit1 (<< 1:2.2.1-2)
-Filename: pool/main/a/audit/libaudit-common_2.4.4-1_all.deb
+Filename: pool/main/liba/libaudit-common_2.4.4-1_all.deb
 Size: 14636
 MD5sum: 91d03b7a93be950dab4a2214112ecbf2
 SHA1: 4c11c356adb5416b3e4abb1e1b3118133cbce648
@@ -2409,7 +2409,7 @@ Architecture: amd64
 Maintainer: Laurent Bigonville <bigon@debian.org>
 Installed-Size: 434
 Depends: libaudit1 (= 1:2.4.4-1)
-Filename: pool/main/a/audit/libaudit-dev_2.4.4-1_amd64.deb
+Filename: pool/main/liba/libaudit-dev_2.4.4-1_amd64.deb
 Size: 107286
 MD5sum: a8ecf4595193921b18faf349b6cf7567
 SHA1: 5451b319d00776322a5aed5646bbb4682bee1513
@@ -2430,7 +2430,7 @@ Architecture: amd64
 Maintainer: Laurent Bigonville <bigon@debian.org>
 Installed-Size: 300
 Depends: libaudit-common (>= 1:2.4.4-1), libasan2 (>= 5), libc6 (>= 2.8)
-Filename: pool/main/a/audit/libaudit1_2.4.4-1_amd64.deb
+Filename: pool/main/liba/libaudit1_2.4.4-1_amd64.deb
 Size: 78008
 MD5sum: ad5073228f912ab2700a97702cb08e49
 SHA1: 74d6560f252f5885456361db2aee61cc2199f1e9
@@ -2453,7 +2453,7 @@ Installed-Size: 623
 Depends: libauparse0 (= 1:2.4.4-1)
 Breaks: libaudit-dev (<< 1:2.2.1-2)
 Replaces: libaudit-dev (<< 1:2.2.1-2)
-Filename: pool/main/a/audit/libauparse-dev_2.4.4-1_amd64.deb
+Filename: pool/main/liba/libauparse-dev_2.4.4-1_amd64.deb
 Size: 137136
 MD5sum: 1be4e4171e39d060a232f57d3aa3e4a1
 SHA1: b96edf5be489eceefc38aba61b2404bf75bf4aac
@@ -2476,7 +2476,7 @@ Installed-Size: 431
 Depends: libasan2 (>= 5), libaudit1 (>= 1:2.2.1), libc6 (>= 2.8)
 Breaks: libaudit0, libaudit1 (<< 1:2.2.1-2)
 Replaces: libaudit0, libaudit1 (<< 1:2.2.1-2)
-Filename: pool/main/a/audit/libauparse0_2.4.4-1_amd64.deb
+Filename: pool/main/liba/libauparse0_2.4.4-1_amd64.deb
 Size: 109784
 MD5sum: 708c1f605e28a18bd7ab3dae4c2ea531
 SHA1: 9a40d92e7ef63bc0ec53b1ba3b94da796bd5524e
@@ -2500,7 +2500,7 @@ Maintainer: Debian util-linux Maintainers <ah-util-linux@debian.org>
 Installed-Size: 2378
 Pre-Depends: dpkg (>= 1.17.14)
 Depends: libblkid1 (= 2.26.2-9), libc6-dev | libc-dev, uuid-dev
-Filename: pool/main/u/util-linux/libblkid-dev_2.26.2-9_amd64.deb
+Filename: pool/main/libb/libblkid-dev_2.26.2-9_amd64.deb
 Size: 402394
 MD5sum: b879b651ece0bdd30df18a64f0292117
 SHA1: bda962fd465a34c58b86574011708c3ef1e7fd47
@@ -2524,7 +2524,7 @@ Architecture: amd64
 Maintainer: Debian util-linux Maintainers <ah-util-linux@debian.org>
 Installed-Size: 1404
 Depends: libasan2 (>= 5), libc6 (>= 2.17), libuuid1 (>= 2.16)
-Filename: pool/main/u/util-linux/libblkid1_2.26.2-9_amd64.deb
+Filename: pool/main/libb/libblkid1_2.26.2-9_amd64.deb
 Size: 351258
 MD5sum: 97a818df6c4fe4ccb5a682fca2798ad9
 SHA1: 6e6b5dc8746732e05592de8e803aea91f430b963
@@ -2546,7 +2546,7 @@ Architecture: amd64
 Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Installed-Size: 357
 Depends: libc6 (>= 2.4)
-Filename: pool/main/b/bzip2/libbz2-1.0_1.0.6-8_amd64.deb
+Filename: pool/main/libb/libbz2-1.0_1.0.6-8_amd64.deb
 Size: 87876
 MD5sum: 31f3b256b86f36e9ecc1c7e5e9437661
 SHA1: 66b12052a2fc7e98b5dd993c3dd4075d511f7bea
@@ -2581,7 +2581,7 @@ Installed-Size: 378
 Depends: libbz2-1.0 (= 1.0.6-8), libc6-dev | libc-dev
 Recommends: bzip2-doc
 Replaces: bzip2 (<< 0.9.5d-3)
-Filename: pool/main/b/bzip2/libbz2-dev_1.0.6-8_amd64.deb
+Filename: pool/main/libb/libbz2-dev_1.0.6-8_amd64.deb
 Size: 77240
 MD5sum: de3484bff1f1a396c3bf24c3b4b5bf01
 SHA1: 296868e519fc93078db59c9aafd21e76b54047f2
@@ -2617,7 +2617,7 @@ Installed-Size: 3312
 Depends: libc6 (>> 2.19), libc6 (<< 2.20), libcap2 (>= 1:2.10)
 Breaks: libc0.1 (<< 2.10), libc0.3 (<< 2.10), libc6 (<< 2.10), libc6.1 (<< 2.10)
 Replaces: libc0.1, libc0.3, libc6, libc6.1
-Filename: pool/main/g/glibc/libc-bin_2.19-19_amd64.deb
+Filename: pool/main/libc/libc-bin_2.19-19_amd64.deb
 Size: 1285746
 MD5sum: 3e1be60caaaa0df571e7619fbe374070
 SHA1: c566acac591818676533b985fcfbd694ba41df10
@@ -2646,7 +2646,7 @@ Installed-Size: 354
 Depends: libc6 (>> 2.19), libc6 (<< 2.20)
 Recommends: manpages-dev
 Replaces: libc0.1-dev, libc0.3-dev, libc6-dev, libc6.1-dev
-Filename: pool/main/g/glibc/libc-dev-bin_2.19-19_amd64.deb
+Filename: pool/main/libc/libc-dev-bin_2.19-19_amd64.deb
 Size: 236666
 MD5sum: 73f5446cd65a2602f3865ebf24f8244d
 SHA1: 3cbe4b9136430ce4942ff809d01abcb653bda497
@@ -2670,7 +2670,7 @@ Suggests: glibc-doc, debconf | debconf-2.0, locales
 Conflicts: prelink (<= 0.0.20090311-1), tzdata (<< 2007k-1), tzdata-etch
 Breaks: hurd (<< 1:0.5.git20140203-1), libtirpc1 (<< 0.2.3), locales (<< 2.19), locales-all (<< 2.19), lsb-core (<= 3.2-27), nscd (<< 2.19)
 Replaces: libc6-amd64
-Filename: pool/main/g/glibc/libc6_2.19-19_amd64.deb
+Filename: pool/main/libc/libc6_2.19-19_amd64.deb
 Size: 4814008
 MD5sum: b6112ea0841848a1a3561724968508db
 SHA1: cbc044ecd08f8806b20ed018f8e471ee058f7f0e
@@ -2692,7 +2692,7 @@ Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 21589
 Depends: libc6 (= 2.19-19)
 Provides: libc-dbg
-Filename: pool/main/g/glibc/libc6-dbg_2.19-19_amd64.deb
+Filename: pool/main/libc/libc6-dbg_2.19-19_amd64.deb
 Size: 3444296
 MD5sum: b199880cccf5188e87e8a0cc5ac2d9e8
 SHA1: f615dfa131a9ff8d2487dd14c32160aded855c69
@@ -2716,7 +2716,7 @@ Suggests: glibc-doc, manpages-dev
 Conflicts: libc0.1-dev, libc0.3-dev, libc6.1-dev
 Breaks: binutils (<< 2.20.1-1), binutils-gold (<< 2.20.1-11), cmake (<< 2.8.4+dfsg.1-5), gcc-4.4 (<< 4.4.6-4), gcc-4.5 (<< 4.5.3-2), gcc-4.6 (<< 4.6.0-12), libhwloc-dev (<< 1.2-3), libjna-java (<< 3.2.7-4), liblouis-dev (<< 2.3.0-2), liblouisxml-dev (<< 2.4.0-2), make (<< 3.81-8.1), pkg-config (<< 0.26-1)
 Provides: libc-dev
-Filename: pool/main/g/glibc/libc6-dev_2.19-19_amd64.deb
+Filename: pool/main/libc/libc6-dev_2.19-19_amd64.deb
 Size: 1995374
 MD5sum: 1ca193046fb5437a5b85d1acd0100ccb
 SHA1: 5eb450dd3b698545e7723e0151e6bf3c1e8801a1
@@ -2740,7 +2740,7 @@ Recommends: gcc-multilib
 Conflicts: libc6-dev (<< 2.13-14), libc6-i386 (<= 2.9-18)
 Replaces: libc6-dev (<< 2.13-11)
 Provides: lib32c-dev
-Filename: pool/main/g/glibc/libc6-dev-i386_2.19-19_amd64.deb
+Filename: pool/main/libc/libc6-dev-i386_2.19-19_amd64.deb
 Size: 1307380
 MD5sum: dbc73e39562a69c6494b293e60d51f1b
 SHA1: 22691875de9c67cc1f62270dcb01367a50a572a2
@@ -2760,7 +2760,7 @@ Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 7225
 Depends: libc6-x32 (= 2.19-19), libc6-dev-i386 (= 2.19-19), libc6-dev (= 2.19-19)
-Filename: pool/main/g/glibc/libc6-dev-x32_2.19-19_amd64.deb
+Filename: pool/main/libc/libc6-dev-x32_2.19-19_amd64.deb
 Size: 1577200
 MD5sum: 56b8f207c62668295c209a4e5c70e517
 SHA1: 3af24028c429c7036ca27c0f8443b3b11b1602ac
@@ -2782,7 +2782,7 @@ Installed-Size: 9784
 Depends: libc6 (= 2.19-19)
 Breaks: fakechroot (<< 2.9-1.1), fakeroot (<< 1.12.3), fglrx-glx-ia32 (<< 1:9-6-1), gnu-efi (<< 3.0e-3), ia32-libs (<< 20090804), ia32-libs-gtk (<< 20090804), lib32asound2 (<< 1.0.20-3), lib32asound2-dev (<< 1.0.20-3), lib32bz2-1.0 (<< 1.0.5-3), lib32bz2-dev (<< 1.0.5-3), lib32ffi-dev (<< 3.0.9~rc9-1), lib32ffi5 (<< 3.0.9~rc9-1), lib32g2c0 (<< 1:3.4.6-10), lib32gcc1 (<< 1:4.4.0-7), lib32gfortran3 (<< 4.4.0-7), lib32gmp3 (<< 2:4.3.1+dfsg-3), lib32gmp3-dev (<< 2:4.3.1+dfsg-3), lib32gmpxx4 (<< 2:4.3.1+dfsg-3), lib32gomp1 (<< 4.4.0-7), lib32icu-dev (<< 4.0.1-3), lib32icu40 (<< 4.0.1-3), lib32mudflap0 (<< 4.4.0-7), lib32ncurses5 (<< 5.7+20090523-1), lib32ncurses5-dev (<< 5.7+20090530-1), lib32ncursesw5 (<< 5.7+20090530-1), lib32ncursesw5-dev (<< 5.7+20090530-1), lib32nss-mdns (<< 0.10-3.1), lib32objc2 (<< 4.4.0-7), lib32readline5 (<< 5.2-5), lib32readline5-dev (<< 5.2-5), lib32stdc++6 (<< 4.4.0-7), lib32stdc++6-4.4-dbg (<< 4.4.0-7), lib32z1 (<< 1:1.2.3.3.dfsg-14), lib32z1-dev (<< 1:1.2.3.3.dfsg-14), libc6-dev-i386 (<< 2.9-15), nvidia-glx-ia32 (<< 185.18.14-2), nvidia-libvdpau1-ia32 (<< 185.18.14-2)
 Replaces: libc6-dev-i386
-Filename: pool/main/g/glibc/libc6-i386_2.19-19_amd64.deb
+Filename: pool/main/libc/libc6-i386_2.19-19_amd64.deb
 Size: 2367852
 MD5sum: 4ee897bb0a581e611d0e2e0d2b19e282
 SHA1: 8b9872333b37e2b3e941483ca9b8621630c6c2d5
@@ -2804,7 +2804,7 @@ Installed-Size: 8174
 Depends: libc6 (= 2.19-19)
 Conflicts: libc-pic
 Provides: glibc-pic, libc-pic
-Filename: pool/main/g/glibc/libc6-pic_2.19-19_amd64.deb
+Filename: pool/main/libc/libc6-pic_2.19-19_amd64.deb
 Size: 1467748
 MD5sum: 178232d6885e7ec869f7a6e63443e30f
 SHA1: d5fb9f630ac158e278bc5fc5154cdb39b0dc3f92
@@ -2826,7 +2826,7 @@ Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 10443
 Depends: libc6 (= 2.19-19)
-Filename: pool/main/g/glibc/libc6-x32_2.19-19_amd64.deb
+Filename: pool/main/libc/libc6-x32_2.19-19_amd64.deb
 Size: 2594478
 MD5sum: f34f9637e84f3b932c09880e7ddb0648
 SHA1: 7341f5178418302d9a90514a5fa00f9d2ee85d83
@@ -2848,7 +2848,7 @@ Installed-Size: 107
 Depends: libasan2 (>= 5), libc6 (>= 2.17)
 Replaces: e2fsprogs (<< 1.34-1)
 Provides: libcomerr-kth-compat
-Filename: pool/main/e/e2fsprogs/libcomerr2_1.42.13-1_amd64.deb
+Filename: pool/main/libc/libcomerr2_1.42.13-1_amd64.deb
 Size: 66126
 MD5sum: 3b410c58ce0b1a336de4ea8bed4960d2
 SHA1: bef554c1b86f4185e202bf9c12360e20bda49d10
@@ -2869,7 +2869,7 @@ Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 107
 Depends: libcomerr2 (= 1.42.13-1)
-Filename: pool/main/e/e2fsprogs/libcomerr2-dbg_1.42.13-1_amd64.deb
+Filename: pool/main/libc/libcomerr2-dbg_1.42.13-1_amd64.deb
 Size: 67404
 MD5sum: ff84fb0fab21b663555786ef32b0ac4d
 SHA1: 8411859e134bc7decf42ade4641c7fa8e62b329a
@@ -2889,7 +2889,7 @@ Architecture: amd64
 Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@lists.alioth.debian.org>
 Installed-Size: 95
 Depends: libcryptsetup4 (= 2:1.6.6-5)
-Filename: pool/main/c/cryptsetup/libcryptsetup-dev_1.6.6-5_amd64.deb
+Filename: pool/main/libc/libcryptsetup-dev_1.6.6-5_amd64.deb
 Size: 49796
 MD5sum: ab6df0b58e57737f600d846ee8d636a4
 SHA1: 307dd7c061f58a9df09687a9d21be148a1881598
@@ -2913,7 +2913,7 @@ Architecture: amd64
 Maintainer: Debian Cryptsetup Team <pkg-cryptsetup-devel@lists.alioth.debian.org>
 Installed-Size: 630
 Depends: libasan2 (>= 5), libc6 (>= 2.15), libdevmapper1.02.1 (>= 2:1.02.99), libgcrypt20 (>= 1.6.1), libuuid1 (>= 2.16), libgpg-error0 (>= 1.10-0.1)
-Filename: pool/main/c/cryptsetup/libcryptsetup4_1.6.6-5_amd64.deb
+Filename: pool/main/libc/libcryptsetup4_1.6.6-5_amd64.deb
 Size: 187596
 MD5sum: be763307ce98d24421ead4b4f923b464
 SHA1: 20c3e29e774f5dfb9e1b4ddf5370e09ddedea391
@@ -2937,7 +2937,7 @@ Architecture: amd64
 Maintainer: Debian Install System Team <debian-boot@lists.debian.org>
 Installed-Size: 74
 Depends: libasan2 (>= 5), libc6 (>= 2.4)
-Filename: pool/main/c/cdebconf/libdebconfclient0_0.195_amd64.deb
+Filename: pool/main/libd/libdebconfclient0_0.195_amd64.deb
 Size: 48602
 MD5sum: 3770f9df482a56b3e2ee423b2c0764c1
 SHA1: aee1417c7d33282b7347761a6b82e93da2728384
@@ -2963,7 +2963,7 @@ Depends: libdebconfclient0 (= 0.195)
 Conflicts: cdebconf-dev, libcdebconf-dev, libdebconf-dev, libdebconfclient-dev
 Replaces: libdebconf-dev
 Provides: libdebconfclient-dev
-Filename: pool/main/c/cdebconf/libdebconfclient0-dev_0.195_amd64.deb
+Filename: pool/main/libd/libdebconfclient0-dev_0.195_amd64.deb
 Size: 50856
 MD5sum: 8e9ac4eb7d220cf07ee50cd6a8bddb6c
 SHA1: da1e64f934eecc39b8bb0a71808e2575418785e8
@@ -2986,7 +2986,7 @@ Architecture: amd64
 Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Installed-Size: 150
 Depends: libdevmapper1.02.1 (= 2:1.02.104-1), libdevmapper-event1.02.1 (= 2:1.02.104-1), libselinux1-dev
-Filename: pool/main/l/lvm2/libdevmapper-dev_1.02.104-1_amd64.deb
+Filename: pool/main/libd/libdevmapper-dev_1.02.104-1_amd64.deb
 Size: 58032
 MD5sum: 0be049f6e99a222cb22e456343f8a7a3
 SHA1: ae68f4be7075b101345e7f9bed3504baa75a4a03
@@ -3012,7 +3012,7 @@ Architecture: amd64
 Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Installed-Size: 93
 Depends: libc6 (>= 2.15), libdevmapper1.02.1 (>= 2:1.02.103)
-Filename: pool/main/l/lvm2/libdevmapper-event1.02.1_1.02.104-1_amd64.deb
+Filename: pool/main/libd/libdevmapper-event1.02.1_1.02.104-1_amd64.deb
 Size: 41730
 MD5sum: b69e77169725013e0a55507aad8fea9f
 SHA1: 2e3457feb7c695461e3acec043ed415152c04de5
@@ -3040,7 +3040,7 @@ Installed-Size: 1223
 Depends: libc6 (>= 2.14), libselinux1 (>= 1.32), libudev1 (>= 183), dmsetup (>= 2:1.02.104-1)
 Conflicts: libdevmapper1.02
 Breaks: liblvm2app2.2 (<< 2.02.122), lvm2 (<< 2.02.122)
-Filename: pool/main/l/lvm2/libdevmapper1.02.1_1.02.104-1_amd64.deb
+Filename: pool/main/libd/libdevmapper1.02.1_1.02.104-1_amd64.deb
 Size: 290206
 MD5sum: 8ddccc42399abedf8b237f0ed5d2cd94
 SHA1: bb8c32632568a0cf0a24b62197e1163ca831be54
@@ -3069,7 +3069,7 @@ Bugs: debbugs://bugs.debian.org
 Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
 Installed-Size: 2229
 Depends: zlib1g-dev, liblzma-dev, libbz2-dev
-Filename: pool/main/d/dpkg/libdpkg-dev_1.18.2_amd64.deb
+Filename: pool/main/libd/libdpkg-dev_1.18.2_amd64.deb
 Size: 1054136
 MD5sum: 92d5e96cd80a076b4458796249197877
 SHA1: b9ed08c09d1491a3148fa2ce104f4c6fea4a99fc
@@ -3098,7 +3098,7 @@ Recommends: libfile-fcntllock-perl, bzip2, xz-utils
 Suggests: debian-keyring, gnupg | gnupg2, gpgv | gpgv2, gcc | c-compiler, binutils, patch
 Breaks: dpkg-dev (<< 1.15.6), patch (<< 2.7)
 Replaces: dpkg (<< 1.15.8), dpkg-dev (<< 1.15.6)
-Filename: pool/main/d/dpkg/libdpkg-perl_1.18.2_all.deb
+Filename: pool/main/libd/libdpkg-perl_1.18.2_all.deb
 Size: 1122556
 MD5sum: 970ceaac1904a7523dd9275784be9405
 SHA1: b04077b1d23e9c4a08f04f033596ef83cc684f2c
@@ -3154,7 +3154,7 @@ Architecture: amd64
 Maintainer: Debian util-linux Maintainers <ah-util-linux@debian.org>
 Installed-Size: 2565
 Depends: libfdisk1 (= 2.26.2-9), libc6-dev | libc-dev, libblkid-dev, uuid-dev
-Filename: pool/main/u/util-linux/libfdisk-dev_2.26.2-9_amd64.deb
+Filename: pool/main/libf/libfdisk-dev_2.26.2-9_amd64.deb
 Size: 485368
 MD5sum: 8146476190646f009a5f8d9a50514543
 SHA1: 6b037974faa887677b364a66150fe6050b310a0c
@@ -3175,7 +3175,7 @@ Architecture: amd64
 Maintainer: Debian util-linux Maintainers <ah-util-linux@debian.org>
 Installed-Size: 1763
 Depends: libasan2 (>= 5), libblkid1 (>= 2.17.2), libc6 (>= 2.17), libuuid1 (>= 2.16)
-Filename: pool/main/u/util-linux/libfdisk1_2.26.2-9_amd64.deb
+Filename: pool/main/libf/libfdisk1_2.26.2-9_amd64.deb
 Size: 446910
 MD5sum: eabbdaf40808c7713dcdf3726dc36500
 SHA1: 2b6d531202b86e9977e9a5a97ea391efd798c94e
@@ -3195,7 +3195,7 @@ Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Installed-Size: 79
 Depends: libgcrypt20-dev (>= 1.6.3)
 Breaks: libgnutls-dev (<< 2.12.23-18)
-Filename: pool/main/libg/libgcrypt20/libgcrypt11-dev_1.5.4-3+really1.6.3-2_all.deb
+Filename: pool/main/libg/libgcrypt11-dev_1.5.4-3+really1.6.3-2_all.deb
 Size: 64834
 MD5sum: c5a1dcf172da8ba03461ff054947fc41
 SHA1: 6628f382c2c2afdc3f24ef6effff8e476cd833c5
@@ -3214,7 +3214,7 @@ Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Installed-Size: 3927
 Depends: libasan2 (>= 5), libc6 (>= 2.15), libgpg-error0 (>= 1.14)
 Suggests: rng-tools
-Filename: pool/main/libg/libgcrypt20/libgcrypt20_1.6.3-2_amd64.deb
+Filename: pool/main/libg/libgcrypt20_1.6.3-2_amd64.deb
 Size: 975880
 MD5sum: 4d58b2cf57dec62f1d274a77d75b7018
 SHA1: 120d8da7527580fc98bcfdfccf43e2e4420417ab
@@ -3239,7 +3239,7 @@ Architecture: amd64
 Maintainer: Debian GnuTLS Maintainers <pkg-gnutls-maint@lists.alioth.debian.org>
 Installed-Size: 1453
 Depends: libgcrypt20 (= 1.6.3-2)
-Filename: pool/main/libg/libgcrypt20/libgcrypt20-dbg_1.6.3-2_amd64.deb
+Filename: pool/main/libg/libgcrypt20-dbg_1.6.3-2_amd64.deb
 Size: 1270590
 MD5sum: 208fabf3b3d3e9c3634295a64115348a
 SHA1: 8fc6b3d04815e3b35261012d46fbca955a3a1d6b
@@ -3269,7 +3269,7 @@ Depends: libgcrypt20 (= 1.6.3-2), libc6-dev | libc-dev, libgpg-error-dev
 Suggests: libgcrypt20-doc
 Conflicts: libgcrypt-dev, libgcrypt11-dev (<< 1.5.4-3+really1.6.2-4)
 Provides: libgcrypt-dev
-Filename: pool/main/libg/libgcrypt20/libgcrypt20-dev_1.6.3-2_amd64.deb
+Filename: pool/main/libg/libgcrypt20-dev_1.6.3-2_amd64.deb
 Size: 1043384
 MD5sum: b088732bc9ee35c6dabe465091a4ec4f
 SHA1: 8eace6f772632f556757b837af5d3f4f236ce76f
@@ -3297,7 +3297,7 @@ Installed-Size: 1410
 Suggests: libgcrypt20-dev
 Conflicts: libgcrypt-doc, libgcrypt11-doc, libgcrypt7-doc
 Replaces: libgcrypt-doc, libgcrypt11-doc, libgcrypt7-doc
-Filename: pool/main/libg/libgcrypt20/libgcrypt20-doc_1.6.3-2_all.deb
+Filename: pool/main/libg/libgcrypt20-doc_1.6.3-2_all.deb
 Size: 677968
 MD5sum: 4a50df9564e25f80cf31adb5da6afe0e
 SHA1: dd6626594cadd12367a568b006db2b8032c031f4
@@ -3324,7 +3324,7 @@ Maintainer: Ari Pollak <ari@debian.org>
 Installed-Size: 8221
 Depends: libasan2 (>= 5), libatk1.0-0 (>= 2.2.0), libc6 (>= 2.15), libcairo2 (>= 1.10.2), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.41.1), libgtk2.0-0 (>= 2.24.10), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.29.4), libpangoft2-1.0-0 (>= 1.29.4)
 Recommends: gimp-data (>= 2.8.14), gimp-data (<= 2.8.14-z)
-Filename: pool/main/g/gimp/libgimp2.0_2.8.14-1_amd64.deb
+Filename: pool/main/libg/libgimp2.0_2.8.14-1_amd64.deb
 Size: 2211804
 MD5sum: 94213ee710a5aaea2ebd6cd7ccac6925
 SHA1: edaff207ea01db3a0c2c87decdc53e8f7d01d4a0
@@ -3344,7 +3344,7 @@ Maintainer: Ari Pollak <ari@debian.org>
 Installed-Size: 1845
 Depends: libasan2 (>= 5), libatk1.0-0 (>= 2.2.0), libc6 (>= 2.4), libcairo2 (>= 1.10.2), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.2.1), libgdk-pixbuf2.0-0 (>= 2.22.0), libgimp2.0 (= 2.8.14-1), libglib2.0-0 (>= 2.30.2), libgtk2.0-0 (>= 2.24.10), libpango-1.0-0 (>= 1.29.4), libpangocairo-1.0-0 (>= 1.29.4), libpangoft2-1.0-0 (>= 1.29.4), libgtk2.0-dev (>= 2.12.5), pkg-config
 Suggests: libgimp2.0-doc
-Filename: pool/main/g/gimp/libgimp2.0-dev_2.8.14-1_amd64.deb
+Filename: pool/main/libg/libgimp2.0-dev_2.8.14-1_amd64.deb
 Size: 1005318
 MD5sum: afd31f35ee3ed53ade3010d8de78137a
 SHA1: 219b6bedfafc57eda293f8b43a4c55ca90e78842
@@ -3367,7 +3367,7 @@ Architecture: all
 Maintainer: Ari Pollak <ari@debian.org>
 Installed-Size: 7267
 Depends: lynx | www-browser
-Filename: pool/main/g/gimp/libgimp2.0-doc_2.8.14-1_all.deb
+Filename: pool/main/libg/libgimp2.0-doc_2.8.14-1_all.deb
 Size: 1275410
 MD5sum: 229748aa5a405689307a8b6d3a5bf570
 SHA1: 1565abce20c7bd9d4c1dc784d60200b48d4049cb
@@ -3386,7 +3386,7 @@ Architecture: amd64
 Maintainer: Marco d'Itri <md@linux.it>
 Installed-Size: 244
 Depends: libkmod2 (= 21-1)
-Filename: pool/main/k/kmod/libkmod-dev_21-1_amd64.deb
+Filename: pool/main/libk/libkmod-dev_21-1_amd64.deb
 Size: 22782
 MD5sum: 4835c4a1acdd6ffeaf696c6baadd5103
 SHA1: dbfab99513492fc8e5f23e2d722c9e5efc2bdb3a
@@ -3405,7 +3405,7 @@ Architecture: amd64
 Maintainer: Marco d'Itri <md@linux.it>
 Installed-Size: 450
 Depends: libasan2 (>= 5), libc6 (>= 2.17)
-Filename: pool/main/k/kmod/libkmod2_21-1_amd64.deb
+Filename: pool/main/libk/libkmod2_21-1_amd64.deb
 Size: 120322
 MD5sum: 015ead3ad5ab6f9a92b1d6013439a767
 SHA1: be78f3d2b0a5e9fa1756f556c7e88e1c17534ce1
@@ -3424,7 +3424,7 @@ Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
 Installed-Size: 64
 Pre-Depends: perl-base (>= 5.20.2-6), perlapi-5.20.2
 Depends: libc6 (>= 2.4)
-Filename: pool/main/libl/liblocale-gettext-perl/liblocale-gettext-perl_1.05-9_amd64.deb
+Filename: pool/main/libl/liblocale-gettext-perl_1.05-9_amd64.deb
 Size: 20880
 MD5sum: 61c92220e2bf7d89dcc76222eb228e8f
 SHA1: 8ce7fed93a972a8e83350c183fdd349e265c920c
@@ -3448,7 +3448,7 @@ Architecture: amd64
 Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Installed-Size: 154
 Depends: liblvm2app2.2 (= 2.02.127-1), liblvm2cmd2.02 (= 2.02.127-1), libdevmapper-dev
-Filename: pool/main/l/lvm2/liblvm2-dev_2.02.127-1_amd64.deb
+Filename: pool/main/libl/liblvm2-dev_2.02.127-1_amd64.deb
 Size: 98610
 MD5sum: 951ca4f5fd18365cfd6368f3cf9f28f9
 SHA1: 2aa9cd010adf8f65b3bec7dd082a81a4a7e1da12
@@ -3467,7 +3467,7 @@ Architecture: amd64
 Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Installed-Size: 3077
 Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.15), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.104), libudev1 (>= 183)
-Filename: pool/main/l/lvm2/liblvm2app2.2_2.02.127-1_amd64.deb
+Filename: pool/main/libl/liblvm2app2.2_2.02.127-1_amd64.deb
 Size: 749298
 MD5sum: f3a1718011ab388b8f1f9f94fe1ee8a9
 SHA1: 7b25c8738336d3da25076c371d3fd3529d4dbdd5
@@ -3488,7 +3488,7 @@ Architecture: amd64
 Maintainer: Debian LVM Team <pkg-lvm-maintainers@lists.alioth.debian.org>
 Installed-Size: 4114
 Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.15), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.104), libudev1 (>= 183), dmeventd (>> 2:1.02.90)
-Filename: pool/main/l/lvm2/liblvm2cmd2.02_2.02.127-1_amd64.deb
+Filename: pool/main/libl/liblvm2cmd2.02_2.02.127-1_amd64.deb
 Size: 960326
 MD5sum: 03e4dd56c8bc3ac84ec2d783cec20e94
 SHA1: b3434b9ceedb0a589cd0a845d564d6c44a9e2a52
@@ -3508,7 +3508,7 @@ Maintainer: Jonathan Nieder <jrnieder@gmail.com>
 Installed-Size: 1637
 Depends: liblzma5 (= 5.1.1alpha+20120614-2.1)
 Suggests: liblzma-doc
-Filename: pool/main/x/xz-utils/liblzma-dev_5.1.1alpha+20120614-2.1_amd64.deb
+Filename: pool/main/libl/liblzma-dev_5.1.1alpha+20120614-2.1_amd64.deb
 Size: 419298
 MD5sum: ecd7c2551b79b50fd0a2d696ceb0b76f
 SHA1: 6fd3e030532071bb1bab32a06764ad9b2fa0c218
@@ -3534,7 +3534,7 @@ Architecture: all
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
 Installed-Size: 3841
 Suggests: liblzma-dev
-Filename: pool/main/x/xz-utils/liblzma-doc_5.1.1alpha+20120614-2.1_all.deb
+Filename: pool/main/libl/liblzma-doc_5.1.1alpha+20120614-2.1_all.deb
 Size: 382970
 MD5sum: 7ef2debef3abc7e526e0bc8f496f0ec4
 SHA1: acd0db960d82ba26d22f5de93c64a9ad564599ec
@@ -3555,7 +3555,7 @@ Architecture: amd64
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
 Installed-Size: 1010
 Depends: libasan2 (>= 5), libc6 (>= 2.4)
-Filename: pool/main/x/xz-utils/liblzma5_5.1.1alpha+20120614-2.1_amd64.deb
+Filename: pool/main/libl/liblzma5_5.1.1alpha+20120614-2.1_amd64.deb
 Size: 351444
 MD5sum: 9c26cc73f31f71bc845cb586bff7b3ea
 SHA1: 75a184b1c91d11e6f08c3d33be874b70844a7400
@@ -3580,7 +3580,7 @@ Architecture: amd64
 Maintainer: Debian util-linux Maintainers <ah-util-linux@debian.org>
 Installed-Size: 2126
 Depends: libc6-dev | libc-dev, libmount1 (= 2.26.2-9), libblkid-dev
-Filename: pool/main/u/util-linux/libmount-dev_2.26.2-9_amd64.deb
+Filename: pool/main/libm/libmount-dev_2.26.2-9_amd64.deb
 Size: 395388
 MD5sum: b6a73e7b3291d9e2145078ca4926a3bb
 SHA1: cbdf23bcfbe6258e3d58d216314ac60dd6aebee4
@@ -3600,7 +3600,7 @@ Architecture: amd64
 Maintainer: Debian util-linux Maintainers <ah-util-linux@debian.org>
 Installed-Size: 1340
 Depends: libasan2 (>= 5), libblkid1 (>= 2.17.2), libc6 (>= 2.17), libselinux1 (>= 1.32)
-Filename: pool/main/u/util-linux/libmount1_2.26.2-9_amd64.deb
+Filename: pool/main/libm/libmount1_2.26.2-9_amd64.deb
 Size: 345538
 MD5sum: cfee3652fe164953a6ed0ecd520e2bd1
 SHA1: 463a8c014d19441353a8281dceaa8077a5740974
@@ -3618,7 +3618,7 @@ Architecture: amd64
 Maintainer: Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>
 Installed-Size: 83
 Depends: libapparmor1 (>= 2.6~devel), libasan2 (>= 5), libc6 (>= 2.4), libpam0g (>= 0.99.7.1)
-Filename: pool/main/a/apparmor/libpam-apparmor_2.9.2-3_amd64.deb
+Filename: pool/main/libp/libpam-apparmor_2.9.2-3_amd64.deb
 Size: 52074
 MD5sum: 74f4e31da2fc5909ef89f0aee800687b
 SHA1: 110c3951b7793cc9e1864506d76853a9974cd142
@@ -3639,7 +3639,7 @@ Maintainer: Steve Langasek <vorlon@debian.org>
 Installed-Size: 146
 Depends: libasan2 (>= 5), libc6 (>= 2.4), libcrack2 (>= 2.8.12), libpam0g (>= 1.1.1), libpam-runtime (>= 1.0.1-6), cracklib-runtime, wamerican | wordlist
 Replaces: libpam-modules (<< 1.1.0-3), libpam0g-cracklib
-Filename: pool/main/p/pam/libpam-cracklib_1.1.8-3.1_amd64.deb
+Filename: pool/main/libp/libpam-cracklib_1.1.8-3.1_amd64.deb
 Size: 92860
 MD5sum: 4c9a501989a2bc8a15099bf489139e50
 SHA1: 9e80f1f57a1879777c1bb801bed72c7b7d06838a
@@ -3659,7 +3659,7 @@ Architecture: all
 Maintainer: Steve Langasek <vorlon@debian.org>
 Installed-Size: 1017
 Provides: pam-doc
-Filename: pool/main/p/pam/libpam-doc_1.1.8-3.1_all.deb
+Filename: pool/main/libp/libpam-doc_1.1.8-3.1_all.deb
 Size: 278608
 MD5sum: 72d40bd5c0332be93cb80b20e57a4f74
 SHA1: b71d3d8c2a79832221a5adcc94be05172bb0e5ec
@@ -3682,7 +3682,7 @@ Pre-Depends: libasan2 (>= 5), libaudit1 (>= 1:2.2.1), libc6 (>= 2.15), libdb5.3,
 Conflicts: libpam-mkhomedir, libpam-motd, libpam-umask
 Replaces: libpam-umask, libpam0g-util
 Provides: libpam-mkhomedir, libpam-motd, libpam-umask
-Filename: pool/main/p/pam/libpam-modules_1.1.8-3.1_amd64.deb
+Filename: pool/main/libp/libpam-modules_1.1.8-3.1_amd64.deb
 Size: 496132
 MD5sum: 8daf4f74274a6155b7dfefe92d85b74e
 SHA1: 22ede369089eb48b5e9ea68db3229f6fa037db1f
@@ -3703,7 +3703,7 @@ Maintainer: Steve Langasek <vorlon@debian.org>
 Installed-Size: 448
 Depends: libasan2 (>= 5), libaudit1 (>= 1:2.2.1), libc6 (>= 2.4), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32)
 Replaces: libpam-modules (<< 1.1.3-8)
-Filename: pool/main/p/pam/libpam-modules-bin_1.1.8-3.1_amd64.deb
+Filename: pool/main/libp/libpam-modules-bin_1.1.8-3.1_amd64.deb
 Size: 148884
 MD5sum: d220fb83eb92f4beb29c647a82a9cc34
 SHA1: c51a078b30a206e39f0b8d2827549036516a7649
@@ -3725,7 +3725,7 @@ Installed-Size: 1013
 Depends: debconf (>= 0.5) | debconf-2.0, debconf (>= 1.5.19) | cdebconf, libpam-modules (>= 1.0.1-6)
 Conflicts: libpam0g-util
 Replaces: libpam0g-dev, libpam0g-util
-Filename: pool/main/p/pam/libpam-runtime_1.1.8-3.1_all.deb
+Filename: pool/main/libp/libpam-runtime_1.1.8-3.1_all.deb
 Size: 210340
 MD5sum: 7985b67718080f41838f6bc8618013e3
 SHA1: bfaa45caa4ace5987b118fec647182395e3dde41
@@ -3748,7 +3748,7 @@ Installed-Size: 543
 Depends: libasan2 (>= 5), libaudit1 (>= 1:2.2.1), libc6 (>= 2.8), libgcrypt20 (>= 1.6.0), libgnutls-deb0-28 (>= 3.3.0), libprelude2, debconf (>= 0.5) | debconf-2.0
 Suggests: libpam-doc
 Replaces: libpam0g-util
-Filename: pool/main/p/pam/libpam0g_1.1.8-3.1_amd64.deb
+Filename: pool/main/libp/libpam0g_1.1.8-3.1_amd64.deb
 Size: 183450
 MD5sum: ed37958b4cdea988f7b60fe6fe59f5e4
 SHA1: bbec58f52c7eb5f4210a50c57750685162dabd40
@@ -3773,7 +3773,7 @@ Maintainer: Steve Langasek <vorlon@debian.org>
 Installed-Size: 865
 Depends: libpam0g (= 1.1.8-3.1), libc6-dev | libc-dev
 Provides: libpam-dev
-Filename: pool/main/p/pam/libpam0g-dev_1.1.8-3.1_amd64.deb
+Filename: pool/main/libp/libpam0g-dev_1.1.8-3.1_amd64.deb
 Size: 246584
 MD5sum: 55b4fda40cfc15c256386a8f786ed60a
 SHA1: 275b829ce27201dae580a819e825dbafee68e018
@@ -3798,7 +3798,7 @@ Architecture: amd64
 Maintainer: Niko Tyni <ntyni@debian.org>
 Installed-Size: 25480
 Depends: perl (= 5.20.2-6), libperl5.20 (= 5.20.2-6), libc6-dev | libc-dev
-Filename: pool/main/p/perl/libperl-dev_5.20.2-6_amd64.deb
+Filename: pool/main/libp/libperl-dev_5.20.2-6_amd64.deb
 Size: 4027594
 MD5sum: 63c9642d1a03accc0b408dbd8182526c
 SHA1: abd694a46aad4ff62265683f43c9ca294b54a2f2
@@ -3818,7 +3818,7 @@ Installed-Size: 7508
 Depends: libc6 (>= 2.14), perl-base (= 5.20.2-6)
 Breaks: perl-base (<< 5.20.2-5)
 Replaces: perl-base (<< 5.20.2-5)
-Filename: pool/main/p/perl/libperl5.20_5.20.2-6_amd64.deb
+Filename: pool/main/libp/libperl5.20_5.20.2-6_amd64.deb
 Size: 1519234
 MD5sum: 39936b9e67b256eb15f28aa1d6a2765c
 SHA1: ff660b31c387ff5e2fd6af602d29d027f6064b58
@@ -3837,7 +3837,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 7
 Depends: libpython-dbg (= 2.7.9-1), libpython2.7-dbg
-Filename: pool/main/p/python-defaults/libpython-all-dbg_2.7.9-1_amd64.deb
+Filename: pool/main/libp/libpython-all-dbg_2.7.9-1_amd64.deb
 Size: 1074
 MD5sum: b8292f4f1ec11a3203eb4766ac7b5ec2
 SHA1: 75e2e9870480c2b59cc18dbfe8f1b765181637da
@@ -3861,7 +3861,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 6
 Depends: libpython-dev (= 2.7.9-1), libpython2.7-dev
-Filename: pool/main/p/python-defaults/libpython-all-dev_2.7.9-1_amd64.deb
+Filename: pool/main/libp/libpython-all-dev_2.7.9-1_amd64.deb
 Size: 950
 MD5sum: 9147775ae3676482703f45246324a381
 SHA1: 279141470f157889012b3062d225148a400f9e62
@@ -3886,7 +3886,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 42
 Depends: libpython2.7-dbg (>= 2.7.9-1~)
-Filename: pool/main/p/python-defaults/libpython-dbg_2.7.9-1_amd64.deb
+Filename: pool/main/libp/libpython-dbg_2.7.9-1_amd64.deb
 Size: 19508
 MD5sum: 3fff9a397a8fa79487b976bc791e569d
 SHA1: e2e772462915d217582843fce163e9b2c9d50190
@@ -3906,7 +3906,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 42
 Depends: libpython2.7-dev (>= 2.7.9-1~)
-Filename: pool/main/p/python-defaults/libpython-dev_2.7.9-1_amd64.deb
+Filename: pool/main/libp/libpython-dev_2.7.9-1_amd64.deb
 Size: 19574
 MD5sum: 6b30fdd3c156e89540100845cd4efab1
 SHA1: 373092a5fa8ef8ae9970b1bbffcdbd21d7ab01c2
@@ -3930,7 +3930,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 37
 Depends: libpython2.7-stdlib (>= 2.7.9-1~)
-Filename: pool/main/p/python-defaults/libpython-stdlib_2.7.9-1_amd64.deb
+Filename: pool/main/libp/libpython-stdlib_2.7.9-1_amd64.deb
 Size: 19500
 MD5sum: abcf30b1420bf0c300685d1f2a2c644b
 SHA1: 309b6450ee762e318d1a0957eaf6274d4802d3de
@@ -3949,18 +3949,17 @@ Description: interactive high-level object-oriented language (default python ver
 
 Package: libpython2.7
 Source: python2.7
-Version: 2.7.10-3
+Version: 2.7.10-4
 Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 10763
-Pre-Depends: multiarch-support
-Depends: libpython2.7-stdlib (= 2.7.10-3), libc6 (>= 2.15), zlib1g (>= 1:1.2.0)
+Depends: libpython2.7-stdlib (= 2.7.10-4), libc6 (>= 2.15), zlib1g (>= 1:1.2.0)
 Replaces: python2.7 (<< 2.6)
-Filename: pool/main/p/python2.7/libpython2.7_2.7.10-3_amd64.deb
-Size: 2039688
-MD5sum: 61393ab5f4cda172ef95e1110f1a86f4
-SHA1: 39657c0f53089909bad7c8b4406ffbf37e9d6aa5
-SHA256: b896eb535bb70b52839fdcc6a353380f4e9bec4aa52ec1ad2c0ffcb7995156ef
+Filename: pool/main/libp/libpython2.7_2.7.10-4_amd64.deb
+Size: 2039420
+MD5sum: cd4f8ffc5827328c4310fae945d58ddf
+SHA1: f28b2bd6682647592a6ee8c8a46e5a23dcbe2e14
+SHA256: c76f75979e292d5ddabbbb74cf04817eb32b61896b96f36a566c95ffbc052b4a
 Section: libs
 Priority: standard
 Multi-Arch: same
@@ -3974,19 +3973,18 @@ Description: Shared Python runtime library (version 2.7)
 
 Package: libpython2.7-dbg
 Source: python2.7
-Version: 2.7.10-3
+Version: 2.7.10-4
 Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 68588
-Pre-Depends: multiarch-support
-Depends: libpython2.7-stdlib (= 2.7.10-3), libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.2~beta3), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
+Installed-Size: 68587
+Depends: libpython2.7-stdlib (= 2.7.10-4), libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.2~beta3), libtinfo5 (>= 6), zlib1g (>= 1:1.2.0)
 Suggests: python2.7-gdbm-dbg, python2.7-tk-dbg
 Replaces: python2.7-dbg (<< 2.7.3-10)
-Filename: pool/main/p/python2.7/libpython2.7-dbg_2.7.10-3_amd64.deb
-Size: 12219560
-MD5sum: ae5b9c61ec7891bd51124b9a42a46100
-SHA1: 6314e70b558ead407f91e751a91abc9a6c02fc98
-SHA256: 749d3cbf0b468456b4ec54fe0feb063afab292a1d2745668798770cd8a0fb17b
+Filename: pool/main/libp/libpython2.7-dbg_2.7.10-4_amd64.deb
+Size: 12235102
+MD5sum: 576b1cc4f68b124f7a425f7f7d3b4f6a
+SHA1: 99e8042ed834d63c33fe8da9a50318fdf15eabb7
+SHA256: 111c05f7a076f2900df1bc383beceff6b50266cc8089a17ad939a2c61cf23393
 Section: debug
 Priority: extra
 Multi-Arch: same
@@ -4000,19 +3998,18 @@ Description: Debug Build of the Python Interpreter (version 2.7)
 
 Package: libpython2.7-dev
 Source: python2.7
-Version: 2.7.10-3
+Version: 2.7.10-4
 Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 27778
-Pre-Depends: multiarch-support
-Depends: libpython2.7-stdlib (= 2.7.10-3), libpython2.7 (= 2.7.10-3), libexpat1-dev
+Depends: libpython2.7-stdlib (= 2.7.10-4), libpython2.7 (= 2.7.10-4), libexpat1-dev
 Recommends: libc6-dev | libc-dev
 Replaces: python2.7 (<< 2.7-3), python2.7-dev (<< 2.7.3-10), python2.7-minimal (<< 2.7.3-10)
-Filename: pool/main/p/python2.7/libpython2.7-dev_2.7.10-3_amd64.deb
-Size: 25052620
-MD5sum: 4345d1ae634005494d9725a72917f867
-SHA1: bfc2b19761118f93a85183a817c75a25266d2b50
-SHA256: 573ca601393f0df473bbc52c84e6974f1442058007b2fedcfe61926f5a854c6c
+Filename: pool/main/libp/libpython2.7-dev_2.7.10-4_amd64.deb
+Size: 25053274
+MD5sum: 6056ae3ff9794d6a37fae7e6f5397bd8
+SHA1: 8f6e2108176084dd92ad017e38a3ef9b07e08085
+SHA256: 0aef80a0c2fbe2b60873169d6b90445c5521ac1c9de55bae48f5a0f24d557a41
 Section: libdevel
 Priority: optional
 Multi-Arch: same
@@ -4028,7 +4025,7 @@ Description: Header files and a static library for Python (v2.7)
 
 Package: libpython2.7-minimal
 Source: python2.7
-Version: 2.7.10-3
+Version: 2.7.10-4
 Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 2754
@@ -4036,11 +4033,11 @@ Recommends: libpython2.7-stdlib
 Conflicts: binfmt-support (<< 1.1.2)
 Breaks: python2.7-minimal (<< 2.7.4~rc1-1~)
 Replaces: libpython2.7-stdlib (<< 2.7.8-7), python2.7 (<< 2.7.4-2), python2.7-minimal (<< 2.7.3-10)
-Filename: pool/main/p/python2.7/libpython2.7-minimal_2.7.10-3_amd64.deb
-Size: 381718
-MD5sum: b9f63b41e34e666ebb2977655837216c
-SHA1: a7c89cf92b11f184e435abd65dc4fbe84c3fd37e
-SHA256: e0fd199380e7239038a92bb349427ced36a533cd58b57cde6db4742e3db50487
+Filename: pool/main/libp/libpython2.7-minimal_2.7.10-4_amd64.deb
+Size: 381574
+MD5sum: 7cce6528dda12bcf5487ec42e8c0ac69
+SHA1: c173f72adaf8c0708245715c85adc92d362fec88
+SHA256: 3760bb2b1f4cf9329f4b55ceea8ab90be8f6447716256b4f48b498f24fca2285
 Section: python
 Priority: standard
 Multi-Arch: same
@@ -4050,19 +4047,19 @@ Description: Minimal subset of the Python language (version 2.7)
 
 Package: libpython2.7-stdlib
 Source: python2.7
-Version: 2.7.10-3
+Version: 2.7.10-4
 Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 10474
-Depends: libpython2.7-minimal (= 2.7.10-3), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.2~beta3), libtinfo5 (>= 6)
+Depends: libpython2.7-minimal (= 2.7.10-4), mime-support, libbz2-1.0, libc6 (>= 2.15), libdb5.3, libexpat1 (>= 2.1~beta3), libffi6 (>= 3.0.4), libncursesw5 (>= 6), libreadline6 (>= 6.0), libsqlite3-0 (>= 3.5.9), libssl1.0.0 (>= 1.0.2~beta3), libtinfo5 (>= 6)
 Breaks: python-urllib3 (<< 1.9.1-3)
 Replaces: python2.7 (<< 2.7.5-0~)
 Provides: python-argparse, python2.7-argparse, python2.7-celementtree, python2.7-cjkcodecs, python2.7-ctypes, python2.7-elementtree, python2.7-profiler, python2.7-wsgiref
-Filename: pool/main/p/python2.7/libpython2.7-stdlib_2.7.10-3_amd64.deb
-Size: 2071614
-MD5sum: 4b630faedf0c85a6445bbc5d77bba8fd
-SHA1: cd2ee8d9c7b02a5cfecb340365c77ea07af80ebb
-SHA256: a6713ace555ed260881b2cdc02033b73b78eecd32fbdb7589fa68227d373864d
+Filename: pool/main/libp/libpython2.7-stdlib_2.7.10-4_amd64.deb
+Size: 2072622
+MD5sum: ae4c5801336e69f4c085ebccfa46e970
+SHA1: aabf606d995bbebcc4de0dd2deaa82d0ac014757
+SHA256: ea346d06a5d4ff3be40d2254ca281ccb924603e0ea99ac1c0497b869b8c7fae6
 Section: python
 Priority: standard
 Multi-Arch: same
@@ -4076,17 +4073,17 @@ Description: Interactive high-level object-oriented language (standard library, 
 
 Package: libpython2.7-testsuite
 Source: python2.7
-Version: 2.7.10-3
+Version: 2.7.10-4
 Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 21693
-Depends: libpython2.7-stdlib (>= 2.7.10-3)
+Installed-Size: 14237
+Depends: libpython2.7-stdlib (>= 2.7.10-4)
 Suggests: python-gdbm, python-tk
-Filename: pool/main/p/python2.7/libpython2.7-testsuite_2.7.10-3_all.deb
-Size: 2710082
-MD5sum: e2f2d7c7c9ec183cb47156d3df4f27df
-SHA1: fb9ac1df9e2a6f6a5493f9c876408ec50eac93e4
-SHA256: 9e9714513aecaae9407734a6702bfb896c5587c04c9838a164c7551fdb4dcea0
+Filename: pool/main/libp/libpython2.7-testsuite_2.7.10-4_all.deb
+Size: 2084746
+MD5sum: 1ede20438505a60695bcf58b4c08f397
+SHA1: 6f718ce1b1af7341acd41c2aa1707855b169086d
+SHA256: 89782d4dfba5c8e81dc6a174a128ec2289dd6612e955ad10e78cba6b52510823
 Section: libdevel
 Priority: optional
 Description: Testsuite for the Python standard library (v2.7)
@@ -4103,7 +4100,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 6
 Depends: libpython3-dbg (= 3.4.3-4), libpython3.4-dbg
-Filename: pool/main/p/python3-defaults/libpython3-all-dbg_3.4.3-4_amd64.deb
+Filename: pool/main/libp/libpython3-all-dbg_3.4.3-4_amd64.deb
 Size: 952
 MD5sum: d86ffead375d68cb35438addc563d714
 SHA1: 6e5969bad5126837aa153b7e96bfb0fc0b653c90
@@ -4127,7 +4124,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 6
 Depends: libpython3-dev (= 3.4.3-4), libpython3.4-dev
-Filename: pool/main/p/python3-defaults/libpython3-all-dev_3.4.3-4_amd64.deb
+Filename: pool/main/libp/libpython3-all-dev_3.4.3-4_amd64.deb
 Size: 954
 MD5sum: 57b3be48601783dcbcd3e9777d1ba351
 SHA1: fd34acdc70d74d8e7b61489f3c2e547cb88a81d8
@@ -4152,7 +4149,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 42
 Depends: libpython3.4-dbg (>= 3.4.3-1)
-Filename: pool/main/p/python3-defaults/libpython3-dbg_3.4.3-4_amd64.deb
+Filename: pool/main/libp/libpython3-dbg_3.4.3-4_amd64.deb
 Size: 18208
 MD5sum: 545064954a8e502099b14af2de16fa0a
 SHA1: 4dd1808bc69c9bd4e18b6400592ce58cca410b9f
@@ -4172,7 +4169,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 42
 Depends: libpython3.4-dev (>= 3.4.3-1)
-Filename: pool/main/p/python3-defaults/libpython3-dev_3.4.3-4_amd64.deb
+Filename: pool/main/libp/libpython3-dev_3.4.3-4_amd64.deb
 Size: 18266
 MD5sum: 1dfbecf570706f9bcf17a2931633c41a
 SHA1: 54a8ce762045b3e793acf84bdbf3655d0730c946
@@ -4196,7 +4193,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 35
 Depends: libpython3.4-stdlib (>= 3.4.3-1)
-Filename: pool/main/p/python3-defaults/libpython3-stdlib_3.4.3-4_amd64.deb
+Filename: pool/main/libp/libpython3-stdlib_3.4.3-4_amd64.deb
 Size: 18160
 MD5sum: 0cf8f48c41857def77ceeda6052a782b
 SHA1: e1acc960b78f8c875df58fbb1b373399733063f2
@@ -4221,7 +4218,7 @@ Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 6
 Depends: libreadline6-dev (= 6.3-8)
 Conflicts: libreadline-gplv2-dev
-Filename: pool/main/r/readline6/libreadline-dev_6.3-8_amd64.deb
+Filename: pool/main/libr/libreadline-dev_6.3-8_amd64.deb
 Size: 942
 MD5sum: d50108aef124903fcb086c5fbfc4de0f
 SHA1: 19a68839b0cff02ec1339947e4a2890f08e233ea
@@ -4246,7 +4243,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 1285
 Depends: readline-common, libc6 (>= 2.15), libtinfo5 (>= 6)
-Filename: pool/main/r/readline6/libreadline6_6.3-8_amd64.deb
+Filename: pool/main/libr/libreadline6_6.3-8_amd64.deb
 Size: 257012
 MD5sum: 550cb049c14191a56af0e700d42d1103
 SHA1: c307dd3177ed6d6e0880f731f6c24b48a29def5c
@@ -4272,7 +4269,7 @@ Depends: libreadline6 (= 6.3-8), libc6 (>= 2.15), libtinfo5 (>= 6)
 Suggests: libreadline6-dev
 Conflicts: libreadline-dbg
 Provides: libreadline-dbg
-Filename: pool/main/r/readline6/libreadline6-dbg_6.3-8_amd64.deb
+Filename: pool/main/libr/libreadline6-dbg_6.3-8_amd64.deb
 Size: 615356
 MD5sum: 11ff093df826fb8fa2c432dda53a8162
 SHA1: c656ee76d13f7c79735f030653fa9bd7e2e2df0d
@@ -4296,7 +4293,7 @@ Installed-Size: 2015
 Depends: libreadline6 (= 6.3-8), libtinfo-dev, dpkg (>= 1.15.4) | install-info
 Suggests: readline-doc
 Conflicts: libreadline-gplv2-dev, libreadline5-dev
-Filename: pool/main/r/readline6/libreadline6-dev_6.3-8_amd64.deb
+Filename: pool/main/libr/libreadline6-dev_6.3-8_amd64.deb
 Size: 278112
 MD5sum: 1f53f1655012d452e523572af79d0ef7
 SHA1: 929b97c5c536618dc79e513297f20e94c42245ba
@@ -5015,7 +5012,7 @@ Maintainer: Kees Cook <kees@debian.org>
 Installed-Size: 1635
 Depends: libseccomp2 (= 2.2.3-1)
 Suggests: seccomp
-Filename: pool/main/libs/libseccomp/libseccomp-dev_2.2.3-1_amd64.deb
+Filename: pool/main/libs/libseccomp-dev_2.2.3-1_amd64.deb
 Size: 158682
 MD5sum: 8bfc558149c121e4cab4d4b17759bca2
 SHA1: cf955689a6b56aa85fc9aa7a0d9797b52cffc5a1
@@ -5038,7 +5035,7 @@ Architecture: amd64
 Maintainer: Kees Cook <kees@debian.org>
 Installed-Size: 1309
 Depends: libasan2 (>= 5), libc6 (>= 2.4)
-Filename: pool/main/libs/libseccomp/libseccomp2_2.2.3-1_amd64.deb
+Filename: pool/main/libs/libseccomp2_2.2.3-1_amd64.deb
 Size: 163596
 MD5sum: eb8f29569073f9f5863d2cef410a5828
 SHA1: 3b51d1c30f00d9fb5489d6d79ddfe3c344850dfa
@@ -5059,7 +5056,7 @@ Architecture: amd64
 Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
 Installed-Size: 191
 Depends: libc6 (>= 2.14), libpcre3 (>= 1:8.35)
-Filename: pool/main/libs/libselinux/libselinux1_2.3-2_amd64.deb
+Filename: pool/main/libs/libselinux1_2.3-2_amd64.deb
 Size: 89054
 MD5sum: b134bb1263200bc66a9003e45b8501e5
 SHA1: 191f4c715cc306ed6ef5a8ae3bee0b8b2af84789
@@ -5098,7 +5095,7 @@ Installed-Size: 695
 Depends: libselinux1 (= 2.3-2), libsepol1-dev (>= 2.3), libpcre3-dev
 Conflicts: libselinux-dev
 Provides: libselinux-dev
-Filename: pool/main/libs/libselinux/libselinux1-dev_2.3-2_amd64.deb
+Filename: pool/main/libs/libselinux1-dev_2.3-2_amd64.deb
 Size: 157574
 MD5sum: cef4d61d061236d4e867fcb153ed4ea6
 SHA1: 9b4b9101661457ef43dd06b994d3a991cdc3d18f
@@ -5127,7 +5124,7 @@ Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
 Installed-Size: 37
 Breaks: libsemanage1 (<= 2.0.41-1), libsemanage1-dev (<< 2.1.6-3~)
 Replaces: libsemanage1 (<= 2.0.41-1), libsemanage1-dev (<< 2.1.6-3~)
-Filename: pool/main/libs/libsemanage/libsemanage-common_2.3-1_all.deb
+Filename: pool/main/libs/libsemanage-common_2.3-1_all.deb
 Size: 24484
 MD5sum: 0f3af371e8a15723f73beb52a8db0d78
 SHA1: 086832f6accb66236344778126f5cbabc3d75908
@@ -5157,7 +5154,7 @@ Architecture: amd64
 Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
 Installed-Size: 1040
 Depends: libsemanage-common (= 2.3-1), libasan2 (>= 5), libaudit1 (>= 1:2.2.1), libbz2-1.0, libc6 (>= 2.8), libselinux1 (>= 2.1.12), libsepol1 (>= 2.1.4), libustr-1.0-1 (>= 1.0.4)
-Filename: pool/main/libs/libsemanage/libsemanage1_2.3-1_amd64.deb
+Filename: pool/main/libs/libsemanage1_2.3-1_amd64.deb
 Size: 235506
 MD5sum: a881987a0b95055bc8538264a90916d3
 SHA1: 55a4089ecf6ab5f754076761d1dc007e3e2be36d
@@ -5194,7 +5191,7 @@ Installed-Size: 1766
 Depends: libbz2-dev, libselinux1-dev (>= 2.3), libsemanage1 (= 2.3-1), libsepol1-dev (>= 2.3), libustr-dev
 Conflicts: libsemanage-dev
 Provides: libsemanage-dev
-Filename: pool/main/libs/libsemanage/libsemanage1-dev_2.3-1_amd64.deb
+Filename: pool/main/libs/libsemanage1-dev_2.3-1_amd64.deb
 Size: 272108
 MD5sum: 17beebfbf7fd8ad1757efdce586d8f9f
 SHA1: f1330a253f061bc7fec94a564d0bafcdad583aeb
@@ -5225,7 +5222,7 @@ Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
 Installed-Size: 1750
 Pre-Depends: multiarch-support
 Depends: libasan2 (>= 5), libc6 (>= 2.4)
-Filename: pool/main/libs/libsepol/libsepol1_2.3-2_amd64.deb
+Filename: pool/main/libs/libsepol1_2.3-2_amd64.deb
 Size: 416356
 MD5sum: 3d6e8caa3ee8da3d5736135e22de91d6
 SHA1: aba131b663c8ea9654281e1c03e8921ce72fb109
@@ -5259,7 +5256,7 @@ Installed-Size: 2506
 Depends: libsepol1 (= 2.3-2)
 Conflicts: libsepol-dev
 Provides: libsepol-dev
-Filename: pool/main/libs/libsepol/libsepol1-dev_2.3-2_amd64.deb
+Filename: pool/main/libs/libsepol1-dev_2.3-2_amd64.deb
 Size: 448162
 MD5sum: 88b63c093c0958debf5be56740dc34b8
 SHA1: 4bf04de5b10db5f3040ab074b95a91bdf187277e
@@ -5283,7 +5280,7 @@ Architecture: amd64
 Maintainer: Debian util-linux Maintainers <ah-util-linux@debian.org>
 Installed-Size: 1067
 Depends: libc6-dev | libc-dev, libsmartcols1 (= 2.26.2-9)
-Filename: pool/main/u/util-linux/libsmartcols-dev_2.26.2-9_amd64.deb
+Filename: pool/main/libs/libsmartcols-dev_2.26.2-9_amd64.deb
 Size: 224556
 MD5sum: 649e94e3e5e01f3095c6540687bbb64d
 SHA1: abf6fe93c415fd2b25ec70f77464c1344baf29b2
@@ -5303,7 +5300,7 @@ Architecture: amd64
 Maintainer: Debian util-linux Maintainers <ah-util-linux@debian.org>
 Installed-Size: 699
 Depends: libasan2 (>= 5), libc6 (>= 2.17)
-Filename: pool/main/u/util-linux/libsmartcols1_2.26.2-9_amd64.deb
+Filename: pool/main/libs/libsmartcols1_2.26.2-9_amd64.deb
 Size: 203722
 MD5sum: 7953e85f07d1331b7da0cb330b1a46e2
 SHA1: 8fa251a903972d9df7de531faf6cfdb6ac14bfd7
@@ -5322,7 +5319,7 @@ Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 172
 Depends: libcomerr2, libasan2 (>= 5), libc6 (>= 2.17)
 Replaces: e2fsprogs (<< 1.34-1)
-Filename: pool/main/e/e2fsprogs/libss2_1.42.13-1_amd64.deb
+Filename: pool/main/libs/libss2_1.42.13-1_amd64.deb
 Size: 79114
 MD5sum: 3f17543131a4b8050c27ae08a37d70c0
 SHA1: ed67c7b270a0ce936338ecee170fcb1c99021cbd
@@ -5345,7 +5342,7 @@ Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 175
 Depends: libss2 (= 1.42.13-1)
-Filename: pool/main/e/e2fsprogs/libss2-dbg_1.42.13-1_amd64.deb
+Filename: pool/main/libs/libss2-dbg_1.42.13-1_amd64.deb
 Size: 83002
 MD5sum: 7b94fa82583053f562d9583e21983434
 SHA1: 988da617a1c9bd7f8fa423ea556bff88821a4379
@@ -5364,7 +5361,7 @@ Version: 0.9.27~git20140923.9d7fb33-3
 Architecture: amd64
 Maintainer: Thomas Preud'homme <robotux@debian.org>
 Installed-Size: 1339
-Filename: pool/main/t/tcc/libtcc-dev_0.9.27~git20140923.9d7fb33-3_amd64.deb
+Filename: pool/main/libt/libtcc-dev_0.9.27~git20140923.9d7fb33-3_amd64.deb
 Size: 253902
 MD5sum: 7f50182d52040bd68645404df6eca8bf
 SHA1: 0896945a7130fd2c8ec553994bd1d0faf3a54a88
@@ -5395,7 +5392,7 @@ Architecture: amd64
 Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Installed-Size: 42
 Depends: libc6 (>= 2.4), perl-base (>= 5.20.2-6), perlapi-5.20.2
-Filename: pool/main/libt/libtext-charwidth-perl/libtext-charwidth-perl_0.04-7_amd64.deb
+Filename: pool/main/libt/libtext-charwidth-perl_0.04-7_amd64.deb
 Size: 11482
 MD5sum: bcdb6762048b989f09f4b7cb5015eddb
 SHA1: 64e32e1cfc425e2f06c5fa528e02bfef18c1effc
@@ -5415,7 +5412,7 @@ Architecture: amd64
 Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Installed-Size: 62
 Depends: libc6 (>= 2.4), perl-base (>= 5.20.2-6), perlapi-5.20.2
-Filename: pool/main/libt/libtext-iconv-perl/libtext-iconv-perl_1.7-5_amd64.deb
+Filename: pool/main/libt/libtext-iconv-perl_1.7-5_amd64.deb
 Size: 18442
 MD5sum: 9070c8af2b18a3439451a32ce9931ac7
 SHA1: 7b85eb819282f9a386a666f06527db7a47a6c2ec
@@ -5437,7 +5434,7 @@ Architecture: all
 Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Installed-Size: 26
 Depends: libtext-charwidth-perl
-Filename: pool/main/libt/libtext-wrapi18n-perl/libtext-wrapi18n-perl_0.06-7.1_all.deb
+Filename: pool/main/libt/libtext-wrapi18n-perl_0.06-7.1_all.deb
 Size: 8646
 MD5sum: aa51e54044ad1bf5ca536a2f6aa3e16f
 SHA1: 779bcfa985290900853f1cbc0c7665ce06642bc6
@@ -5464,7 +5461,7 @@ Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 5.2), libusb-0.1-
 Suggests: hotplug
 Breaks: libusb++-0.1-4c2
 Replaces: libusb++-0.1-4c2
-Filename: pool/main/libu/libusb/libusb++-0.1-4v5_0.1.12-27_amd64.deb
+Filename: pool/main/libu/libusb++-0.1-4v5_0.1.12-27_amd64.deb
 Size: 28884
 MD5sum: 1ad1e5a2ae0a7e90ed697ada73940188
 SHA1: 54b5b4520a22a67fab581f72ec4bb0d5cee6fcbe
@@ -5485,7 +5482,7 @@ Architecture: amd64
 Maintainer: Aurelien Jarno <aurel32@debian.org>
 Installed-Size: 146
 Depends: libusb++-0.1-4v5 (= 2:0.1.12-27), libusb-dev (= 2:0.1.12-27), libstdc++-5-dev | libstdc++-dev
-Filename: pool/main/libu/libusb/libusb++-dev_0.1.12-27_amd64.deb
+Filename: pool/main/libu/libusb++-dev_0.1.12-27_amd64.deb
 Size: 34918
 MD5sum: 07ccdc4f851363196ea99999f8b66757
 SHA1: 055ad274cb4ca95a80b9443696e951449cd569e6
@@ -5506,7 +5503,7 @@ Maintainer: Aurelien Jarno <aurel32@debian.org>
 Installed-Size: 142
 Depends: libasan2 (>= 5), libc6 (>= 2.15)
 Replaces: libusb-dev (<< 2:0.1.12-25)
-Filename: pool/main/libu/libusb/libusb-0.1-4_0.1.12-27_amd64.deb
+Filename: pool/main/libu/libusb-0.1-4_0.1.12-27_amd64.deb
 Size: 40484
 MD5sum: f3f656b31f3487f18e4a8d939031130b
 SHA1: a974bbd022e11207393f13bcbaf59dca0743622d
@@ -5526,7 +5523,7 @@ Architecture: amd64
 Maintainer: Aurelien Jarno <aurel32@debian.org>
 Installed-Size: 342
 Depends: libusb-0.1-4 (= 2:0.1.12-27), libc6-dev | libc-dev
-Filename: pool/main/libu/libusb/libusb-dev_0.1.12-27_amd64.deb
+Filename: pool/main/libu/libusb-dev_0.1.12-27_amd64.deb
 Size: 57232
 MD5sum: 0742a72aae9158296349ca40c25414b1
 SHA1: 30a4990fe6d4d46e4e77d5fe7ee7d34c76c0caed
@@ -5545,7 +5542,7 @@ Architecture: amd64
 Maintainer: Vaclav Ovsik <vaclav.ovsik@i.cz>
 Installed-Size: 934
 Depends: libasan2 (>= 5), libc6 (>= 2.4)
-Filename: pool/main/u/ustr/libustr-1.0-1_1.0.4-5_amd64.deb
+Filename: pool/main/libu/libustr-1.0-1_1.0.4-5_amd64.deb
 Size: 209374
 MD5sum: bd80893accb76bb2242cc15e66a772b1
 SHA1: bcebacfaae8c1fa17d77a112d8ed024603eaf8ca
@@ -5571,7 +5568,7 @@ Maintainer: Vaclav Ovsik <vaclav.ovsik@i.cz>
 Installed-Size: 450
 Pre-Depends: dpkg (>= 1.17.13)
 Depends: libustr-1.0-1 (= 1.0.4-5)
-Filename: pool/main/u/ustr/libustr-1.0-1-dbg_1.0.4-5_amd64.deb
+Filename: pool/main/libu/libustr-1.0-1-dbg_1.0.4-5_amd64.deb
 Size: 392056
 MD5sum: b017372a2cd129059e7cd9e897e64e5a
 SHA1: 028d290cab452a73e4053b7e43be2ed729e03f1c
@@ -5597,7 +5594,7 @@ Maintainer: Vaclav Ovsik <vaclav.ovsik@i.cz>
 Installed-Size: 2557
 Pre-Depends: dpkg (>= 1.17.13)
 Depends: libustr-1.0-1 (= 1.0.4-5), libc6-dev
-Filename: pool/main/u/ustr/libustr-dev_1.0.4-5_amd64.deb
+Filename: pool/main/libu/libustr-dev_1.0.4-5_amd64.deb
 Size: 412178
 MD5sum: 087d2c78834a48fae2ba14ce422efdd3
 SHA1: 1accd53e0bc2dcae1f4cef88f357cc157df6bd1e
@@ -5623,7 +5620,7 @@ Architecture: all
 Maintainer: Vaclav Ovsik <vaclav.ovsik@i.cz>
 Installed-Size: 507
 Suggests: libustr-dev
-Filename: pool/main/u/ustr/libustr-doc_1.0.4-5_all.deb
+Filename: pool/main/libu/libustr-doc_1.0.4-5_all.deb
 Size: 93346
 MD5sum: f958ad8a30d51e41e39c95208fe1edb6
 SHA1: 2021df329b9e71653e3ca4673cda90f14f15c767
@@ -5649,7 +5646,7 @@ Installed-Size: 149
 Depends: passwd, libasan2 (>= 5), libc6 (>= 2.4)
 Recommends: uuid-runtime
 Replaces: e2fsprogs (<< 1.34-1)
-Filename: pool/main/u/util-linux/libuuid1_2.26.2-9_amd64.deb
+Filename: pool/main/libu/libuuid1_2.26.2-9_amd64.deb
 Size: 75622
 MD5sum: 09e5fbd846b474a2c136e49fce801a9d
 SHA1: 5c027262d737df88060bca3689b406c3f52a54bf
@@ -5674,7 +5671,7 @@ Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 2119
 Depends: libc6 (>= 2.15), libicu55 (>= 55.1-1~), liblzma5 (>= 5.1.1alpha+20120614), zlib1g (>= 1:1.2.3.3)
 Recommends: xml-core
-Filename: pool/main/libx/libxml2/libxml2_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Filename: pool/main/libx/libxml2_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
 Size: 905378
 MD5sum: 4a571dcc44301c73eee76142466e0163
 SHA1: 284bea1e1d04d0d064bce417604127079828b518
@@ -5701,7 +5698,7 @@ Architecture: amd64
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 1911
 Depends: libxml2 (= 2.9.2+really2.9.1+dfsg1-0.1), libicu52-dbg
-Filename: pool/main/libx/libxml2/libxml2-dbg_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Filename: pool/main/libx/libxml2-dbg_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
 Size: 1724524
 MD5sum: 3f00655e7718dfc91feb98a4efbaa8e7
 SHA1: 6d509a99b2028f86df1c59f4b78c015bed979f23
@@ -5728,7 +5725,7 @@ Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 3418
 Depends: libxml2 (= 2.9.2+really2.9.1+dfsg1-0.1), libicu-dev
 Suggests: pkg-config
-Filename: pool/main/libx/libxml2/libxml2-dev_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Filename: pool/main/libx/libxml2-dev_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
 Size: 798574
 MD5sum: 9958466137541302e9dad5a7353ae6c0
 SHA1: cfe3f187c5d03083a48b0456125498a7d4d06577
@@ -5755,7 +5752,7 @@ Architecture: all
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 8616
 Suggests: devhelp
-Filename: pool/main/libx/libxml2/libxml2-doc_2.9.2+really2.9.1+dfsg1-0.1_all.deb
+Filename: pool/main/libx/libxml2-doc_2.9.2+really2.9.1+dfsg1-0.1_all.deb
 Size: 814332
 MD5sum: 1543299f929876f98e731e10108be888
 SHA1: 0a1d1cc0df1cc060a7d3757d8144f5d8e2be5519
@@ -5782,7 +5779,7 @@ Architecture: amd64
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 166
 Depends: libc6 (>= 2.7), libreadline5 (>= 5.2), libxml2 (>= 2.9.0)
-Filename: pool/main/libx/libxml2/libxml2-utils_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Filename: pool/main/libx/libxml2-utils_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
 Size: 91382
 MD5sum: d0d393c3b710aff7f9647c411b85e80f
 SHA1: 76fa6fc4698734a8a22854ff16f47f5e6b4646dd
@@ -5810,7 +5807,7 @@ Architecture: amd64
 Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 164
 Depends: libxml2-utils (= 2.9.2+really2.9.1+dfsg1-0.1)
-Filename: pool/main/libx/libxml2/libxml2-utils-dbg_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Filename: pool/main/libx/libxml2-utils-dbg_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
 Size: 126744
 MD5sum: b9388522ebbc34d30c8f58f8aa533f7e
 SHA1: ffefe88feb299ee1a7b71fe492dfe9cd6e46642b
@@ -5838,7 +5835,7 @@ Installed-Size: 16269
 Depends: libc-bin (>> 2.19), debconf (>= 0.5) | debconf-2.0
 Conflicts: base-config, belocs-locales-bin, belocs-locales-data
 Replaces: base-config, lliurex-belocs-locales-data, manpages-fr-extra (<< 20141022)
-Filename: pool/main/g/glibc/locales_2.19-19_all.deb
+Filename: pool/main/l/locales_2.19-19_all.deb
 Size: 3944944
 MD5sum: ff0ca03b3da8c7fd2f723d165adf4a08
 SHA1: 02382015ccfa5f4a2bc0ad940718bb118de637cc
@@ -5865,7 +5862,7 @@ Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 120305
 Breaks: locales (<< 2.13-17)
 Provides: locales
-Filename: pool/main/g/glibc/locales-all_2.19-19_amd64.deb
+Filename: pool/main/l/locales-all_2.19-19_amd64.deb
 Size: 3568280
 MD5sum: ad336be746fa447f41cabbaff6dd645e
 SHA1: f2526c82774630831dc56f9b032350fd03702e0c
@@ -5889,7 +5886,7 @@ Installed-Size: 1124
 Depends: libasan2 (>= 5), libc6 (>= 2.4), findutils (>> 4.2.31-1)
 Conflicts: slocate (<= 3.1-1.1)
 Replaces: findutils (<< 4.2.31-2)
-Filename: pool/main/f/findutils/locate_4.4.2-9_amd64.deb
+Filename: pool/main/l/locate_4.4.2-9_amd64.deb
 Size: 332032
 MD5sum: de66a2c1d4fa11de0e525bf2c4c9514d
 SHA1: f3077fc8a7e6c08a78506c135e6d150a7f52a263
@@ -5912,7 +5909,7 @@ Installed-Size: 2800
 Pre-Depends: libasan2 (>= 5), libaudit1 (>= 1:2.2.1), libc6 (>= 2.7), libpam0g (>= 0.99.7.1), libpam-runtime, libpam-modules (>= 1.1.8-1)
 Conflicts: amavisd-new (<< 2.3.3-8), backupninja (<< 0.9.3-5), echolot (<< 2.1.8-4), gnunet (<< 0.7.0c-2), python-4suite (<< 0.99cvs20060405-1)
 Replaces: manpages-de (<< 0.5-3), manpages-tr (<< 1.0.5), manpages-zh (<< 1.5.1-1)
-Filename: pool/main/s/shadow/login_4.2-3_amd64.deb
+Filename: pool/main/l/login_4.2-3_amd64.deb
 Size: 774310
 MD5sum: ee2bd50dec91359ae2d4e741d6c8ebaa
 SHA1: f62f20922fc064aa68bf2e865ce398b33bca74b9
@@ -5933,7 +5930,7 @@ Version: 9.20150826
 Architecture: all
 Maintainer: Debian LSB Team <debian-lsb@lists.debian.org>
 Installed-Size: 48
-Filename: pool/main/l/lsb/lsb-base_9.20150826_all.deb
+Filename: pool/main/l/lsb-base_9.20150826_all.deb
 Size: 27298
 MD5sum: 533d147fe75f2d6c2952bc3ee908561a
 SHA1: 62418e7deb2620589ecbd4cf141882078e14060d
@@ -5960,7 +5957,7 @@ Installed-Size: 61
 Depends: python3, python3:any (>= 3.4~), distro-info-data
 Recommends: apt
 Suggests: lsb
-Filename: pool/main/l/lsb/lsb-release_9.20150826_all.deb
+Filename: pool/main/l/lsb-release_9.20150826_all.deb
 Size: 26392
 MD5sum: 259acca273d786bd197cab5b65784271
 SHA1: 03e0f9be3cd71a237945c5ea14345fdcc73abaf8
@@ -5991,7 +5988,7 @@ Installed-Size: 4785
 Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.15), libdevmapper-event1.02.1 (>= 2:1.02.74), libdevmapper1.02.1 (>= 2:1.02.104), liblvm2app2.2 (>= 2.02.127), libreadline5 (>= 5.2), libudev1 (>= 183), init-system-helpers (>= 1.18~), lsb-base, dmsetup (>> 2:1.02.47), dmeventd (>> 2:1.02.90), initscripts (>= 2.88dsf-13.3)
 Suggests: thin-provisioning-tools
 Breaks: initramfs-tools (<< 0.99), thin-provisioning-tools (<< 0.3.2)
-Filename: pool/main/l/lvm2/lvm2_2.02.127-1_amd64.deb
+Filename: pool/main/l/lvm2_2.02.127-1_amd64.deb
 Size: 1187054
 MD5sum: 50f3d025bec000a043e3ebb49953a0a3
 SHA1: 1a469dcca30ca9b52c1a606e1e0623fce34daa69
@@ -6014,7 +6011,7 @@ Maintainer: Steve Langasek <vorlon@debian.org>
 Installed-Size: 745
 Pre-Depends: libasan2 (>= 5), libc6 (>= 2.11)
 Provides: awk
-Filename: pool/main/m/mawk/mawk_1.3.3-17_amd64.deb
+Filename: pool/main/m/mawk_1.3.3-17_amd64.deb
 Size: 204300
 MD5sum: 888cc9d3fd049d69567d41c7e9f8d8fc
 SHA1: 44175db50d79a6782cec62df070338bd0fb89e80
@@ -6043,7 +6040,7 @@ Architecture: all
 Maintainer: Michael Stone <mstone@debian.org>
 Installed-Size: 24
 Pre-Depends: coreutils (>= 7.4-1)
-Filename: pool/main/c/coreutils/mktemp_8.23-4_all.deb
+Filename: pool/main/m/mktemp_8.23-4_all.deb
 Size: 17888
 MD5sum: 2a513f2e8366c575aacedbf37119f3a5
 SHA1: 87c0cc4500bd920ca71a9389d090e60de2739d1e
@@ -6061,7 +6058,7 @@ Maintainer: Marco d'Itri <md@linux.it>
 Installed-Size: 12
 Pre-Depends: dpkg (>= 1.15.7.2)
 Depends: libkmod2 (= 21-1), kmod
-Filename: pool/main/k/kmod/module-init-tools_21-1_all.deb
+Filename: pool/main/m/module-init-tools_21-1_all.deb
 Size: 1858
 MD5sum: f11bef81635ed8c0ba31d16d0fb67ea0
 SHA1: 0f2e9878b4ececb32cf75c64636d7ec41db97dc5
@@ -6081,7 +6078,7 @@ Maintainer: Debian util-linux Maintainers <ah-util-linux@debian.org>
 Installed-Size: 853
 Pre-Depends: libasan2 (>= 5), libblkid1 (>= 2.17.2), libc6 (>= 2.17), libmount1 (>= 2.25), libselinux1 (>= 2.0.15), libsmartcols1 (>= 2.25), libudev1 (>= 183)
 Suggests: nfs-common (>= 1:1.1.0-13)
-Filename: pool/main/u/util-linux/mount_2.26.2-9_amd64.deb
+Filename: pool/main/m/mount_2.26.2-9_amd64.deb
 Size: 245566
 MD5sum: 10e4cfb67f280348eb4898c0b60148e4
 SHA1: b1c4709508f801ed3fe643f47f368243963bc8b5
@@ -6100,7 +6097,7 @@ Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 200
 Depends: libc6 (>= 2.3.6-2)
-Filename: pool/main/g/glibc/multiarch-support_2.19-19_amd64.deb
+Filename: pool/main/m/multiarch-support_2.19-19_amd64.deb
 Size: 178840
 MD5sum: 41069a90cc3920b3a2dad18c734a7583
 SHA1: e3325c47dfc526649d00b8af5a54c38bb5e92f02
@@ -6122,7 +6119,7 @@ Installed-Size: 45
 Depends: lsb-base (>= 3.0-6)
 Recommends: ifupdown
 Breaks: ifupdown (<< 0.7)
-Filename: pool/main/n/netbase/netbase_5.3_all.deb
+Filename: pool/main/n/netbase_5.3_all.deb
 Size: 18870
 MD5sum: 9a79dc01ee6f34a75cd5b4ac94533c0a
 SHA1: f2e17c4b831aac7c7e7c67cf597090cfe2acc00d
@@ -6141,7 +6138,7 @@ Architecture: amd64
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 369
 Depends: libaudit1 (>= 1:2.2.1), libc6 (>> 2.19), libc6 (<< 2.20), libcap2 (>= 1:2.10), libselinux1 (>= 1.32)
-Filename: pool/main/g/glibc/nscd_2.19-19_amd64.deb
+Filename: pool/main/n/nscd_2.19-19_amd64.deb
 Size: 242128
 MD5sum: baf94db0252479442a92a8efc6ae24fc
 SHA1: 128b1d60e4a0462182864783893ea1b8d26d402c
@@ -6164,7 +6161,7 @@ Maintainer: Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org
 Installed-Size: 6131
 Depends: libasan2 (>= 5), libaudit1 (>= 1:2.2.1), libc6 (>= 2.8), libpam0g (>= 0.99.7.1), libselinux1 (>= 1.32), libsemanage1 (>= 2.0.3), libpam-modules, debianutils (>= 2.15.2)
 Replaces: manpages-tr (<< 1.0.5), manpages-zh (<< 1.5.1-1)
-Filename: pool/main/s/shadow/passwd_4.2-3_amd64.deb
+Filename: pool/main/p/passwd_4.2-3_amd64.deb
 Size: 1266856
 MD5sum: 900e19995174277d86dd258f5c57d3fa
 SHA1: 0d6c10b6eaab65cd93f1e186a2a625ed46103313
@@ -6192,7 +6189,7 @@ Conflicts: libjson-pp-perl (<< 2.27200-2)
 Breaks: dh-make-perl (<< 0.73-1), ftpmirror (<< 1.96+dfsg-13), libcompress-raw-bzip2-perl (<< 2.064), libcompress-raw-zlib-perl (<< 2.065), libcompress-zlib-perl (<< 2.064), libdigest-md5-perl (<< 2.53), libdigest-sha-perl (<< 5.88), libencode-perl (<< 2.60), libhtml-template-compiled-perl (<< 0.95-1), libio-compress-base-perl (<< 2.064), libio-compress-bzip2-perl (<< 2.064), libio-compress-perl (<< 2.064), libio-compress-zlib-perl (<< 2.064), libload-perl (<< 0.20-1), libmime-base64-perl (<< 3.14), libnet-jifty-perl (<< 0.14-1), libperl-apireference-perl (<< 0.09-1), libregexp-optimizer-perl (<< 0.15-3), libsoap-lite-perl (<< 0.712-4), libstorable-perl (<< 2.49.01), libsys-syslog-perl (<< 0.33), libthreads-perl (<< 1.93), libthreads-shared-perl (<< 1.46), libtime-hires-perl (<< 1.9726), libtime-piece-perl (<< 1.27), libxml-parser-lite-tree-perl (<< 0.14-1), libyaml-perl (<< 0.73-1), mrtg (<< 2.16.3-3.1), perl-doc (<< 5.20.2-1)
 Replaces: libarchive-tar-perl (<= 1.38-2), libcompress-raw-bzip2-perl, libcompress-raw-zlib-perl, libcompress-zlib-perl, libdigest-md5-perl, libdigest-sha-perl, libencode-perl, libio-compress-base-perl, libio-compress-bzip2-perl, libio-compress-perl, libio-compress-zlib-perl, libmime-base64-perl, libmodule-corelist-perl (<< 2.14-2), libstorable-perl, libsys-syslog-perl, libthreads-perl, libthreads-shared-perl, libtime-hires-perl, libtime-piece-perl, perl-base (<< 5.10.1-12), perl-doc (<< 5.8.0-1), perl-modules (<< 5.8.1-1)
 Provides: data-dumper, libcompress-raw-bzip2-perl, libcompress-raw-zlib-perl, libcompress-zlib-perl, libdigest-md5-perl, libdigest-sha-perl, libencode-perl, libio-compress-base-perl, libio-compress-bzip2-perl, libio-compress-perl, libio-compress-zlib-perl, libmime-base64-perl, libstorable-perl, libsys-syslog-perl, libthreads-perl, libthreads-shared-perl, libtime-hires-perl, libtime-piece-perl, perl5
-Filename: pool/main/p/perl/perl_5.20.2-6_amd64.deb
+Filename: pool/main/p/perl_5.20.2-6_amd64.deb
 Size: 2880694
 MD5sum: a39985c123b920c82f104de3a8fb72cb
 SHA1: ae6a7e6fed783d19923db01f18667c3d13d74149
@@ -6227,7 +6224,7 @@ Conflicts: defoma (<< 0.11.12), doc-base (<< 0.10.3), mono-gac (<< 2.10.8.1-3), 
 Breaks: autoconf2.13 (<< 2.13-45), libalien-wxwidgets-perl (<< 0.65+dfsg-2), libanyevent-perl (<< 7.070-2), libcommon-sense-perl (<< 3.72-2~), libfile-path-perl (<< 2.09), libfile-spec-perl (<< 3.4801), libfile-temp-perl (<< 0.2304), libgtk2-perl-doc (<< 2:1.2491-4), libio-socket-ip-perl (<< 0.29), libjcode-perl (<< 2.13-3), libmarc-charset-perl (<< 1.2), libscalar-list-utils-perl (<< 1:1.38), libsocket-perl (<< 2.013), libxsloader-perl (<< 0.17), pdl (<< 1:2.007-4), perl (<< 5.20.2~), perl-modules (<< 5.20.2~)
 Replaces: libfile-path-perl, libfile-temp-perl, libio-socket-ip-perl, libperl5.8 (<< 5.8.0-20), libscalar-list-utils-perl, libsocket-perl, libxsloader-perl, perl (<< 5.10.1-12), perl-modules (<< 5.20.1-3)
 Provides: libfile-path-perl, libfile-temp-perl, libio-socket-ip-perl, libscalar-list-utils-perl, libsocket-perl, libxsloader-perl, perl5-base, perlapi-5.20.0, perlapi-5.20.1, perlapi-5.20.2
-Filename: pool/main/p/perl/perl-base_5.20.2-6_amd64.deb
+Filename: pool/main/p/perl-base_5.20.2-6_amd64.deb
 Size: 2419458
 MD5sum: 0620df681f527ac2cfb00f7b88751a95
 SHA1: ee958d3972eab7dd6987e300777623ec619230ba
@@ -6250,7 +6247,7 @@ Architecture: amd64
 Maintainer: Niko Tyni <ntyni@debian.org>
 Installed-Size: 52547
 Depends: perl (= 5.20.2-6), libc6 (>= 2.14)
-Filename: pool/main/p/perl/perl-debug_5.20.2-6_amd64.deb
+Filename: pool/main/p/perl-debug_5.20.2-6_amd64.deb
 Size: 9298128
 MD5sum: e6e2b2c678d1998adba45c36dc4e2d30
 SHA1: 95e7fd1dee833dae8d0e94c80e877636ff15adbb
@@ -6275,7 +6272,7 @@ Maintainer: Niko Tyni <ntyni@debian.org>
 Installed-Size: 13398
 Depends: perl (>= 5.20.2-1)
 Suggests: man-browser, groff-base
-Filename: pool/main/p/perl/perl-doc_5.20.2-6_all.deb
+Filename: pool/main/p/perl-doc_5.20.2-6_all.deb
 Size: 7342866
 MD5sum: 970c4655fef4dc926fd64f1f5990c18b
 SHA1: 302f47a7b45bde554a14b73760884e3468b70745
@@ -6301,7 +6298,7 @@ Conflicts: defoma (<< 0.11.12), mono-gac (<< 2.10.8.1-3)
 Breaks: cli-common (<< 0.9+nmu1), libansicolor-perl (<< 4.02), libarchive-tar-perl (<< 1.96), libattribute-handlers-perl (<< 0.96), libautodie-perl (<< 2.23), libcgi-pm-perl (<< 3.65), libcpan-meta-perl (<< 2.140640), libcpan-meta-requirements-perl (<< 2.125), libcpan-meta-yaml-perl (<< 0.012), libdigest-perl (<< 1.17), libexperimental-perl (<< 0.007), libextutils-cbuilder-perl (<< 0.280217), libextutils-command-perl (<< 1.18), libextutils-install-perl (<< 1.67), libextutils-parsexs-perl (<< 3.240000), libfile-spec-perl (<< 3.4801), libhttp-tiny-perl (<< 0.043), libi18n-langtags-perl (<< 0.40), libio-zlib-perl (<< 1.10), libjson-pp-perl (<< 2.27203), liblocale-codes-perl (<< 3.30), liblocale-maketext-perl (<< 1.25), liblocale-maketext-simple-perl (<< 0.21), libmath-bigint-perl (<< 1.9993), libmath-complex-perl (<< 1.59), libmodule-build-perl (<< 0.420500), libmodule-corelist-perl (<< 5.20150214), libmodule-load-conditional-perl (<< 0.62), libmodule-load-perl (<< 0.32), libmodule-metadata-perl (<< 1.000019), libnet-perl (<= 1:1.22), libnet-ping-perl (<< 2.43), libpackage-constants-perl (<< 0.04), libparams-check-perl (<< 0.38), libparent-perl (<< 0.228), libparse-cpan-meta-perl (<< 1.4414), libperl-ostype-perl (<< 1.007), libpod-escapes-perl (<< 1.06), libpod-parser-perl (<< 1.62), libpod-simple-perl (<< 3.28), libtest-harness-perl (<< 3.30), libtest-simple-perl (<< 1.001002), libthread-queue-perl (<< 3.05), libtime-local-perl (<< 1.2300), libunicode-collate-perl (<< 1.04), libversion-perl (<< 1:0.9909), libversion-requirements-perl (<< 0.101022), mono-apache-server2 (<< 3.8-2.1), mono-apache-server4 (<< 3.8-2.1), mono-fastcgi-server2 (<< 3.8-2.1), mono-fastcgi-server4 (<< 3.8-2.1), patcher (<< 0.0.20040521-6.1), pdl (<< 1:2.007-4), perl (<< 5.20.2~), podlators-perl (<< 2.3.1), polygen-data (<< 1.0.6.ds2-13.1), pristine-tar (<< 1.33), pure-ftpd-common (<< 1.0.36-3.2), rinse (<< 3.0.7), shorewall (<< 4.6.4.3-2), shorewall-core (<< 4.6.4.3-2), tvtime (<< 1.0.2-14)
 Replaces: libansicolor-perl, libarchive-tar-perl, libattribute-handlers-perl, libautodie-perl, libcgi-pm-perl, libcpan-meta-perl, libcpan-meta-requirements-perl, libcpan-meta-yaml-perl, libdigest-perl, libexperimental-perl, libextutils-cbuilder-perl, libextutils-command-perl, libextutils-install-perl, libextutils-parsexs-perl, libfile-spec-perl, libhttp-tiny-perl, libi18n-langtags-perl, libio-zlib-perl, libjson-pp-perl, liblocale-codes-perl, liblocale-maketext-perl, liblocale-maketext-simple-perl, libmath-bigint-perl, libmath-complex-perl, libmodule-build-perl, libmodule-corelist-perl, libmodule-load-conditional-perl, libmodule-load-perl, libmodule-metadata-perl, libnet-perl, libnet-ping-perl, libpackage-constants-perl, libparams-check-perl, libparent-perl, libparse-cpan-meta-perl, libperl-ostype-perl, libpod-escapes-perl, libpod-parser-perl, libpod-simple-perl, libtest-harness-perl, libtest-simple-perl, libthread-queue-perl, libtime-local-perl, libunicode-collate-perl, libversion-perl, libversion-requirements-perl, podlators-perl
 Provides: libansicolor-perl, libarchive-tar-perl, libattribute-handlers-perl, libautodie-perl, libcpan-meta-perl, libcpan-meta-requirements-perl, libcpan-meta-yaml-perl, libdigest-perl, libexperimental-perl, libextutils-cbuilder-perl, libextutils-command-perl, libextutils-install-perl, libextutils-parsexs-perl, libfile-spec-perl, libhttp-tiny-perl, libi18n-langtags-perl, libio-zlib-perl, libjson-pp-perl, liblocale-codes-perl, liblocale-maketext-perl, liblocale-maketext-simple-perl, libmath-bigint-perl, libmath-complex-perl, libmodule-corelist-perl, libmodule-load-conditional-perl, libmodule-load-perl, libmodule-metadata-perl, libnet-perl, libnet-ping-perl, libparams-check-perl, libparent-perl, libparse-cpan-meta-perl, libperl-ostype-perl, libpod-escapes-perl, libpod-parser-perl, libpod-simple-perl, libtest-harness-perl, libtest-simple-perl, libthread-queue-perl, libtime-local-perl, libunicode-collate-perl, libversion-perl, libversion-requirements-perl, podlators-perl
-Filename: pool/main/p/perl/perl-modules_5.20.2-6_all.deb
+Filename: pool/main/p/perl-modules_5.20.2-6_all.deb
 Size: 2552394
 MD5sum: 664e95109c18eca6f0e17bea4a8083e9
 SHA1: 56e24f6f51b910069dba2dcaf4e998573519f0ba
@@ -6326,7 +6323,7 @@ Maintainer: Eduard Bloch <blade@debian.org>
 Installed-Size: 1146
 Pre-Depends: dpkg (>= 1.15.6)
 Depends: libc6 (>= 2.14), zlib1g (>= 1:1.2.6)
-Filename: pool/main/p/pigz/pigz_2.3.1-2_amd64.deb
+Filename: pool/main/p/pigz_2.3.1-2_amd64.deb
 Size: 128540
 MD5sum: 0d9a67159dcf1e1af05d382cd38d85d6
 SHA1: 1ca8102c28b17ae46eb77cd4a1f2fd4a9acf594f
@@ -6345,7 +6342,7 @@ Architecture: amd64
 Maintainer: Holger Levsen <holger@debian.org>
 Installed-Size: 57
 Depends: libasan2 (>= 5), libc6 (>= 2.4), libgomp1 (>= 4.9), liblzma5 (>= 5.1.1alpha+20120614)
-Filename: pool/main/p/pxz/pxz_4.999.99~beta4+gitae80846-2_amd64.deb
+Filename: pool/main/p/pxz_4.999.99~beta4+gitae80846-2_amd64.deb
 Size: 15290
 MD5sum: 3bd66c4b911325dd4766688b5630af1b
 SHA1: e97250e3ca5bab879471209906968c0a95e9e89e
@@ -6367,7 +6364,7 @@ Architecture: all
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Installed-Size: 186
 Depends: pypy
-Filename: pool/main/s/simplejson/pypy-simplejson_3.7.3-1_all.deb
+Filename: pool/main/p/pypy-simplejson_3.7.3-1_all.deb
 Size: 41884
 MD5sum: 53d1f82dffc60a3aa7c35c636659e25c
 SHA1: 5fdd8f6e50245bc55a879760a76b2e1806493eb0
@@ -6399,7 +6396,7 @@ Conflicts: python-central (<< 0.5.5)
 Breaks: update-manager-core (<< 0.200.5-2)
 Replaces: python-dev (<< 2.6.5-2)
 Provides: python-ctypes, python-email, python-importlib, python-profiler, python-wsgiref
-Filename: pool/main/p/python-defaults/python_2.7.9-1_amd64.deb
+Filename: pool/main/p/python_2.7.9-1_amd64.deb
 Size: 150448
 MD5sum: 289b3c35676685afd3e071126700e1cc
 SHA1: aee99c54c71a44f62c9bb01f173e9419dd4ab6f2
@@ -6423,7 +6420,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 6
 Depends: python (= 2.7.9-1), python2.7 (>= 2.7.2-3)
-Filename: pool/main/p/python-defaults/python-all_2.7.9-1_amd64.deb
+Filename: pool/main/p/python-all_2.7.9-1_amd64.deb
 Size: 940
 MD5sum: 033dace96927453a1faa0d434c1c34d9
 SHA1: 9ecac486e5c895e28d502798a37a677fd3040325
@@ -6447,7 +6444,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 6
 Depends: python (= 2.7.9-1), python-all (= 2.7.9-1), libpython-all-dbg (= 2.7.9-1), python-dbg (= 2.7.9-1), python2.7-dbg (>= 2.7-7)
-Filename: pool/main/p/python-defaults/python-all-dbg_2.7.9-1_amd64.deb
+Filename: pool/main/p/python-all-dbg_2.7.9-1_amd64.deb
 Size: 960
 MD5sum: 0701f0700e8b931d18fe13425d61dbfe
 SHA1: 6981a0a2c312829c49a5f4a3ada18887eb8fc738
@@ -6471,7 +6468,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 6
 Depends: python (= 2.7.9-1), python-all (= 2.7.9-1), libpython-all-dev (= 2.7.9-1), python-dev (= 2.7.9-1), python2.7-dev (>= 2.7-7)
-Filename: pool/main/p/python-defaults/python-all-dev_2.7.9-1_amd64.deb
+Filename: pool/main/p/python-all-dev_2.7.9-1_amd64.deb
 Size: 962
 MD5sum: 69a03a064bc362403ef259331e72d035
 SHA1: 500a768a3fe19aeeb2b3f6869dc75292dc31f16a
@@ -6498,7 +6495,7 @@ Installed-Size: 425
 Depends: python (>= 2.7), python (<< 2.8), python-libapparmor, python-pkg-resources
 Breaks: apparmor-utils (<< 2.8.95~2385-0ubuntu1)
 Replaces: apparmor-utils (<< 2.8.95~2385-0ubuntu1)
-Filename: pool/main/a/apparmor/python-apparmor_2.9.2-3_amd64.deb
+Filename: pool/main/p/python-apparmor_2.9.2-3_amd64.deb
 Size: 105874
 MD5sum: 50f82c8e2f85296424298ff591f4ad97
 SHA1: f83f60e939c2b3f15f06cc914dc8e43e336a06e5
@@ -6518,7 +6515,7 @@ Maintainer: Laurent Bigonville <bigon@debian.org>
 Installed-Size: 1500
 Depends: python (<< 2.8), python (>= 2.7~), python:any (>= 2.7.5-5~), libasan2 (>= 5), libaudit1 (>= 1:2.4.2), libauparse0 (>= 1:2.4.4), libc6 (>= 2.4)
 Provides: python2.7-audit
-Filename: pool/main/a/audit/python-audit_2.4.4-1_amd64.deb
+Filename: pool/main/p/python-audit_2.4.4-1_amd64.deb
 Size: 219928
 MD5sum: 1f8f6fc10284f9f7b14bc04831080bdb
 SHA1: 231759656f4015a1091fb4f3c0b95e4d96af8182
@@ -6538,7 +6535,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 25
 Depends: python (= 2.7.9-1), libpython-dbg (= 2.7.9-1), python2.7-dbg (>= 2.7.9-1~)
-Filename: pool/main/p/python-defaults/python-dbg_2.7.9-1_amd64.deb
+Filename: pool/main/p/python-dbg_2.7.9-1_amd64.deb
 Size: 1208
 MD5sum: f2d809b72830f93fbc3aee9edceaf821
 SHA1: 04d0fe34189d3b586100ab82aedc24405dd31dc4
@@ -6558,7 +6555,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 18
 Depends: python (= 2.7.9-1), libpython-dev (= 2.7.9-1), python2.7-dev (>= 2.7.9-1~)
-Filename: pool/main/p/python-defaults/python-dev_2.7.9-1_amd64.deb
+Filename: pool/main/p/python-dev_2.7.9-1_amd64.deb
 Size: 1128
 MD5sum: d57adc042d1723f822908c3c62d7c93a
 SHA1: 4007b6b4e84b35684e258eef57e4b4745224f77e
@@ -6585,7 +6582,7 @@ Depends: python2.7-doc (>= 2.7.9-1~)
 Suggests: python-examples, python (= 2.7.9-1)
 Breaks: python (<< 2.3.5)
 Replaces: python (<< 2.3.5)
-Filename: pool/main/p/python-defaults/python-doc_2.7.9-1_all.deb
+Filename: pool/main/p/python-doc_2.7.9-1_all.deb
 Size: 23016
 MD5sum: 5c058429f9f9d63e77c28f9d137ddcf2
 SHA1: edc9e42283610de685c89ba02c4fdbdc7b8fbd3d
@@ -6618,7 +6615,7 @@ Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 6
 Depends: python (>= 2.7.9-1), python2.7-examples (>= 2.7.9-1~)
-Filename: pool/main/p/python-defaults/python-examples_2.7.9-1_all.deb
+Filename: pool/main/p/python-examples_2.7.9-1_all.deb
 Size: 900
 MD5sum: 509d99835191c73e75d17d7ca59d6cb5
 SHA1: 93e5801cf5fdbf8c9a1431cd5e4b89061bfe0208
@@ -6640,7 +6637,7 @@ Architecture: amd64
 Maintainer: Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>
 Installed-Size: 453
 Depends: python (>= 2.7), python (<< 2.8), libapparmor1 (>= 2.8.94-0ubuntu1), libc6 (>= 2.14)
-Filename: pool/main/a/apparmor/python-libapparmor_2.9.2-3_amd64.deb
+Filename: pool/main/p/python-libapparmor_2.9.2-3_amd64.deb
 Size: 113008
 MD5sum: 7387c5f754a64a2778768a3993607d93
 SHA1: 17720259a731e338eae9145e3f05710b9f91dd0f
@@ -6661,7 +6658,7 @@ Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 963
 Depends: libc6 (>= 2.14), libpython2.7 (>= 2.7), libxml2 (>= 2.9.1), python (<< 2.8), python (>= 2.7~), python:any (>= 2.7.5-5~)
 Provides: python2.7-libxml2
-Filename: pool/main/libx/libxml2/python-libxml2_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Filename: pool/main/p/python-libxml2_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
 Size: 193880
 MD5sum: 922c75910e3959003bde65fd1ed9ed9e
 SHA1: f69d654118cf1c339fa894eba52e4740ee591ee4
@@ -6688,7 +6685,7 @@ Maintainer: Debian XML/SGML Group <debian-xml-sgml-pkgs@lists.alioth.debian.org>
 Installed-Size: 834
 Depends: python-dbg, python-libxml2 (= 2.9.2+really2.9.1+dfsg1-0.1), libc6 (>= 2.14), libpython2.7-dbg (>= 2.7), libxml2 (>= 2.9.1)
 Provides: python2.7-libxml2-dbg
-Filename: pool/main/libx/libxml2/python-libxml2-dbg_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
+Filename: pool/main/p/python-libxml2-dbg_2.9.2+really2.9.1+dfsg1-0.1_amd64.deb
 Size: 317676
 MD5sum: 06b49696ca917be6006e56dbe27fe7fc
 SHA1: 51ded5bbd3d7c748775868c9867c7eb0ba4e9e33
@@ -6718,11 +6715,11 @@ Recommends: python
 Conflicts: python-central (<< 0.5.5)
 Breaks: idle (<< 2.6), python (<= 2.7.3-1~), python-all (<< 2.6), python-all-dbg (<< 2.6), python-all-dev (<< 2.6), python-dbg (<< 2.6), python-dev (<< 2.6), python-examples (<< 2.6), python-support (<< 1.0.10ubuntu2), python2.5-minimal (<< 2.5.5-7), python2.6-minimal (<< 2.6.5~rc2-2), python3.1-minimal (<< 3.1.2~rc1-2)
 Replaces: python (<= 2.7.3-1~)
-Filename: pool/main/p/python-defaults/python-minimal_2.7.9-1_amd64.deb
-Size: 39994
-MD5sum: 0e317ad1153f283b1e23b755fd21ba70
-SHA1: 48b05ae93d7b5f24cfc8c80ad5c3419395d0f065
-SHA256: ae6ba7605406f1ca98dc0d365e4e149c458751f4a34b0faa4f63d8361fd73c38
+Filename: pool/main/p/python-minimal_2.7.9-1_amd64.deb
+Size: 40078
+MD5sum: 8e8e4c9532629383784906762add1a26
+SHA1: cb579775588049667870a7723258cef4920aea8b
+SHA256: 46c52156797a65c6a633922ddda1cb853b60a5005d1553e0927eecb9126ba97e
 Section: python
 Priority: standard
 Multi-Arch: allowed
@@ -6742,7 +6739,7 @@ Installed-Size: 652
 Depends: python (>= 2.7), python (<< 2.8), libc6 (>= 2.14), libselinux1 (>= 2.3)
 Provides: python2.7-selinux
 Built-Using: libsepol (= 2.3-2)
-Filename: pool/main/libs/libselinux/python-selinux_2.3-2_amd64.deb
+Filename: pool/main/p/python-selinux_2.3-2_amd64.deb
 Size: 171642
 MD5sum: 52c1c22bd6c0839b69b099d2564ecc3b
 SHA1: 91c674a72d3538721982eb432bd55dcf17ae9de6
@@ -6770,7 +6767,7 @@ Architecture: amd64
 Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
 Installed-Size: 864
 Depends: python (>= 2.7), python (<< 2.8), libasan2 (>= 5), libc6 (>= 2.4), libsemanage1 (>= 2.1.6)
-Filename: pool/main/libs/libsemanage/python-semanage_2.3-1_amd64.deb
+Filename: pool/main/p/python-semanage_2.3-1_amd64.deb
 Size: 135118
 MD5sum: e802992ace45a0bbacee420d63c20a47
 SHA1: b1f1a0e6815660e84371ea3927de88ad2bd8687d
@@ -6801,7 +6798,7 @@ Installed-Size: 417
 Depends: python (<< 2.8), python (>= 2.7~), python:any (>= 2.7.5-5~), libc6 (>= 2.4)
 Recommends: libjs-jquery
 Provides: python2.7-simplejson
-Filename: pool/main/s/simplejson/python-simplejson_3.7.3-1_amd64.deb
+Filename: pool/main/p/python-simplejson_3.7.3-1_amd64.deb
 Size: 105772
 MD5sum: 8c1fecff3bc5421e6ce829c745aaaa23
 SHA1: ac4ec2125f78ca892f2a99382f4566489c8f4cc6
@@ -6831,7 +6828,7 @@ Architecture: amd64
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Installed-Size: 245
 Depends: python-simplejson (= 3.7.3-1), libc6 (>= 2.4), python-dbg (<< 2.8), python-dbg (>= 2.7~)
-Filename: pool/main/s/simplejson/python-simplejson-dbg_3.7.3-1_amd64.deb
+Filename: pool/main/p/python-simplejson-dbg_3.7.3-1_amd64.deb
 Size: 68594
 MD5sum: be13a5ced1c0fc28fea490f498ff8e1f
 SHA1: 96540daf46b1cce52ab073a7911dced84effa83b
@@ -6851,7 +6848,7 @@ Installed-Size: 222
 Depends: libjs-sphinxdoc (>= 1.0)
 Recommends: python-simplejson
 Conflicts: python-simplejson (<= 3)
-Filename: pool/main/s/simplejson/python-simplejson-doc_3.7.3-1_all.deb
+Filename: pool/main/p/python-simplejson-doc_3.7.3-1_all.deb
 Size: 44878
 MD5sum: 7d70bcfb8dff2f33002004742660c49d
 SHA1: dbce4a5b7d6b1d0147c5551da8b827a18384d27f
@@ -6863,20 +6860,20 @@ Description: documentation for the simplejson Python library
  This package contains documentation for simplejson Python library.
 
 Package: python2.7
-Version: 2.7.10-3
+Version: 2.7.10-4
 Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 330
-Depends: python2.7-minimal (= 2.7.10-3), libpython2.7-stdlib (= 2.7.10-3), mime-support
+Depends: python2.7-minimal (= 2.7.10-4), libpython2.7-stdlib (= 2.7.10-4), mime-support
 Suggests: python2.7-doc, binutils
 Conflicts: python-profiler (<= 2.7.1-2)
 Breaks: python-virtualenv (<< 1.7.1.2-2~), vim-athena (<< 2:7.3.547-4), vim-gnome (<< 2:7.3.547-4), vim-gtk (<< 2:7.3.547-4), vim-nox (<< 2:7.3.547-4)
 Replaces: python-profiler (<= 2.7.1-2), python2.7-minimal (<< 2.7.3-7~)
-Filename: pool/main/p/python2.7/python2.7_2.7.10-3_amd64.deb
-Size: 259258
-MD5sum: a7cc34f69f026032630bf3d69a57be1a
-SHA1: 506991d33640fdc608baca2484c9cdbd0c580554
-SHA256: b49980003c6c8e35183741645c961ebc18e172f963639ecb34421a34d4d88ada
+Filename: pool/main/p/python2.7_2.7.10-4_amd64.deb
+Size: 259490
+MD5sum: fb81a5c480c29d342e1e75f8f3bf1afd
+SHA1: abb4404b020840e97e87ab722324ee5ae63b1eea
+SHA256: d035fe70146a8a01a9401e4d4ca485597d86453d4c4fb161910f8a45c6357032
 Section: python
 Priority: standard
 Multi-Arch: allowed
@@ -6887,17 +6884,17 @@ Description: Interactive high-level object-oriented language (version 2.7)
 
 Package: python2.7-dbg
 Source: python2.7
-Version: 2.7.10-3
+Version: 2.7.10-4
 Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 44203
-Depends: python2.7 (= 2.7.10-3), libpython2.7-dbg (= 2.7.10-3), libc6 (>= 2.15), zlib1g (>= 1:1.2.0)
+Installed-Size: 44224
+Depends: python2.7 (= 2.7.10-4), libpython2.7-dbg (= 2.7.10-4), libc6 (>= 2.15), zlib1g (>= 1:1.2.0)
 Suggests: python-gdbm-dbg, python-tk-dbg
-Filename: pool/main/p/python2.7/python2.7-dbg_2.7.10-3_amd64.deb
-Size: 9785006
-MD5sum: 1fa283c24543732ba8e5d4bccb4e7f66
-SHA1: 1f390a479371592468c6255f0ab27b6a57055272
-SHA256: b728675150d3e0f542af55c414055e1fac555b6d6268e53dc31cacb84e4db92b
+Filename: pool/main/p/python2.7-dbg_2.7.10-4_amd64.deb
+Size: 9796320
+MD5sum: 136abf2b903df03d8c284740ba2381c3
+SHA1: 73a59e1317837531412276510091474c35ed7e61
+SHA256: 161a00473be46106874fab21774d2b644d86394f2f5a7546e3b74c23420b6483
 Section: debug
 Priority: extra
 Multi-Arch: allowed
@@ -6913,18 +6910,18 @@ Description: Debug Build of the Python Interpreter (version 2.7)
 
 Package: python2.7-dev
 Source: python2.7
-Version: 2.7.10-3
+Version: 2.7.10-4
 Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 286
-Depends: python2.7 (= 2.7.10-3), libpython2.7-dev (= 2.7.10-3), libpython2.7 (= 2.7.10-3), libexpat1-dev
+Installed-Size: 272
+Depends: python2.7 (= 2.7.10-4), libpython2.7-dev (= 2.7.10-4), libpython2.7 (= 2.7.10-4), libexpat1-dev
 Recommends: libc6-dev | libc-dev
 Replaces: python2.7 (<< 2.7-3)
-Filename: pool/main/p/python2.7/python2.7-dev_2.7.10-3_amd64.deb
-Size: 277446
-MD5sum: f0996be349674471034d45424e6f7e53
-SHA1: ae541f48f549a3bb0840bd957aec587dee7861c3
-SHA256: c1f21fd4bfabd56e531cafacfbb1f2d3dfc2f08fa261887127eac8186e5e2ea2
+Filename: pool/main/p/python2.7-dev_2.7.10-4_amd64.deb
+Size: 262800
+MD5sum: bd120f100b1e0243a2448ad2b8501fc8
+SHA1: 7123ebd9bc362ac6b076ed74ff51fab34379bed1
+SHA256: 683d5745d58364f0d83e9c21d36323eb7f6f0c84366fee63bb9be80856bd9957
 Section: python
 Priority: optional
 Multi-Arch: allowed
@@ -6937,17 +6934,17 @@ Description: Header files and a static library for Python (v2.7)
 
 Package: python2.7-doc
 Source: python2.7
-Version: 2.7.10-3
+Version: 2.7.10-4
 Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 32433
+Installed-Size: 32429
 Depends: libjs-jquery, libjs-underscore
 Suggests: python2.7
-Filename: pool/main/p/python2.7/python2.7-doc_2.7.10-3_all.deb
-Size: 4281800
-MD5sum: d4ad16f96effb44ad6ce601b893eac09
-SHA1: 9f14a05f0f061b4747ee56dd33dbceeeb1d90a3e
-SHA256: a377d2e75d16614e6f4ae98b0ee56f18ec1cd81366bf3a0ce2fc256a57313fcc
+Filename: pool/main/p/python2.7-doc_2.7.10-4_all.deb
+Size: 3982930
+MD5sum: 672317667199e55a6d0f204aa773f600
+SHA1: d05a64c42488dc38be2f3683bb0afec8c48a0382
+SHA256: e6d80f05c1777cc1da30eddf0a101b7fed9bbedc84e8d8ec67200b8390de8234
 Section: doc
 Priority: optional
 Description: Documentation for the high-level object-oriented language Python (v2.7)
@@ -6968,16 +6965,16 @@ Description: Documentation for the high-level object-oriented language Python (v
 
 Package: python2.7-examples
 Source: python2.7
-Version: 2.7.10-3
+Version: 2.7.10-4
 Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 2769
-Depends: python2.7 (>= 2.7.10-3)
-Filename: pool/main/p/python2.7/python2.7-examples_2.7.10-3_all.deb
-Size: 594490
-MD5sum: d9c488a7a378ad9845bd17074a76be30
-SHA1: 6a2b46d3bd9fb9132312d7473738fdccc46f7cf5
-SHA256: ebf9de784e7c234b445bc19da65af0db1700ccd8ccc57271c41c36aef624861b
+Depends: python2.7 (>= 2.7.10-4)
+Filename: pool/main/p/python2.7-examples_2.7.10-4_all.deb
+Size: 594334
+MD5sum: 2b4a8f76b33c1a13b8356c8ec5445b43
+SHA1: 11974435ff1d905bf175c814f43a6b6dabfd6f4c
+SHA256: b3c017bedb7729739fca1c5cdea9ad0742913301a680a22b4f3df10578d7be7b
 Section: python
 Priority: optional
 Description: Examples for the Python language (v2.7)
@@ -6986,21 +6983,21 @@ Description: Examples for the Python language (v2.7)
 
 Package: python2.7-minimal
 Source: python2.7
-Version: 2.7.10-3
+Version: 2.7.10-4
 Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
-Installed-Size: 10372
+Installed-Size: 10384
 Pre-Depends: libc6 (>= 2.15)
-Depends: libpython2.7-minimal (= 2.7.10-3), zlib1g (>= 1:1.2.0)
+Depends: libpython2.7-minimal (= 2.7.10-4), zlib1g (>= 1:1.2.0)
 Recommends: python2.7
 Suggests: binfmt-support
 Conflicts: binfmt-support (<< 1.1.2)
 Replaces: python2.7 (<< 2.7.8-7~)
-Filename: pool/main/p/python2.7/python2.7-minimal_2.7.10-3_amd64.deb
-Size: 2099820
-MD5sum: 7035e5d045b75bc25e2ba8ebc0a33734
-SHA1: 5f72c872d37c7536b32deb336ef156b6786e9b2f
-SHA256: 2319d4db50af3619ce56e4e36b4195c0750f2996e255e3bc36e1e4c2db365372
+Filename: pool/main/p/python2.7-minimal_2.7.10-4_amd64.deb
+Size: 2101078
+MD5sum: 4fc1fe4aa9bb7ae6f17d0ad2a05da80f
+SHA1: 21854415355e4dc079f9a88459d359278b0dfeac
+SHA256: 00ddd4876c50778beddc8603f99501225ee219a205eaabc4b91cb01f0426e854
 Section: python
 Priority: standard
 Multi-Arch: allowed
@@ -7021,7 +7018,7 @@ Depends: python3.4 (>= 3.4.3-1), libpython3-stdlib (= 3.4.3-4), dh-python
 Suggests: python3-doc (>= 3.4.3-4), python3-tk (>= 3.4.3-1), python3-venv (>= 3.4.3-4)
 Replaces: python3-minimal (<< 3.1.2-2)
 Provides: python3-profiler
-Filename: pool/main/p/python3-defaults/python3_3.4.3-4_amd64.deb
+Filename: pool/main/p/python3_3.4.3-4_amd64.deb
 Size: 21178
 MD5sum: 56f9d75ae21697bf014f40e54e0281d5
 SHA1: 18ad23db3952716181e3359b250207aa1ee3f751
@@ -7045,7 +7042,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 6
 Depends: python3 (= 3.4.3-4), python3.4
-Filename: pool/main/p/python3-defaults/python3-all_3.4.3-4_amd64.deb
+Filename: pool/main/p/python3-all_3.4.3-4_amd64.deb
 Size: 928
 MD5sum: 0ae996b40b1994b7ada6b076537705c6
 SHA1: 936b0366c51fcb489e2bf337742ea189618a0f40
@@ -7069,7 +7066,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 6
 Depends: python3 (= 3.4.3-4), libpython3-all-dbg (= 3.4.3-4), python3-all (= 3.4.3-4), python3-dbg (= 3.4.3-4), python3.4-dbg
-Filename: pool/main/p/python3-defaults/python3-all-dbg_3.4.3-4_amd64.deb
+Filename: pool/main/p/python3-all-dbg_3.4.3-4_amd64.deb
 Size: 952
 MD5sum: d125ecb50aa150791a5ece448891c53e
 SHA1: d54794595d74614662a79cadac61d01404a9b73e
@@ -7093,7 +7090,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 6
 Depends: python3 (= 3.4.3-4), libpython3-all-dev (= 3.4.3-4), python3-all (= 3.4.3-4), python3-dev (= 3.4.3-4), python3.4-dev
-Filename: pool/main/p/python3-defaults/python3-all-dev_3.4.3-4_amd64.deb
+Filename: pool/main/p/python3-all-dev_3.4.3-4_amd64.deb
 Size: 952
 MD5sum: f70bfa3757517b0e6032e424a7aae339
 SHA1: b061d19a6e82377794044c4bc359fb5712bb44c3
@@ -7120,7 +7117,7 @@ Installed-Size: 425
 Depends: python3:any (>= 3.3.2-2~), python3-libapparmor, python3-pkg-resources
 Breaks: apparmor-easyprof (<< 2.8.95~2385-0ubuntu1), apparmor-utils (<< 2.8.95~2385-0ubuntu1)
 Replaces: apparmor-easyprof (<< 2.8.95~2385-0ubuntu1), apparmor-utils (<< 2.8.95~2385-0ubuntu1)
-Filename: pool/main/a/apparmor/python3-apparmor_2.9.2-3_amd64.deb
+Filename: pool/main/p/python3-apparmor_2.9.2-3_amd64.deb
 Size: 106028
 MD5sum: 474a13da82b15968be5db084f052ceb3
 SHA1: 9ff8860300de5717d3a0da7c92e78fc0c27550da
@@ -7139,7 +7136,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 24
 Depends: python3 (= 3.4.3-4), libpython3-dbg (= 3.4.3-4), python3.4-dbg (>= 3.4.3-1)
-Filename: pool/main/p/python3-defaults/python3-dbg_3.4.3-4_amd64.deb
+Filename: pool/main/p/python3-dbg_3.4.3-4_amd64.deb
 Size: 1200
 MD5sum: 3d0eb9c44e428d3b3ac19144772e7b06
 SHA1: f8acb96ac9c74d8519bcd2b2b45b6228841f21ff
@@ -7160,7 +7157,7 @@ Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 17
 Depends: python3 (= 3.4.3-4), libpython3-dev (= 3.4.3-4), python3.4-dev (>= 3.4.3-1)
 Replaces: python3.1 (<< 3.1.2+20100706-3)
-Filename: pool/main/p/python3-defaults/python3-dev_3.4.3-4_amd64.deb
+Filename: pool/main/p/python3-dev_3.4.3-4_amd64.deb
 Size: 1144
 MD5sum: 5ba2890dcfac2f2e68fd78487a604ded
 SHA1: e19a60749f1000ceda38178e80d222d628a42a54
@@ -7185,7 +7182,7 @@ Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 38
 Depends: python3.4-doc (>= 3.4.3-1)
 Suggests: python3 (>= 3.4.3-4), python3-examples
-Filename: pool/main/p/python3-defaults/python3-doc_3.4.3-4_all.deb
+Filename: pool/main/p/python3-doc_3.4.3-4_all.deb
 Size: 18292
 MD5sum: 466f6411cb697bf80c29c1284c4f0ccb
 SHA1: d25255519019497f26ee47c38e6d8409f2dd0796
@@ -7218,7 +7215,7 @@ Architecture: all
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 6
 Depends: python3 (>= 3.4.3-4), python3.4-examples (>= 3.4.3-1)
-Filename: pool/main/p/python3-defaults/python3-examples_3.4.3-4_all.deb
+Filename: pool/main/p/python3-examples_3.4.3-4_all.deb
 Size: 902
 MD5sum: 2bd2f2294b286eeaa583f4d99fc56958
 SHA1: 068d7cd97bed8ea6673d0bdea91ba6fefbaba47c
@@ -7240,7 +7237,7 @@ Architecture: amd64
 Maintainer: Debian AppArmor Team <pkg-apparmor-team@lists.alioth.debian.org>
 Installed-Size: 445
 Depends: python3 (<< 3.5), python3 (>= 3.4~), libapparmor1 (>= 2.8.94-0ubuntu1), libc6 (>= 2.14)
-Filename: pool/main/a/apparmor/python3-libapparmor_2.9.2-3_amd64.deb
+Filename: pool/main/p/python3-libapparmor_2.9.2-3_amd64.deb
 Size: 111980
 MD5sum: cbeb3b22044f36b9142fd50852c324b8
 SHA1: a7e3e34fb95e5bceefcd4ef9bd6b3fd18792764e
@@ -7262,7 +7259,7 @@ Installed-Size: 119
 Depends: python3.4-minimal (>= 3.4.3-1), dpkg (>= 1.13.20)
 Breaks: idle3 (<< 3.1), python3 (<< 3.3.2-13~), python3-all (<< 3.1), python3-all-dbg (<< 3.1), python3-all-dev (<< 3.1), python3-dbg (<< 3.1), python3-dev (<< 3.1), python3-examples (<< 3.1)
 Replaces: python3 (<< 3.3.2-13~), python3.1 (<< 3.1-2)
-Filename: pool/main/p/python3-defaults/python3-minimal_3.4.3-4_amd64.deb
+Filename: pool/main/p/python3-minimal_3.4.3-4_amd64.deb
 Size: 34596
 MD5sum: 11156cf54d04d50c0939d74a52b887ce
 SHA1: ab936e15b89e46253558db71932744e3f83b6416
@@ -7284,7 +7281,7 @@ Architecture: amd64
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Installed-Size: 439
 Depends: python3 (<< 3.5), python3 (>= 3.4~), libc6 (>= 2.4)
-Filename: pool/main/s/simplejson/python3-simplejson_3.7.3-1_amd64.deb
+Filename: pool/main/p/python3-simplejson_3.7.3-1_amd64.deb
 Size: 101012
 MD5sum: f1bcae994276b5e59b4375b957535556
 SHA1: 06dc11fd46d7b496372be29e1fcb3a3377ce3f27
@@ -7310,7 +7307,7 @@ Architecture: amd64
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Installed-Size: 282
 Depends: python3-simplejson (= 3.7.3-1), libc6 (>= 2.4), python3-dbg (<< 3.5), python3-dbg (>= 3.4~)
-Filename: pool/main/s/simplejson/python3-simplejson-dbg_3.7.3-1_amd64.deb
+Filename: pool/main/p/python3-simplejson-dbg_3.7.3-1_amd64.deb
 Size: 74308
 MD5sum: 13368fe9b6b8a6d7732f3c918b9a6516
 SHA1: 990c401c4892d09b3bf6fd244e89b8c179f5cf1a
@@ -7353,7 +7350,7 @@ Architecture: amd64
 Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 11
 Depends: python3.4-venv (>= 3.4.3-1), python3 (= 3.4.3-4)
-Filename: pool/main/p/python3-defaults/python3-venv_3.4.3-4_amd64.deb
+Filename: pool/main/p/python3-venv_3.4.3-4_amd64.deb
 Size: 1056
 MD5sum: c0397d6597ee6e3fcced4ed2fcaf8bdf
 SHA1: 4edcb544b85e5558f633b09021c9ced5619844eb
@@ -7380,7 +7377,7 @@ Depends: dpkg (>= 1.15.4) | install-info
 Suggests: readline-doc
 Conflicts: libreadline-common, libreadline5 (<< 5.0-11)
 Replaces: libreadline-common, libreadline4 (<< 4.3-16), libreadline5 (<< 5.0-11)
-Filename: pool/main/r/readline6/readline-common_6.3-8_all.deb
+Filename: pool/main/r/readline-common_6.3-8_all.deb
 Size: 57616
 MD5sum: 7145029d211ac295e0941201c99736db
 SHA1: 19af085b3c5661f60704aad8b8f634d1426829e7
@@ -7404,7 +7401,7 @@ Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 142
 Depends: dpkg (>= 1.15.4) | install-info
 Replaces: libreadline6-dev (<< 6.3-8)
-Filename: pool/main/r/readline6/readline-doc_6.3-8_all.deb
+Filename: pool/main/r/readline-doc_6.3-8_all.deb
 Size: 103904
 MD5sum: 0c895b843646e8665345ff231303bb64
 SHA1: cd7b2084b2b82b093c44a5a32844f2764489d50d
@@ -7426,7 +7423,7 @@ Architecture: all
 Maintainer: Michael Stone <mstone@debian.org>
 Installed-Size: 24
 Depends: coreutils (>= 8.23-1~)
-Filename: pool/main/c/coreutils/realpath_8.23-4_all.deb
+Filename: pool/main/r/realpath_8.23-4_all.deb
 Size: 17892
 MD5sum: cbbff9a6cd2c9a45a55dbdfed6b47a86
 SHA1: a6a6d6dcab51b05c1fd7a55a40406472189f18e8
@@ -7444,7 +7441,7 @@ Maintainer: Matthias Klose <doko@debian.org>
 Installed-Size: 64
 Depends: libc6 (>= 2.15), libreadline6, libtinfo5 (>= 6)
 Provides: readline-editor
-Filename: pool/main/r/readline6/rlfe_6.3-8_amd64.deb
+Filename: pool/main/r/rlfe_6.3-8_amd64.deb
 Size: 22490
 MD5sum: bb8fa94f8649bb2011816025254e92db
 SHA1: 84defc46372a971184e9005d5bb9d66702cac687
@@ -7466,7 +7463,7 @@ Architecture: amd64
 Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
 Installed-Size: 482
 Depends: ruby | ruby-interpreter, libc6 (>= 2.14), libselinux1 (>= 2.3)
-Filename: pool/main/libs/libselinux/ruby-selinux_2.3-2_amd64.deb
+Filename: pool/main/r/ruby-selinux_2.3-2_amd64.deb
 Size: 85936
 MD5sum: 759b325f90f2bf4e4a2598b888205a34
 SHA1: 0bf6de5aa7e1753dcc3282f06e740ce56225379c
@@ -7493,7 +7490,7 @@ Architecture: amd64
 Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
 Installed-Size: 1170
 Depends: ruby | ruby-interpreter, libasan2 (>= 5), libc6 (>= 2.4), libsemanage1 (>= 2.1.6)
-Filename: pool/main/libs/libsemanage/ruby-semanage_2.3-1_amd64.deb
+Filename: pool/main/r/ruby-semanage_2.3-1_amd64.deb
 Size: 180066
 MD5sum: a4a52baa96c49d70941ad78c86b521ea
 SHA1: 0481329478595b9813b24c2d321196d6d55ee729
@@ -7523,7 +7520,7 @@ Maintainer: Kees Cook <kees@debian.org>
 Installed-Size: 1003
 Depends: libasan2 (>= 5), libc6 (>= 2.4)
 Suggests: libseccomp-dev
-Filename: pool/main/libs/libseccomp/seccomp_2.2.3-1_amd64.deb
+Filename: pool/main/s/seccomp_2.2.3-1_amd64.deb
 Size: 140766
 MD5sum: 89841b07555fc690e3a519223ed7f552
 SHA1: 0da81752f11b0b779c900ee0e3763dec068afcc0
@@ -7544,7 +7541,7 @@ Maintainer: Clint Adams <clint@debian.org>
 Installed-Size: 980
 Pre-Depends: libacl1 (>= 2.2.51-8), libasan2 (>= 5), libc6 (>= 2.7), libselinux1 (>= 1.32)
 Depends: dpkg (>= 1.15.4) | install-info
-Filename: pool/main/s/sed/sed_4.2.2-6.1_amd64.deb
+Filename: pool/main/s/sed_4.2.2-6.1_amd64.deb
 Size: 310236
 MD5sum: 32645f1742f66891d7197873e6161214
 SHA1: 09688c1f0a1d871c818dedb25322aa48c2281a42
@@ -7566,7 +7563,7 @@ Architecture: amd64
 Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
 Installed-Size: 276
 Depends: libc6 (>= 2.14), libpcre3 (>= 1:8.35), libselinux1 (>= 2.2)
-Filename: pool/main/libs/libselinux/selinux-utils_2.3-2_amd64.deb
+Filename: pool/main/s/selinux-utils_2.3-2_amd64.deb
 Size: 84148
 MD5sum: acc49435ab7b881505e0fa844cf30719
 SHA1: f92224050df8443fb4b9bd041bd6284782b42306
@@ -7588,7 +7585,7 @@ Architecture: all
 Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Installed-Size: 61
 Replaces: debianutils (<= 2.32.3), manpages-pl (<= 20060617-3~)
-Filename: pool/main/s/sensible-utils/sensible-utils_0.0.9_all.deb
+Filename: pool/main/s/sensible-utils_0.0.9_all.deb
 Size: 10788
 MD5sum: 92e8dea7913694a8c38337a9099c7a67
 SHA1: 33e02859d0e5f06db757aef7d7d09ae520d7b4ba
@@ -7611,7 +7608,7 @@ Architecture: amd64
 Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
 Installed-Size: 50
 Depends: libasan2 (>= 5), libc6 (>= 2.4), libsepol1 (>= 1.14)
-Filename: pool/main/libs/libsepol/sepol-utils_2.3-2_amd64.deb
+Filename: pool/main/s/sepol-utils_2.3-2_amd64.deb
 Size: 26854
 MD5sum: 9c50f619aad67a48e561cd4d724d4efd
 SHA1: ffa4115490b919b747780c1b68374fbaf6b95642
@@ -7636,7 +7633,7 @@ Architecture: amd64
 Maintainer: Theodore Y. Ts'o <tytso@mit.edu>
 Installed-Size: 213
 Depends: libc6-dev | libc-dev, libss2 (= 1.42.13-1), comerr-dev
-Filename: pool/main/e/e2fsprogs/ss-dev_2.0-1.42.13-1_amd64.deb
+Filename: pool/main/s/ss-dev_2.0-1.42.13-1_amd64.deb
 Size: 33346
 MD5sum: 9843a0c20cd2a992bd6a9025019bc9c0
 SHA1: 8d56cea0ed9b921b0ca0d0e43fbfe51bfdf83f00
@@ -7662,7 +7659,7 @@ Depends: libc6 (>= 2.15)
 Suggests: insserv, sysv-rc
 Breaks: sysvinit-utils (<< 2.88dsf-52)
 Replaces: sysvinit-utils (<< 2.88dsf-52)
-Filename: pool/main/s/startpar/startpar_0.59-3_amd64.deb
+Filename: pool/main/s/startpar_0.59-3_amd64.deb
 Size: 33556
 MD5sum: b16ee8cb459b671e508cbeda968af183
 SHA1: b67dc92bbda1d04885f41ec39580eb97a379377c
@@ -7710,7 +7707,7 @@ Suggests: bum
 Conflicts: file-rc
 Breaks: initscripts (<< 2.86.ds1-63), systemd (<< 215)
 Replaces: file-rc
-Filename: pool/main/s/sysvinit/sysv-rc_2.88dsf-59.2_all.deb
+Filename: pool/main/s/sysv-rc_2.88dsf-59.2_all.deb
 Size: 82944
 MD5sum: 62f92084aa5833bd6c2dc2c75bdc397e
 SHA1: bf87df095918b878d945fb5e5c564207cdfc8bda
@@ -7731,7 +7728,7 @@ Maintainer: Debian sysvinit maintainers <pkg-sysvinit-devel@lists.alioth.debian.
 Installed-Size: 229
 Pre-Depends: init
 Depends: libasan2 (>= 5), libc6 (>= 2.15), libselinux1 (>= 1.32), libsepol1 (>= 1.14)
-Filename: pool/main/s/sysvinit/sysvinit_2.88dsf-59.2_amd64.deb
+Filename: pool/main/s/sysvinit_2.88dsf-59.2_amd64.deb
 Size: 121512
 MD5sum: b6f8eeeb8f60364ba8c00e9219194f63
 SHA1: 904ed762031158f35eb685579d1e46aa05c2ed54
@@ -7759,7 +7756,7 @@ Installed-Size: 390
 Depends: initscripts (>= 2.88dsf-13.3), sysv-rc | file-rc, sysvinit-utils (>= 2.86.ds1-66), libasan2 (>= 5), libc6 (>= 2.15), libselinux1 (>= 1.32), libsepol1 (>= 1.14), debconf (>= 0.5) | debconf-2.0, debianutils (>= 4)
 Conflicts: systemd-sysv, upstart
 Replaces: systemd-sysv, sysvinit (<< 2.88dsf-44~), upstart
-Filename: pool/main/s/sysvinit/sysvinit-core_2.88dsf-59.2_amd64.deb
+Filename: pool/main/s/sysvinit-core_2.88dsf-59.2_amd64.deb
 Size: 164842
 MD5sum: 2b12868dd3c7888848e3b9f822cf58ac
 SHA1: 691a8bee3bde3d839dbb62bce980662067b83aa6
@@ -7788,7 +7785,7 @@ Suggests: bootlogd, sash
 Conflicts: chkconfig (<< 11.0-79.1-2), last, startpar (<< 0.58-2), sysvconfig
 Breaks: systemd (<< 215), upstart (<< 1.5-0ubuntu5), util-linux (<< 2.26.2-3)
 Replaces: last, sysvinit (<= 2.86.ds1-65)
-Filename: pool/main/s/sysvinit/sysvinit-utils_2.88dsf-59.2_amd64.deb
+Filename: pool/main/s/sysvinit-utils_2.88dsf-59.2_amd64.deb
 Size: 80764
 MD5sum: 36ebf7f24ce50d8f1611f83462101f3e
 SHA1: 69da778f39aa24b24467ee80b356bf511f3cad18
@@ -7813,7 +7810,7 @@ Suggests: bzip2, ncompress, xz-utils, tar-scripts
 Conflicts: cpio (<= 2.4.2-38)
 Breaks: dpkg-dev (<< 1.14.26)
 Replaces: cpio (<< 2.4.2-39)
-Filename: pool/main/t/tar/tar_1.28-1_amd64.deb
+Filename: pool/main/t/tar_1.28-1_amd64.deb
 Size: 1121846
 MD5sum: abe18520e44c97ff6c7c8c81b28cb307
 SHA1: d3e1d6fccd7beb39c7b89e36aa3f15fcf25d0a5b
@@ -7835,7 +7832,7 @@ Architecture: amd64
 Maintainer: Bdale Garbee <bdale@gag.com>
 Installed-Size: 49
 Conflicts: dump, openafs-client
-Filename: pool/main/t/tar/tar-scripts_1.28-1_amd64.deb
+Filename: pool/main/t/tar-scripts_1.28-1_amd64.deb
 Size: 20294
 MD5sum: b71e67709f27b78a4df1b886a7830dc9
 SHA1: a2af2e732130d3cb5b8b0851dd5b3d0441266e38
@@ -7855,7 +7852,7 @@ Installed-Size: 1179
 Depends: libc6 (>= 2.14)
 Recommends: libc6-dev | libc-dev
 Provides: c-compiler
-Filename: pool/main/t/tcc/tcc_0.9.27~git20140923.9d7fb33-3_amd64.deb
+Filename: pool/main/t/tcc_0.9.27~git20140923.9d7fb33-3_amd64.deb
 Size: 287240
 MD5sum: c91997ef94d0f5843cfcad10826e7341
 SHA1: 0cbab098191a3d8784ba13878f60312155754493
@@ -7884,7 +7881,7 @@ Installed-Size: 2776
 Depends: debconf (>= 0.5) | debconf-2.0
 Replaces: libc0.1, libc0.3, libc6, libc6.1
 Provides: tzdata-stretch
-Filename: pool/main/t/tzdata/tzdata_2015f-1_all.deb
+Filename: pool/main/t/tzdata_2015f-1_all.deb
 Size: 185662
 MD5sum: 0be72265cc93438ace49cf74814b55c6
 SHA1: c5f81e7781afe8eef616691c95d9ffb3f4060fe7
@@ -7907,7 +7904,7 @@ Architecture: all
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Installed-Size: 568
 Depends: tzdata (= 2015f-1)
-Filename: pool/main/t/tzdata/tzdata-java_2015f-1_all.deb
+Filename: pool/main/t/tzdata-java_2015f-1_all.deb
 Size: 80034
 MD5sum: 9f8f0108796404fe07f912d3fa60795a
 SHA1: 224afc4a54a6c8e425b9367d82cdc1f4780f4653
@@ -7932,7 +7929,7 @@ Architecture: amd64
 Maintainer: Shadow package maintainers <pkg-shadow-devel@lists.alioth.debian.org>
 Installed-Size: 509
 Depends: libasan2 (>= 5), libc6 (>= 2.7), libselinux1 (>= 1.32)
-Filename: pool/main/s/shadow/uidmap_4.2-3_amd64.deb
+Filename: pool/main/u/uidmap_4.2-3_amd64.deb
 Size: 281836
 MD5sum: 1158c18040d3750cdc31e19c5bc56495
 SHA1: afae0ae6a17aae289eb82fdcc2b98430daa23dcb
@@ -8079,7 +8076,7 @@ Depends: initscripts (>= 2.88dsf-59.2~), lsb-base (>= 3.0-6), tzdata (>= 2006c-2
 Suggests: dosfstools, kbd | console-tools, util-linux-locales
 Breaks: bash-completion (<< 1:2.1-4.1~), cloud-utils (<< 0.27-1~), grml-debootstrap (<< 0.68), mount (= 2.26.2-3), mount (= 2.26.2-3ubuntu1)
 Replaces: bash-completion (<< 1:2.1-4.1~), initscripts (<< 2.88dsf-59.2~), mount (= 2.26.2-3), mount (= 2.26.2-3ubuntu1), sysvinit-utils (<< 2.88dsf-59.1~)
-Filename: pool/main/u/util-linux/util-linux_2.26.2-9_amd64.deb
+Filename: pool/main/u/util-linux_2.26.2-9_amd64.deb
 Size: 1382862
 MD5sum: 4a36c64150f79642e1afe71166e988f3
 SHA1: b57428c6aa94a8dbdfeda7b7bf7ee229446eacb4
@@ -8101,7 +8098,7 @@ Maintainer: Debian util-linux Maintainers <ah-util-linux@debian.org>
 Installed-Size: 5329
 Depends: util-linux (>= 2.26.2)
 Replaces: util-linux (<< 2.11b)
-Filename: pool/main/u/util-linux/util-linux-locales_2.26.2-9_all.deb
+Filename: pool/main/u/util-linux-locales_2.26.2-9_all.deb
 Size: 854214
 MD5sum: dea62726bf21b7fa7e5735b2a80be7fa
 SHA1: 31b480ad03345c5a5da6bd49017d8a8628e13051
@@ -8123,7 +8120,7 @@ Maintainer: Debian util-linux Maintainers <ah-util-linux@debian.org>
 Installed-Size: 218
 Depends: libc6-dev | libc-dev, libuuid1 (= 2.26.2-9)
 Replaces: e2fslibs-dev (<< 1.15)
-Filename: pool/main/u/util-linux/uuid-dev_2.26.2-9_amd64.deb
+Filename: pool/main/u/uuid-dev_2.26.2-9_amd64.deb
 Size: 90870
 MD5sum: 59def9f30876f2a24d15bcd2469a561c
 SHA1: 322e8133c9e0a246a30f3b0c4fa44f4ebf05c568
@@ -8146,7 +8143,7 @@ Installed-Size: 208
 Pre-Depends: libuuid1 (>= 2.25-5~)
 Depends: adduser, passwd, init-system-helpers (>= 1.18~), libasan2 (>= 5), libc6 (>= 2.4), libsystemd0
 Replaces: e2fsprogs (<= 1.40.3-1ubuntu1)
-Filename: pool/main/u/util-linux/uuid-runtime_2.26.2-9_amd64.deb
+Filename: pool/main/u/uuid-runtime_2.26.2-9_amd64.deb
 Size: 89414
 MD5sum: b51cdc019da4e434910b696b06ba12fd
 SHA1: bf0ee4c2582dc076686b260529c30b14c8a9aec7
@@ -8178,7 +8175,7 @@ Architecture: amd64
 Maintainer: Debian Xiph.org Maintainers <pkg-xiph-maint@lists.alioth.debian.org>
 Installed-Size: 1514
 Depends: libao4 (>= 1.1.0), libasan2 (>= 5), libc6 (>= 2.15), libcurl3-gnutls (>= 7.16.2), libflac8 (>= 1.3.0), libogg0 (>= 1.1.0), libspeex1 (>= 1.2~beta3-1), libvorbis0a (>= 1.1.2), libvorbisenc2 (>= 1.1.2), libvorbisfile3 (>= 1.2.3)
-Filename: pool/main/v/vorbis-tools/vorbis-tools_1.4.0-6_amd64.deb
+Filename: pool/main/v/vorbis-tools_1.4.0-6_amd64.deb
 Size: 320080
 MD5sum: c461446e4e5ce42d97e83d590c218255
 SHA1: 7935a0c07c6f97edfa7f55c4cae5ec828701c19f
@@ -8200,7 +8197,7 @@ Architecture: amd64
 Maintainer: Debian Xiph.org Maintainers <pkg-xiph-maint@lists.alioth.debian.org>
 Installed-Size: 477
 Depends: vorbis-tools (= 1.4.0-6)
-Filename: pool/main/v/vorbis-tools/vorbis-tools-dbg_1.4.0-6_amd64.deb
+Filename: pool/main/v/vorbis-tools-dbg_1.4.0-6_amd64.deb
 Size: 383772
 MD5sum: 9bb951efba98ba286a7d8f141a5b33d6
 SHA1: 47a709a224302e741f116473200e5931ea70df89
@@ -8228,7 +8225,7 @@ Conflicts: lzma (<< 9.22-1), xz-lzma
 Breaks: lzip (<< 1.8~rc2)
 Replaces: lzip (<< 1.8~rc2), xz-lzma
 Provides: lzma
-Filename: pool/main/x/xz-utils/xz-utils_5.1.1alpha+20120614-2.1_amd64.deb
+Filename: pool/main/x/xz-utils_5.1.1alpha+20120614-2.1_amd64.deb
 Size: 256282
 MD5sum: e605397366ab8c945b66f4e1603e2992
 SHA1: 357a825919e1153e5237d92c698951ce7b44d3bd
@@ -8267,7 +8264,7 @@ Depends: libasan2 (>= 5), libc6 (>= 2.4)
 Suggests: xz-utils
 Breaks: xz-lzma (<< 4.999.9beta+20091004-1)
 Replaces: xz-lzma (<< 4.999.9beta+20091004-1)
-Filename: pool/main/x/xz-utils/xzdec_5.1.1alpha+20120614-2.1_amd64.deb
+Filename: pool/main/x/xzdec_5.1.1alpha+20120614-2.1_amd64.deb
 Size: 223436
 MD5sum: 9e217b060d0c00f20bb88ffeffd515e1
 SHA1: 6da69a17e3358e61e51caa7a4f4fddf805200d81
@@ -8306,7 +8303,7 @@ Depends: libc6 (>= 2.14)
 Conflicts: zlib1 (<= 1:1.0.4-7)
 Breaks: libxml2 (<< 2.7.6.dfsg-2), texlive-binaries (<< 2009-12)
 Provides: libz1
-Filename: pool/main/z/zlib/zlib1g_1.2.8.dfsg-2_amd64.deb
+Filename: pool/main/z/zlib1g_1.2.8.dfsg-2_amd64.deb
 Size: 87334
 MD5sum: 8f20b1b2bc4bdadc0095610a49a5d838
 SHA1: 973816cb102f27b82a0947ecc05d08a23db50e1d
@@ -8327,7 +8324,7 @@ Maintainer: Mark Brown <broonie@debian.org>
 Installed-Size: 206
 Depends: zlib1g (= 1:1.2.8.dfsg-2)
 Provides: libz-dbg
-Filename: pool/main/z/zlib/zlib1g-dbg_1.2.8.dfsg-2_amd64.deb
+Filename: pool/main/z/zlib1g-dbg_1.2.8.dfsg-2_amd64.deb
 Size: 180620
 MD5sum: 6caced9ffb9d4bac88c6e04161983cbc
 SHA1: 835af7a3549c0fb0c38a109ed8d09fd1b4a9d883
@@ -8349,7 +8346,7 @@ Installed-Size: 416
 Depends: zlib1g (= 1:1.2.8.dfsg-2), libc6-dev | libc-dev
 Conflicts: zlib1-dev
 Provides: libz-dev
-Filename: pool/main/z/zlib/zlib1g-dev_1.2.8.dfsg-2_amd64.deb
+Filename: pool/main/z/zlib1g-dev_1.2.8.dfsg-2_amd64.deb
 Size: 204402
 MD5sum: e08f4a962117b074a8b3e986edd43a40
 SHA1: 43eaddf649cb1978540087fcd5d2b8c38192e018
