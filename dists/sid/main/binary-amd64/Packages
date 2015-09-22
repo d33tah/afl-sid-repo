@@ -6316,6 +6316,29 @@ Description: Core Perl modules
  Other packages should not depend on `perl-modules' directly, they
  should use `perl' (which depends on `perl-modules') instead.
 
+Package: phantomjs
+Version: 1.9.0-1
+Architecture: amd64
+Maintainer: TANIGUCHI Takaki <takaki@debian.org>
+Installed-Size: 167311
+Depends: libc6 (>= 2.15), libfontconfig1 (>= 2.11), libfreetype6 (>= 2.3.5), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 5.2)
+Filename: pool/main/p/phantomjs_1.9.0-1_amd64.deb
+Size: 28045834
+MD5sum: 06f4afc6366643dee09da322362c67fe
+SHA1: 6bf9348912463d1c6e15b034c4b0880f4c3ee24f
+SHA256: 9bcd3031d443f984ff2c8a26d4dd4f04b9612b2dea3eb8729bd3ccffc666a8a2
+Section: web
+Priority: extra
+Homepage: http://www.phantomjs.org/
+Description: minimalistic headless WebKit-based with JavaScript API
+ PhantomJS is a headless WebKit with JavaScript API. It has fast and native
+ support for various web standards: DOM handling, CSS selector, JSON, Canvas,
+ and SVG.
+ .
+ PhantomJS is an optimal solution for headless testing of web-based
+ applications, site scraping, pages capture, SVG renderer, PDF converter
+ and many other use cases.
+
 Package: pigz
 Version: 2.3.1-2
 Architecture: amd64
