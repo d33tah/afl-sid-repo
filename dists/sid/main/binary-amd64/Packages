@@ -3611,6 +3611,63 @@ Multi-Arch: same
 Description: device mounting library
  The device mounting library, used by mount and umount helpers.
 
+Package: libnss-myhostname
+Source: systemd
+Version: 227-2
+Architecture: amd64
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 273
+Depends: libacl1 (>= 2.2.51-8), libc6 (>= 2.14), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.6.0), liblzma5 (>= 5.1.1alpha+20110809), libseccomp2 (>= 0.0.0~20120605), libselinux1 (>= 1.32)
+Breaks: systemd (<< 222-1)
+Replaces: systemd (<< 222-1)
+Filename: pool/main/libn/libnss-myhostname_227-2_amd64.deb
+Size: 93160
+MD5sum: 7f6f118655bdbc2579f6c34249e33bef
+SHA1: cc795b18a2e1eec6793b9c24dd6cd2f950550fff
+SHA256: 1243b5c9ce8b06f3f97532fe134991f3e6e23908a918d6fc8e812c75eddc5a76
+Section: admin
+Priority: extra
+Multi-Arch: same
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: nss module providing fallback resolution for the current hostname
+ This package contains a plugin for the Name Service Switch, providing host
+ name resolution for the locally configured system hostname as returned by
+ gethostname(2). It returns all locally configured public IP addresses or -- if
+ none are configured, the IPv4 address 127.0.1.1 (which is on the local
+ loopback) and the IPv6 address ::1 (which is the local host).
+ .
+ A lot of software relies on that the local host name is resolvable. This
+ package provides an alternative to the fragile and error-prone manual editing
+ of /etc/hosts.
+ .
+ Installing this package automatically adds myhostname to /etc/nsswitch.conf.
+
+Package: libnss-mymachines
+Source: systemd
+Version: 227-2
+Architecture: amd64
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 1042
+Depends: libacl1 (>= 2.2.51-8), libc6 (>= 2.17), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.6.0), liblzma5 (>= 5.1.1alpha+20110809), libseccomp2 (>= 0.0.0~20120605), libselinux1 (>= 1.32)
+Breaks: systemd (<< 222-1)
+Replaces: systemd (<< 222-1)
+Filename: pool/main/libn/libnss-mymachines_227-2_amd64.deb
+Size: 261268
+MD5sum: fba71a49f9fb673265f7c0c4b2c6ba1c
+SHA1: bfa72e8b59a2b54b999b3c53f7cd4b7be6eb7b88
+SHA256: 35322d4a230d5e0da98b83376f61a7eef1c13826a5934958edeb840fee6cb13b
+Section: admin
+Priority: extra
+Multi-Arch: same
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: nss module to resolve hostnames for local container instances
+ nss-mymachines is a plugin for the GNU Name Service Switch (NSS) functionality
+ of the GNU C Library (glibc) providing hostname resolution for local containers
+ that are registered with systemd-machined.service(8). The container names are
+ resolved to IP addresses of the specific container, ordered by their scope.
+ .
+ Installing this package automatically adds mymachines to /etc/nsswitch.conf.
+
 Package: libpam-apparmor
 Source: apparmor
 Version: 2.9.2-3
@@ -3738,6 +3795,30 @@ Description: Runtime support for the PAM library
  Contains configuration files and  directories required for
  authentication  to work on Debian systems.  This package is required
  on almost all installations.
+
+Package: libpam-systemd
+Source: systemd
+Version: 227-2
+Architecture: amd64
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 1050
+Depends: libacl1 (>= 2.2.51-8), libc6 (>= 2.17), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.6.0), liblzma5 (>= 5.1.1alpha+20110809), libpam0g (>= 0.99.7.1), libseccomp2 (>= 0.0.0~20120605), libselinux1 (>= 1.32), systemd (= 227-2), libpam-runtime (>= 1.0.1-6), dbus, systemd-shim (>= 8-2) | systemd-sysv
+Filename: pool/main/libp/libpam-systemd_227-2_amd64.deb
+Size: 264892
+MD5sum: 9ae1f1434522f3f268cbe103049ae4a1
+SHA1: eee0b221d7c52e59935125647116b479acbddd24
+SHA256: f95fca6a643e7407c67fe08285d46bc45a8e7bacdf7b885b49ee060de1a25dcd
+Section: admin
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: system and service manager - PAM module
+ This package contains the PAM module which registers user sessions in
+ the systemd control group hierarchy for logind.
+ .
+ If in doubt, do install this package.
+ .
+ Packages that depend on logind functionality need to depend on libpam-systemd.
 
 Package: libpam0g
 Source: pam
@@ -5355,6 +5436,48 @@ Description: debugging information for libss2
  ss library, contained in the libss2 package.  The debug information
  is used for execution tracing and core dump analysis.
 
+Package: libsystemd-dev
+Source: systemd
+Version: 227-2
+Architecture: amd64
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 529
+Depends: libsystemd0 (= 227-2)
+Breaks: libsystemd-daemon-dev (<< 209), libsystemd-id128-dev (<< 209), libsystemd-journal-dev (<< 209), libsystemd-login-dev (<< 209), systemd (<< 204-8)
+Replaces: libsystemd-daemon-dev (<< 209), libsystemd-id128-dev (<< 209), libsystemd-journal-dev (<< 209), libsystemd-login-dev (<< 209), systemd (<< 204-8)
+Filename: pool/main/libs/libsystemd-dev_227-2_amd64.deb
+Size: 176080
+MD5sum: a1ec098e528f19bd6163a0c8e63e9fc3
+SHA1: b866ce022b79989d0f88b1324ed3108fa5054289
+SHA256: 8385281480bafa146a79b2f13fa43646076c91e31571990735a58e8e1a3b8a58
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: systemd utility library - development files
+ The libsystemd0 library provides interfaces to various systemd components.
+ .
+ This package contains the development files.
+
+Package: libsystemd0
+Source: systemd
+Version: 227-2
+Architecture: amd64
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 1873
+Pre-Depends: libc6 (>= 2.17), libcap2 (>= 1:2.10), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)
+Filename: pool/main/libs/libsystemd0_227-2_amd64.deb
+Size: 426830
+MD5sum: 837a5ab5dde296eb332144d91cf52be8
+SHA1: 100745c0232bf07c4a008eaf8b57f9e0aaf5954f
+SHA256: b12545f231762e6f510ac4e3b769e0a0a978ae216141d57ca98ba675ea2d71f7
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: systemd utility library
+ The libsystemd0 library provides interfaces to various systemd components.
+
 Package: libtcc-dev
 Source: tcc
 Version: 0.9.27~git20140923.9d7fb33-3
@@ -5450,6 +5573,46 @@ Description: internationalized substitute of Text::Wrap
  use whitespaces between words such as Chinese and Japanese.
  .
  It provides wrap().
+
+Package: libudev-dev
+Source: systemd
+Version: 227-2
+Architecture: amd64
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 151
+Pre-Depends: dpkg (>= 1.17.14)
+Depends: libudev1 (= 227-2)
+Filename: pool/main/libu/libudev-dev_227-2_amd64.deb
+Size: 64478
+MD5sum: f2471383d5c17d6f6d6c68366587374e
+SHA1: 5524802ba05b97ce2bffbcfbe1d385e457ac8759
+SHA256: 8ed1e78f5b077d6a9285a8a3c0dae29f8f0f51d36a1d16392290f113e2040628
+Section: libdevel
+Priority: optional
+Multi-Arch: same
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: libudev development files
+ This package contains the files needed for developing applications that
+ use libudev.
+
+Package: libudev1
+Source: systemd
+Version: 227-2
+Architecture: amd64
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 490
+Depends: libc6 (>= 2.16), libcap2 (>= 1:2.10), libselinux1 (>= 1.32)
+Filename: pool/main/libu/libudev1_227-2_amd64.deb
+Size: 140258
+MD5sum: 625bf71b0c98c7e29d94959fa98a5f8c
+SHA1: da2a7fda957885651823aacfb111a2a4b193ad33
+SHA256: 9652dab895e79a3e14d17c04ce335ca6e0f63903b2ed556d4a71e30e76e75382
+Section: libs
+Priority: important
+Multi-Arch: same
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: libudev shared library
+ This library provides access to udev device information.
 
 Package: libusb++-0.1-4v5
 Source: libusb
@@ -7718,6 +7881,139 @@ Description: System call tracer
  interface. A close examination of this boundary is very useful for bug
  isolation, sanity checking and attempting to capture race conditions.
 
+Package: systemd
+Version: 227-2
+Architecture: amd64
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 55574
+Pre-Depends: libc6 (>= 2.17), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libselinux1 (>= 1.32)
+Depends: libacl1 (>= 2.2.51-8), libapparmor1 (>= 2.9.0-3+exp2), libaudit1 (>= 1:2.2.1), libblkid1 (>= 2.19.1), libcap2 (>= 1:2.10), libcryptsetup4 (>= 2:1.4.3), libkmod2 (>= 5~), libmount1 (>= 2.26.2), libpam0g (>= 0.99.7.1), libseccomp2 (>= 2.1.0), libselinux1 (>= 2.1.9), libsystemd0 (= 227-2), util-linux (>= 2.27), mount (>= 2.26), sysv-rc, udev, adduser, libcap2-bin
+Recommends: libpam-systemd, dbus
+Suggests: systemd-ui, systemd-container
+Conflicts: klogd
+Breaks: apparmor (<< 2.9.2-1), lsb-base (<< 4.1+Debian4), lvm2 (<< 2.02.104-1), systemd-shim (<< 8-2)
+Filename: pool/main/s/systemd_227-2_amd64.deb
+Size: 8451710
+MD5sum: abb48972e4246230366b78ad459a7600
+SHA1: 903f3fa5a49d201e332f496d46de2c87743b198f
+SHA256: 7bf257da709c4ba1d13a5ffae0263f9728651b03ae845bb2fe3202d2e45f7383
+Section: admin
+Priority: important
+Multi-Arch: foreign
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: system and service manager
+ systemd is a system and service manager for Linux. It provides aggressive
+ parallelization capabilities, uses socket and D-Bus activation for starting
+ services, offers on-demand starting of daemons, keeps track of processes
+ using Linux control groups, supports snapshotting and restoring of the system
+ state, maintains mount and automount points and implements an elaborate
+ transactional dependency-based service control logic.
+ .
+ systemd is compatible with SysV and LSB init scripts and can work as a
+ drop-in replacement for sysvinit.
+ .
+ Installing the systemd package will not switch your init system unless you
+ boot with init=/bin/systemd or install systemd-sysv in addition.
+
+Package: systemd-container
+Source: systemd
+Version: 227-2
+Architecture: amd64
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 8240
+Depends: libblkid1 (>= 2.19.1), libbz2-1.0, libc6 (>= 2.17), libcap2 (>= 1:2.10), libcurl3-gnutls (>= 7.16.3), libgcrypt20 (>= 1.6.1), liblzma5 (>= 5.1.1alpha+20120614), libseccomp2 (>= 1.0.1), libselinux1 (>= 1.32), zlib1g (>= 1:1.1.4), systemd
+Conflicts: systemd (<< 224-2)
+Replaces: systemd (<< 224-2)
+Filename: pool/main/s/systemd-container_227-2_amd64.deb
+Size: 1408806
+MD5sum: e7aacbe07c12e22811010ed568d258b7
+SHA1: 917f6f018b60811f76edf9630930c6dff5eac0c5
+SHA256: 42f804acbaad2b2d717f3a1e6112f6e2ab57214a41a5cead0ed324310d3f1532
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: systemd container/nspawn tools
+ This package provides systemd's tools for nspawn and container/VM management:
+  * systemd-nspawn
+  * systemd-machined and machinectl
+  * systemd-importd
+
+Package: systemd-dbg
+Source: systemd
+Version: 227-2
+Architecture: amd64
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 42616
+Depends: systemd (= 227-2), udev (= 227-2), libsystemd0 (= 227-2), libudev1 (= 227-2)
+Filename: pool/main/s/systemd-dbg_227-2_amd64.deb
+Size: 37212386
+MD5sum: 8c10967b4264cafa3589d319673fb74c
+SHA1: 1b39d23cdaef5c03b69793858a9a396a9cacdad5
+SHA256: 43cc03b1f5969a518c822fee868c4c79f60836b0f78e8ecbb1fd83ef818272b2
+Section: debug
+Priority: extra
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: system and service manager (debug symbols)
+ This package contains the debugging symbols for systemd, udev and
+ related libraries.
+Build-Ids: 0131379aefa94c1dfee11b5e0d90d3722552781a 0530b7968eef48044a0ccbe2d58da1a0dc75f1fd 0bb5ae7bd556d9d5b62d86be6c5f12e36684ed23 13c51fae64d304452296a9967d3368566a8890c7 13ce39e9c64c5f484bd400f8497a5afc4a376640 14e12f91d5f5d43dd8d07465dd84e9cad5fc2ab5 1978888da37dfc288d7ee506949590115141bd80 1eb3df38bf635773b21a7d3d61aac5dd1e8e75f4 20ee3fc4d2c074b7bfbce511457a51752d84e9c6 241e5c869181e9dd9c2367dfdbecd8daf7cb0741 26a37533adb4859c2e39d9d72bd07fb2259ad1ab 295224cb30e61fbb9fc8b716afc2fcf6af4ebf0a 297ef090a278800db63b7c3774cc4c3b2afddf30 298ffb3f8e54caec1c2268f3b76ef234fb9a077a 2c3756fbcfbcdc75dcb9ccefc7e5883a36c650fb 3086ade67901d429a07479d9717802cc7c293cb1 317ae4b769f5a6e4fb909a320d1876773abff252 348adbc2c1f1c76bf91ff750c20dbda41ca14106 3900ca204261ca7e05c43d27be648181de88baff 43b7c4b06668ac8e70f13c0462db51bec5756f07 4bdb9ff28bbdf87b7ebd9294f73989a38f873e38 50b9e3a1aa4cf8a89afd502b699ce765c36612a6 530fb9b54dcba884ff980f675befe48f726898a1 54199886b28b49cc5c2fc0971bdfe07fd71ccc03 561b979320155e30ccd118fd6ee42fb628de78a9 61f91fae064f38e52a9d3657bd8f8e3690dec659 625aa2f71f9c5a3a4e88cd0bfe1f3171ab603e6f 64b2aba3f491ebbfb2fb82f591a7b732549366e8 68801f34b551cdba02a18423c6d90f2d5cc5dc46 6f12efb3893c175d8e81d2fd0fe2a65d78fa4486 775d82e88ece10e54314a96d89577bde098d9bb5 8507add6fafc0c598c3ccd525ed949f46d62daea 8810b11f4be03a249136fcde467223ab6742b952 8ddf1c23e95bfdf7f27a7b4849346c259babab83 8f6a673bab866ba7d000982877925e5cd80916a8 9514378205ba10a0f864701166b97a1b6055195f 978bbbe45c5e26f1aba797f5abed5cc954efa0d2 99d2cbc3bccb9571567cb1e28a777974a902f2c0 9a55316f147b00e0862e394c01eb573933e4ae76 9b808297d90db862c5b2a39f4fcd45c4527d16e2 9d2054a200ffff36b4ed1ceab11198001b82d148 9e3456203e4c4a6f6aa93c86827b2723ce6ee625 a0229a68d6b79b9cc45d22fe12f576932845a38f a3671b65e974e2180d60b7b5e25d6e29bc648fbf afdd0e0219e441aa637cfb0d88b5029ae3ddd47a b0d0e8616ee7fac16c4870f09e02c73d16e112a7 b40227de7136bc06bda015c4c560484292f0dc4b b411e7910e8bb59bedc8b809b34f45b8c495b9c6 b5212853efc1a82992cb9401408cac0aee14d98c b5f517e439e7dd1a5d9dc7bc003cddd3cc4d8bf9 b83620c98d6bf149ec1fcd5bccc050e0af7eb380 bcfb5afee774d38f850e6b6a4cf2869043db78d7 bf0b73637b992e43257f73c655bc08442d9ee39f bf5cf9c9b0589949b01811e5a1271b71761e70df bffdde8e6f5a09b384814b46a2e8f0f7d222202a c05fe339075163ccfbc49b91ede7b90c667fc615 c3e322e32c9f7023808b82267137f093f51a6125 cac9f5ef2e8e83cab5aef74a3c1fe65038f422fd d47b98cd96a93585ac47c5af1f200c3626d56b71 d62acdd153bd111e5b9918729ddb4222cc590c71 d64b2b6f008b0ff3e9cad0a0b7481afcde6b91cb d69a0f4ae253a6c9c5249f53ff6ce7958ab2ba94 d79c37e2b0779e1f40313af02703922333537a12 dd9e283743ae1c1b7a156bb9a1e0cf7eb3f5f11c e2a2ea2d4d8f25eda5953752e1a446b0975fd08b e41401ea60288a8ea00012eb8062c42ba07d4eb2 e9d8f054d1abc00441723364929bc09a68e84a1a f446b65384acce0f9e92b6efc46d774aefad1b37 f580829149205e63bad6e4d69563b8e86b780e6a fc4eccad4173e423ad4fd28fedb18fc64e21751c fd4287d20d97a4bb428658ba07c12b1b2ae62ff1
+
+Package: systemd-journal-remote
+Source: systemd
+Version: 227-2
+Architecture: amd64
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 2756
+Depends: libc6 (>= 2.17), libcurl3-gnutls (>= 7.16.2), libgcrypt20 (>= 1.6.1), libgnutls-deb0-28 (>= 3.3.0), liblzma5 (>= 5.1.1alpha+20120614), libmicrohttpd10 (>= 0.9.20), libselinux1 (>= 1.32), systemd, adduser
+Filename: pool/main/s/systemd-journal-remote_227-2_amd64.deb
+Size: 572184
+MD5sum: d70c074adb0db92620abbee5d2241134
+SHA1: 7d78845bc3359e0236f9d2a4e23cb316540ff8f2
+SHA256: 2c896302efe111eb2e058799cebe89c61b8c6939bf856cc7bf5bc5c38438cbf1
+Section: admin
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: tools for sending and receiving remote journal logs
+ This package provides tools for sending and receiving remote journal logs:
+  * systemd-journal-remote
+  * systemd-journal-upload
+  * systemd-journal-gatewayd
+
+Package: systemd-sysv
+Source: systemd
+Version: 227-2
+Architecture: amd64
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 79
+Pre-Depends: systemd
+Conflicts: sysvinit-core, upstart
+Replaces: sysvinit (<< 2.88dsf-44~), sysvinit-core, upstart
+Filename: pool/main/s/systemd-sysv_227-2_amd64.deb
+Size: 54138
+MD5sum: 1b23e694fc368d4dc84b1b4b4ee5cc7f
+SHA1: 8a0d238d7bdcfb7008de49487b8b1e063c08647f
+SHA256: 954c0f9a026ef50567e045628163aab1ec5ae50aaee704b3c12bde29a71d6fc4
+Section: admin
+Priority: important
+Multi-Arch: foreign
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: system and service manager - SysV links
+ systemd is a system and service manager for Linux. It provides aggressive
+ parallelization capabilities, uses socket and D-Bus activation for starting
+ services, offers on-demand starting of daemons, keeps track of processes
+ using Linux control groups, supports snapshotting and restoring of the system
+ state, maintains mount and automount points and implements an elaborate
+ transactional dependency-based service control logic.
+ .
+ systemd is compatible with SysV and LSB init scripts and can work as a
+ drop-in replacement for sysvinit.
+ .
+ This package provides the manual pages and links needed for systemd
+ to replace sysvinit. Installing systemd-sysv will overwrite /sbin/init with a
+ link to systemd.
+
 Package: sysv-rc
 Source: sysvinit
 Version: 2.88dsf-59.2
@@ -7944,6 +8240,29 @@ Description: time zone and daylight-saving time data for use by java runtimes
  daylight-saving rules.
  .
  This package contains the data for use by Java runtimes.
+
+Package: udev
+Source: systemd
+Version: 227-2
+Architecture: amd64
+Maintainer: Debian systemd Maintainers <pkg-systemd-maintainers@lists.alioth.debian.org>
+Installed-Size: 9178
+Pre-Depends: debconf (>= 1.4.69) | debconf-2.0, dpkg (>= 1.17.14)
+Depends: libacl1 (>= 2.2.51-8), libblkid1 (>= 2.19.1), libc6 (>= 2.17), libkmod2 (>= 5~), libselinux1 (>= 2.0.65), adduser, libudev1 (= 227-2), lsb-base (>= 3.0-6), util-linux (>= 2.27), procps
+Breaks: bash-completion (<< 1:2.1), consolekit (<< 0.4.6-1), kmod (<< 14), plymouth (<< 0.9.0-7), systemd (<< 224-2)
+Replaces: bash-completion (<< 1:2.1), systemd (<< 224-2)
+Filename: pool/main/u/udev_227-2_amd64.deb
+Size: 1380562
+MD5sum: 4bde9e09907adaf9757a1134fbced33c
+SHA1: 4e08328b80f1dac43313fbd804cf65a523f537d5
+SHA256: 3df49bacb47113dcb423d755542dd9f2b683a857a064dcc2f28a39285c1795d1
+Section: admin
+Priority: important
+Multi-Arch: foreign
+Homepage: http://www.freedesktop.org/wiki/Software/systemd
+Description: /dev/ and hotplug management daemon
+ udev is a daemon which dynamically creates and removes device nodes from
+ /dev/, handles hotplug events and loads drivers at boot time.
 
 Package: uidmap
 Source: shadow
